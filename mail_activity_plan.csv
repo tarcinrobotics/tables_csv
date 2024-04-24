@@ -1,0 +1,3 @@
+id,company_id,res_model_id,create_uid,write_uid,name,res_model,active,create_date,write_date,department_id
+1,1,356,1,1,Onboarding,hr.employee,t,2024-04-18 07:40:41.811291,2024-04-18 07:40:41.811291,
+2,1,356,1,1,Offboarding,hr.employee,t,2024-04-18 07:40:41.811291,2024-04-18 07:40:41.811291,

@@ -1,0 +1,414 @@
+id,parent_id,res_id,record_alias_domain_id,record_company_id,subtype_id,mail_activity_type_id,author_id,author_guest_id,mail_server_id,create_uid,write_uid,subject,model,record_name,message_type,email_from,message_id,reply_to,email_layout_xmlid,body,is_internal,reply_to_force_new,email_add_signature,date,pinned_at,create_date,write_date
+1,,1,,,1,,2,,,1,1,Welcome to Odoo!,discuss.channel,general,email,"""OdooBot"" <odoobot@example.com>",<111130279790452.1713426036.616688966751099-openerp-1-discuss.channel@crm-17>,"""OdooBot"" <odoobot@example.com>",,"<p>Welcome to the #general channel.</p>
+            <p>This channel is accessible to all users to <b>easily share company information</b>.</p>",,,t,2024-04-18 07:40:36,,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+2,,1,,,2,,2,,,1,1,,hr.department,,notification,"""OdooBot"" <odoobot@example.com>",<174328066613275.1713426045.117601633071899-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Department created</p>,t,,f,2024-04-18 07:40:45,,2024-04-18 07:40:41.811291,2024-04-18 07:40:41.811291
+3,,1,,,2,,2,,,1,1,,hr.employee,,notification,"""OdooBot"" <odoobot@example.com>",<010183345000188.1713426045.159856081008911-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Employee created</p>,t,,f,2024-04-18 07:40:45,,2024-04-18 07:40:41.811291,2024-04-18 07:40:41.811291
+4,,1,,,2,,2,,,1,1,,hr.employee,,notification,"""OdooBot"" <odoobot@example.com>",<609936212536529.1713426045.182929992675781-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,"<span><b>Congratulations!</b> May I recommend you to setup an <a href=""/web#action=hr.plan_wizard_action&amp;active_id=1&amp;active_model=hr.employee&amp;menu_id=111"">onboarding plan?</a></span>",t,,f,2024-04-18 07:40:45,,2024-04-18 07:40:41.811291,2024-04-18 07:40:41.811291
+5,,1,,,2,,2,,,1,1,,gamification.badge,,notification,"""OdooBot"" <odoobot@example.com>",<366459104457728.1713426072.642812490463257-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Gamification Badge created</p>,t,,f,2024-04-18 07:41:12,,2024-04-18 07:41:11.133546,2024-04-18 07:41:11.133546
+6,,2,,,2,,2,,,1,1,,gamification.badge,,notification,"""OdooBot"" <odoobot@example.com>",<248010938752590.1713426072.667562246322632-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Gamification Badge created</p>,t,,f,2024-04-18 07:41:12,,2024-04-18 07:41:11.133546,2024-04-18 07:41:11.133546
+7,,3,,,2,,2,,,1,1,,gamification.badge,,notification,"""OdooBot"" <odoobot@example.com>",<325432830122567.1713426072.692422866821289-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Gamification Badge created</p>,t,,f,2024-04-18 07:41:12,,2024-04-18 07:41:11.133546,2024-04-18 07:41:11.133546
+8,,4,,,2,,2,,,1,1,,gamification.badge,,notification,"""OdooBot"" <odoobot@example.com>",<070363810299305.1713426072.708333492279053-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Gamification Badge created</p>,t,,f,2024-04-18 07:41:12,,2024-04-18 07:41:11.133546,2024-04-18 07:41:11.133546
+9,,1,,,2,,2,,,1,1,,gamification.challenge,,notification,"""OdooBot"" <odoobot@example.com>",<503781709505560.1713426072.759916782379150-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Gamification Challenge created</p>,t,,f,2024-04-18 07:41:12,,2024-04-18 07:41:11.133546,2024-04-18 07:41:11.133546
+10,,2,,,2,,2,,,1,1,,gamification.challenge,,notification,"""OdooBot"" <odoobot@example.com>",<490042596862612.1713426072.774097681045532-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Gamification Challenge created</p>,t,,f,2024-04-18 07:41:12,,2024-04-18 07:41:11.133546,2024-04-18 07:41:11.133546
+11,,1,,,2,,2,,,1,1,,mailing.contact,,notification,"""OdooBot"" <odoobot@example.com>",<466314931681200.1713426080.337920427322388-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Mailing Contact created</p>,t,,f,2024-04-18 07:41:20,,2024-04-18 07:41:18.402745,2024-04-18 07:41:18.402745
+12,,2,,1,1,,2,,,2,2,,discuss.channel,"OdooBot, Administrator",comment,"""OdooBot"" <odoobot@example.com>",<500687496592986.1713426102.371114492416382-openerp-2-discuss.channel@crm-17>,"""OdooBot"" <odoobot@example.com>",,"<p>Hello,<br>Odoo's chat helps employees collaborate efficiently. I'm here to help you discover its features.<br><b>Try to send me an emoji</b> <span class=""o_odoobot_command"">:)</span></p>",,,t,2024-04-18 07:41:42,,2024-04-18 07:41:42.236093,2024-04-18 07:41:42.236093
+13,,1,,,2,,2,,,1,1,,crm.team,,notification,"""OdooBot"" <odoobot@example.com>",<674087096813616.1713426399.069768905639648-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Sales Team created</p>,t,,f,2024-04-18 07:46:39,,2024-04-18 07:46:37.983166,2024-04-18 07:46:37.983166
+14,,1,,,2,,2,,,1,1,,crm.team.member,,notification,"""OdooBot"" <odoobot@example.com>",<206890856440993.1713426399.102206468582153-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Sales Team Member created</p>,t,,f,2024-04-18 07:46:39,,2024-04-18 07:46:37.983166,2024-04-18 07:46:37.983166
+15,,2,,,2,,2,,,1,1,,crm.team,,notification,"""OdooBot"" <odoobot@example.com>",<549555891995451.1713426399.112761020660400-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Sales Team created</p>,t,,f,2024-04-18 07:46:39,,2024-04-18 07:46:37.983166,2024-04-18 07:46:37.983166
+16,,3,,,2,,2,,,1,1,,crm.team,,notification,"""OdooBot"" <odoobot@example.com>",<862688406367413.1713426399.125448942184448-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Sales Team created</p>,t,,f,2024-04-18 07:46:39,,2024-04-18 07:46:37.983166,2024-04-18 07:46:37.983166
+17,,4,,,2,,2,,,1,1,,crm.team,,notification,"""OdooBot"" <odoobot@example.com>",<823457830253673.1713426399.138689517974854-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Sales Team created</p>,t,,f,2024-04-18 07:46:39,,2024-04-18 07:46:37.983166,2024-04-18 07:46:37.983166
+18,,7,,,2,,2,,,1,1,,res.partner,,notification,"""OdooBot"" <odoobot@example.com>",<389725756725608.1713426422.168583154678345-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Contact created</p>,t,,f,2024-04-18 07:47:02,,2024-04-18 07:47:00.687459,2024-04-18 07:47:00.687459
+19,,1,,,2,,2,,,1,1,,product.template,,notification,"""OdooBot"" <odoobot@example.com>",<397512709333922.1713426442.215162038803101-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Product created</p>,t,,f,2024-04-18 07:47:22,,2024-04-18 07:47:21.297424,2024-04-18 07:47:21.297424
+20,,1,,,2,,2,,,1,1,,product.product,,notification,"""OdooBot"" <odoobot@example.com>",<015109178576923.1713426442.236749887466431-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Product Variant created</p>,t,,f,2024-04-18 07:47:22,,2024-04-18 07:47:21.297424,2024-04-18 07:47:21.297424
+21,,5,,,2,,2,,,1,1,,gamification.badge,,notification,"""OdooBot"" <odoobot@example.com>",<855400435223792.1713426450.599924802780151-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Gamification Badge created</p>,t,,f,2024-04-18 07:47:30,,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+22,,3,,,2,,2,,,1,1,,gamification.challenge,,notification,"""OdooBot"" <odoobot@example.com>",<267199642206349.1713426450.640331506729126-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Gamification Challenge created</p>,t,,f,2024-04-18 07:47:30,,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+23,,6,,,2,,2,,,1,1,,gamification.badge,,notification,"""OdooBot"" <odoobot@example.com>",<339370517782529.1713426450.664312362670898-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Gamification Badge created</p>,t,,f,2024-04-18 07:47:30,,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+24,,4,,,2,,2,,,1,1,,gamification.challenge,,notification,"""OdooBot"" <odoobot@example.com>",<688586664283642.1713426450.687191724777222-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Gamification Challenge created</p>,t,,f,2024-04-18 07:47:30,,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+25,,7,,,2,,2,,,1,1,,gamification.badge,,notification,"""OdooBot"" <odoobot@example.com>",<210061419159055.1713426450.706732988357544-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Gamification Badge created</p>,t,,f,2024-04-18 07:47:30,,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+26,,5,,,2,,2,,,1,1,,gamification.challenge,,notification,"""OdooBot"" <odoobot@example.com>",<359830466101352.1713426450.726912975311279-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Gamification Challenge created</p>,t,,f,2024-04-18 07:47:30,,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+27,,8,,,2,,2,,,1,1,,gamification.badge,,notification,"""OdooBot"" <odoobot@example.com>",<908871142141318.1713426450.747138738632202-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Gamification Badge created</p>,t,,f,2024-04-18 07:47:30,,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+28,,6,,,2,,2,,,1,1,,gamification.challenge,,notification,"""OdooBot"" <odoobot@example.com>",<387707261323110.1713426450.767336368560791-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Gamification Challenge created</p>,t,,f,2024-04-18 07:47:30,,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+29,,9,,,2,,2,,,1,1,,gamification.badge,,notification,"""OdooBot"" <odoobot@example.com>",<278725182978635.1713426450.785675764083862-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Gamification Badge created</p>,t,,f,2024-04-18 07:47:30,,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+30,,7,,,2,,2,,,1,1,,gamification.challenge,,notification,"""OdooBot"" <odoobot@example.com>",<777791027008136.1713426450.805126428604126-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Gamification Challenge created</p>,t,,f,2024-04-18 07:47:30,,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+31,,2,,,2,,2,,,1,1,,product.template,,notification,"""OdooBot"" <odoobot@example.com>",<372070912908923.1713426452.230275630950928-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Product created</p>,t,,f,2024-04-18 07:47:32,,2024-04-18 07:47:31.08894,2024-04-18 07:47:31.08894
+32,,2,,,2,,2,,,1,1,,product.product,,notification,"""OdooBot"" <odoobot@example.com>",<244265446886442.1713426452.258391380310059-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Product Variant created</p>,t,,f,2024-04-18 07:47:32,,2024-04-18 07:47:31.08894,2024-04-18 07:47:31.08894
+33,,8,,,2,,4,,,4,4,,res.partner,,notification,,<452969403770552.1713432849.189044952392578-openerp-message-notify@crm-17>,,,<p>Contact created</p>,t,,f,2024-04-18 09:34:09,,2024-04-18 09:34:09.090869,2024-04-18 09:34:09.090869
+34,,8,,1,2,,4,,,4,4,,res.partner,Terrance,notification,,<334194320835602.1713432850.092663764953613-openerp-8-res.partner@crm-17>,,,<p>Portal Access Granted (thomasaron353@gmail.com)</p>,,,t,2024-04-18 09:34:10,,2024-04-18 09:34:09.090869,2024-04-18 09:34:09.090869
+35,,6,,,,,8,,,6,6,Welcome to My Company!,res.users,Terrance,email_outgoing,"""My Company"" <devops@tarcinacademy.in>",<952487676808031.1713432850.953188657760620-openerp-6-res.users@crm-17>,"",,"<table border=""0"" cellpadding=""0"" cellspacing=""0"" style=""padding-top:16px; background-color:#FFFFFF; font-family:Verdana, Arial,sans-serif; color:#454748; width:100%; border-collapse:separate""><tr><td align=""center"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""590"" style=""padding:16px; background-color:#FFFFFF; color:#454748; border-collapse:separate"">
+<tbody>
+    
+    <tr>
+        <td align=""center"" style=""min-width:590px"">
+            <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""590"" style=""min-width:590px; background-color:white; padding:0px 8px 0px 8px; border-collapse:separate"">
+                <tr><td valign=""middle"">
+                    <span style=""font-size:10px"">Your Account</span><br>
+                    <span style=""font-size:20px; font-weight:bold"">
+                        Terrance
+                    </span>
+                </td></tr>
+                <tr><td colspan=""2"" style=""text-align:center"">
+                  <hr width=""100%"" style=""background-color:rgb(204,204,204); border:medium none; display:block; font-size:0px; min-height:1px; line-height:0; margin:16px 0px 16px 0px"">
+                </td></tr>
+            </table>
+        </td>
+    </tr>
+    
+    <tr>
+        <td align=""center"" style=""min-width:590px"">
+            <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""590"" style=""min-width:590px; background-color:white; padding:0px 8px 0px 8px; border-collapse:separate"">
+                <tr><td valign=""top"" style=""font-size:13px"">
+                    <div>
+                        Dear Terrance,<br><br>
+                        Your account has been successfully created!<br>
+                        Your login is <strong>thomasaron353@gmail.com</strong><br>
+                        To gain access to your account, you can use the following link:
+                        <div style=""margin:16px 0px 16px 0px"">
+                            <a style=""background-color:#875A7B; padding:8px 16px 8px 16px; text-decoration:none; color:#fff; border-radius:5px; font-size:13px"" href=""http://127.0.0.1:8069/web/login?auth_login=thomasaron353@gmail.com"">
+                                Go to My Account
+                            </a>
+                        </div>
+                        Thanks,<br>
+                            <br>
+                            <p data-o-mail-quote=""1"">--<br data-o-mail-quote=""1"">Portal User Template</p>
+                    </div>
+                </td></tr>
+                <tr><td style=""text-align:center"">
+                  <hr width=""100%"" style=""background-color:rgb(204,204,204); border:medium none; display:block; font-size:0px; min-height:1px; line-height:0; margin:16px 0px 16px 0px"">
+                </td></tr>
+            </table>
+        </td>
+    </tr>
+    
+    <tr>
+        <td align=""center"" style=""min-width:590px"">
+            <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""590"" style=""min-width:590px; background-color:white; font-size:11px; padding:0px 8px 0px 8px; border-collapse:separate"">
+                <tr><td valign=""middle"" align=""left"">
+                    My Company
+                </td></tr>
+                <tr><td valign=""middle"" align=""left"" style=""opacity:0.7"">
+                    1234567890
+                        | <a style=""text-decoration:none; color:#454748"" href=""'mailto:%s'%20%%20devops@tarcinacademy.in"">devops@tarcinacademy.in</a>
+                </td></tr>
+            </table>
+        </td>
+    </tr>
+</tbody>
+</table>
+</td></tr>
+
+<tr><td align=""center"" style=""min-width:590px"">
+    <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""590"" style=""min-width:590px; background-color:#F1F1F1; color:#454748; padding:8px; border-collapse:separate"">
+      <tr><td style=""text-align:center; font-size:13px"">
+        Powered by <a target=""_blank"" href=""https://www.odoo.com?utm_source=db&amp;utm_medium=auth"" style=""color:#875A7B"">Odoo</a>
+      </td></tr>
+    </table>
+</td></tr>
+</table>",,,t,2024-04-18 09:34:10,,2024-04-18 09:34:10.901147,2024-04-18 09:34:10.901147
+36,,,,,,,2,,,1,1,My Company: Your Odoo Periodic Digest,,,email_outgoing,"""My Company"" <devops@tarcinacademy.in>",<296798505346092.1713433267.551169395446777-openerp-private@crm-17>,"""My Company"" <devops@tarcinacademy.in>",,"",,,t,2024-04-18 09:41:07,,2024-04-18 09:41:07.133447,2024-04-18 09:41:07.133447
+37,,9,,,2,,2,,,1,1,,res.partner,,notification,"""OdooBot"" <odoobot@example.com>",<073650449795585.1713436958.329566955566406-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Contact created</p>,t,,f,2024-04-18 10:42:38,,2024-04-18 10:42:36.031591,2024-04-18 10:42:36.031591
+38,,9,,1,2,,2,,,1,1,,res.partner,Parent Template User,notification,"""OdooBot"" <odoobot@example.com>",<284721907713166.1713436958.452613115310669-openerp-9-res.partner@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Portal Access Granted</p>,,,t,2024-04-18 10:42:38,,2024-04-18 10:42:36.031591,2024-04-18 10:42:36.031591
+39,,3,,,2,,2,,,1,1,,product.template,,notification,"""OdooBot"" <odoobot@example.com>",<910491749996855.1713436960.799939632415771-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Product created</p>,t,,f,2024-04-18 10:42:40,,2024-04-18 10:42:39.074562,2024-04-18 10:42:39.074562
+40,,3,,,2,,2,,,1,1,,product.product,,notification,"""OdooBot"" <odoobot@example.com>",<013670474571018.1713436960.821520090103149-openerp-message-notify@crm-17>,"""OdooBot"" <odoobot@example.com>",,<p>Product Variant created</p>,t,,f,2024-04-18 10:42:40,,2024-04-18 10:42:39.074562,2024-04-18 10:42:39.074562
+43,,12,,,2,,3,,,2,2,,res.partner,,notification,"""Administrator"" <devops@tarcinacademy.in>",<889997717652295.1713439092.485483407974243-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Contact created</p>,t,,f,2024-04-18 11:18:12,,2024-04-18 11:18:12.418893,2024-04-18 11:18:12.418893
+45,,1,,1,6,,3,,,2,2,,project.task,Welcome Administrator!,notification,"""Administrator"" <devops@tarcinacademy.in>",<032636459238650.1713485989.200888395309448-openerp-1-project.task@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,"",,,t,2024-04-19 00:19:49,,2024-04-19 00:19:49.119081,2024-04-19 00:19:49.119081
+92,,18,,,2,,3,,,2,2,,res.partner,,notification,"""Administrator"" <devops@tarcinacademy.in>",<693888004922699.1713796482.473913908004761-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Contact created</p>,t,,f,2024-04-22 14:34:42,,2024-04-22 14:34:42.42043,2024-04-22 14:34:42.42043
+93,,18,,,2,,3,,,2,2,,res.partner,,notification,"""Administrator"" <devops@tarcinacademy.in>",<917884416769904.1713796692.102375507354736-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,"",t,,f,2024-04-22 14:38:12,,2024-04-22 14:38:12.032715,2024-04-22 14:38:12.032715
+94,,18,,1,2,,3,,,2,2,,res.partner,"Tarcin Robotics, Vignesh Pandian",notification,"""Administrator"" <devops@tarcinacademy.in>",<663374179518072.1713796698.716018199920654-openerp-18-res.partner@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Portal Access Granted (vp@gmail.com)</p>,,,t,2024-04-22 14:38:18,,2024-04-22 14:38:18.554169,2024-04-22 14:38:18.554169
+143,,7,,,2,,3,,,2,2,,op.fees.terms,,notification,"""Administrator"" <devops@tarcinacademy.in>",<342794584716929.1713947986.812713384628296-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Fees Terms For Course created</p>,t,,f,2024-04-24 08:39:46,,2024-04-24 08:39:46.801515,2024-04-24 08:39:46.801515
+144,,6,,,2,,3,,,2,2,,op.course,,notification,"""Administrator"" <devops@tarcinacademy.in>",<264688870642300.1713947990.446681022644043-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>OpenEduCat Course created</p>,t,,f,2024-04-24 08:39:50,,2024-04-24 08:39:50.43124,2024-04-24 08:39:50.43124
+145,,128,,,2,,3,,,2,2,,op.admission.register,,notification,"""Administrator"" <devops@tarcinacademy.in>",<036706622374373.1713948002.287120342254639-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Admission Register created</p>,t,,f,2024-04-24 08:40:02,,2024-04-24 08:40:02.270556,2024-04-24 08:40:02.270556
+46,,1,,,,,2,,,1,1,New badge Community hero granted,gamification.badge.user,Community hero,email_outgoing,"""OdooBot"" <odoobot@example.com>",<900528992929457.1713512488.904403448104858-openerp-1-gamification.badge.user@crm-17>,"",,"<table border=""0"" cellpadding=""0"" style=""padding-top:16px; background-color:#F1F1F1; color:#454748; width:100%; border-collapse:separate""><tr><td align=""center"">
+<table border=""0"" width=""590"" cellpadding=""0"" style=""padding:16px; background-color:white; color:#454748; border-collapse:separate"" summary=""o_mail_notification"">
+<tbody>
+    
+    <tr>
+        <td align=""center"" style=""min-width:590px"">
+            <table width=""590"" border=""0"" cellpadding=""0"" style=""min-width:590px; background-color:white; padding:0px 8px 0px 8px; border-collapse:separate"">
+                <tr><td valign=""middle"">
+                    <span style=""font-size:10px"">Your Badge</span><br>
+                    <span style=""font-size:20px; font-weight:bold"">Community hero</span>
+                </td><td valign=""middle"" align=""right"">
+                    <img style=""padding:0px; margin:0px; height:auto; width:80px"" src=""http://127.0.0.1:8069/logo.png?company=1"" alt=""Tarcin"">
+                </td></tr>
+                <tr><td colspan=""2"" style=""text-align:center"">
+                  <hr width=""100%"" style=""background-color:rgb(204,204,204); border:medium none; display:block; font-size:0px; min-height:1px; line-height:0; margin:16px 0px 16px 0px"">
+                </td></tr>
+            </table>
+        </td>
+    </tr>
+    
+    <tr>
+        <td align=""center"" style=""min-width:590px"">
+            <table width=""590"" border=""0"" cellpadding=""0"" style=""min-width:590px; background-color:white; padding:0px 8px 0px 8px; border-collapse:separate"">
+                <tr><td valign=""top"" style=""font-size:14px"">
+                    <div>
+                        Congratulations Administrator!<br>
+                        You just received badge <strong>Community hero</strong>!<br>
+                        <table cellspacing=""0"" cellpadding=""0"" border=""0"" style=""width:560px; margin-top:5px"">
+                            <tbody><tr>
+                                <td valign=""center"">
+                                    <img style=""padding:0px; margin:0px; height:auto; width:80px"" src=""http://127.0.0.1:8069/web/image/gamification.badge/9/image_128/80x80"" alt=""Tarcin"">
+                                </td>
+                                <td valign=""center"">
+                                    <cite><p>Reach 2000 XP</p></cite>
+                                </td>
+                            </tr></tbody>
+                        </table>
+                        <br>
+                        <br>
+                        <br><br>
+                        Thank you,
+                    </div>
+                </td></tr>
+                <tr><td style=""text-align:center"">
+                  <hr width=""100%"" style=""background-color:rgb(204,204,204); border:medium none; display:block; font-size:0px; min-height:1px; line-height:0; margin:16px 0px 16px 0px"">
+                </td></tr>
+            </table>
+        </td>
+    </tr>
+    
+    <tr>
+        <td align=""center"" style=""min-width:590px"">
+            <table width=""590"" border=""0"" cellpadding=""0"" style=""min-width:590px; background-color:white; font-size:12px; padding:0px 8px 0px 8px; border-collapse:separate"">
+                <tr><td valign=""middle"" align=""left"">
+                    Tarcin
+                </td></tr>
+                <tr><td valign=""middle"" align=""left"" style=""opacity:0.7"">
+                    1234567890
+                        | <a style=""text-decoration:none; color:#454748"" href=""'mailto:%s'%20%%20devops@tarcinacademy.in"">devops@tarcinacademy.in</a>
+                        | <a style=""text-decoration:none; color:#454748"" href=""'%s'%20%%20https://tarcin.in/"">https://tarcin.in/</a>
+                </td></tr>
+            </table>
+        </td>
+    </tr>
+</tbody>
+</table>
+</td></tr>
+
+<tr><td align=""center"" style=""min-width:590px"">
+    <table width=""590"" border=""0"" cellpadding=""0"" style=""min-width:590px; background-color:#F1F1F1; color:#454748; padding:8px; border-collapse:separate"">
+      <tr><td style=""text-align:center; font-size:14px"">
+        Powered by <a target=""_blank"" href=""https://www.odoo.com?utm_source=db&amp;utm_medium=gamification"" style=""color:#875A7B"">Odoo</a>
+      </td></tr>
+    </table>
+</td></tr>
+</table>",,,t,2024-04-19 07:41:28,,2024-04-19 07:41:28.827644,2024-04-19 07:41:28.827644
+47,,2,,,,,2,,,1,1,New badge Get started granted,gamification.badge.user,Get started,email_outgoing,"""OdooBot"" <odoobot@example.com>",<832943417815246.1713512488.986282825469971-openerp-2-gamification.badge.user@crm-17>,"",,"<table border=""0"" cellpadding=""0"" style=""padding-top:16px; background-color:#F1F1F1; color:#454748; width:100%; border-collapse:separate""><tr><td align=""center"">
+<table border=""0"" width=""590"" cellpadding=""0"" style=""padding:16px; background-color:white; color:#454748; border-collapse:separate"" summary=""o_mail_notification"">
+<tbody>
+    
+    <tr>
+        <td align=""center"" style=""min-width:590px"">
+            <table width=""590"" border=""0"" cellpadding=""0"" style=""min-width:590px; background-color:white; padding:0px 8px 0px 8px; border-collapse:separate"">
+                <tr><td valign=""middle"">
+                    <span style=""font-size:10px"">Your Badge</span><br>
+                    <span style=""font-size:20px; font-weight:bold"">Get started</span>
+                </td><td valign=""middle"" align=""right"">
+                    <img style=""padding:0px; margin:0px; height:auto; width:80px"" src=""http://127.0.0.1:8069/logo.png?company=1"" alt=""Tarcin"">
+                </td></tr>
+                <tr><td colspan=""2"" style=""text-align:center"">
+                  <hr width=""100%"" style=""background-color:rgb(204,204,204); border:medium none; display:block; font-size:0px; min-height:1px; line-height:0; margin:16px 0px 16px 0px"">
+                </td></tr>
+            </table>
+        </td>
+    </tr>
+    
+    <tr>
+        <td align=""center"" style=""min-width:590px"">
+            <table width=""590"" border=""0"" cellpadding=""0"" style=""min-width:590px; background-color:white; padding:0px 8px 0px 8px; border-collapse:separate"">
+                <tr><td valign=""top"" style=""font-size:14px"">
+                    <div>
+                        Congratulations Administrator!<br>
+                        You just received badge <strong>Get started</strong>!<br>
+                        <table cellspacing=""0"" cellpadding=""0"" border=""0"" style=""width:560px; margin-top:5px"">
+                            <tbody><tr>
+                                <td valign=""center"">
+                                    <img style=""padding:0px; margin:0px; height:auto; width:80px"" src=""http://127.0.0.1:8069/web/image/gamification.badge/5/image_128/80x80"" alt=""Tarcin"">
+                                </td>
+                                <td valign=""center"">
+                                    <cite><p>Register to the platform</p></cite>
+                                </td>
+                            </tr></tbody>
+                        </table>
+                        <br>
+                        <br>
+                        <br><br>
+                        Thank you,
+                    </div>
+                </td></tr>
+                <tr><td style=""text-align:center"">
+                  <hr width=""100%"" style=""background-color:rgb(204,204,204); border:medium none; display:block; font-size:0px; min-height:1px; line-height:0; margin:16px 0px 16px 0px"">
+                </td></tr>
+            </table>
+        </td>
+    </tr>
+    
+    <tr>
+        <td align=""center"" style=""min-width:590px"">
+            <table width=""590"" border=""0"" cellpadding=""0"" style=""min-width:590px; background-color:white; font-size:12px; padding:0px 8px 0px 8px; border-collapse:separate"">
+                <tr><td valign=""middle"" align=""left"">
+                    Tarcin
+                </td></tr>
+                <tr><td valign=""middle"" align=""left"" style=""opacity:0.7"">
+                    1234567890
+                        | <a style=""text-decoration:none; color:#454748"" href=""'mailto:%s'%20%%20devops@tarcinacademy.in"">devops@tarcinacademy.in</a>
+                        | <a style=""text-decoration:none; color:#454748"" href=""'%s'%20%%20https://tarcin.in/"">https://tarcin.in/</a>
+                </td></tr>
+            </table>
+        </td>
+    </tr>
+</tbody>
+</table>
+</td></tr>
+
+<tr><td align=""center"" style=""min-width:590px"">
+    <table width=""590"" border=""0"" cellpadding=""0"" style=""min-width:590px; background-color:#F1F1F1; color:#454748; padding:8px; border-collapse:separate"">
+      <tr><td style=""text-align:center; font-size:14px"">
+        Powered by <a target=""_blank"" href=""https://www.odoo.com?utm_source=db&amp;utm_medium=gamification"" style=""color:#875A7B"">Odoo</a>
+      </td></tr>
+    </table>
+</td></tr>
+</table>",,,t,2024-04-19 07:41:28,,2024-04-19 07:41:28.933158,2024-04-19 07:41:28.933158
+48,,,,,,,2,,,1,1,Tarcin: Your Odoo Periodic Digest,,,email_outgoing,"""Tarcin"" <devops@tarcinacademy.in>",<444520802736061.1713519696.978056669235229-openerp-private@crm-17>,"""Tarcin"" <devops@tarcinacademy.in>",,"",,,t,2024-04-19 09:41:36,,2024-04-19 09:41:36.586784,2024-04-19 09:41:36.586784
+49,,13,,,2,,4,,,4,4,,res.partner,,notification,,<406045410303364.1713526983.314583301544189-openerp-message-notify@crm-17>,,,<p>Contact created</p>,t,,f,2024-04-19 11:43:03,,2024-04-19 11:43:03.229265,2024-04-19 11:43:03.229265
+50,,13,,1,2,,4,,,4,4,,res.partner,Ajmeer Kaja Mohideen,notification,,<558561636693280.1713526984.144508838653564-openerp-13-res.partner@crm-17>,,,<p>Portal Access Granted (ajmeercec04@gmail.com)</p>,,,t,2024-04-19 11:43:04,,2024-04-19 11:43:03.229265,2024-04-19 11:43:03.229265
+51,,8,,,,,13,,,8,8,Welcome to Tarcin!,res.users,Ajmeer Kaja Mohideen,email_outgoing,"""Tarcin"" <devops@tarcinacademy.in>",<367683331485117.1713526985.028938770294189-openerp-8-res.users@crm-17>,"",,"<table border=""0"" cellpadding=""0"" cellspacing=""0"" style=""padding-top:16px; background-color:#FFFFFF; font-family:Verdana, Arial,sans-serif; color:#454748; width:100%; border-collapse:separate""><tr><td align=""center"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""590"" style=""padding:16px; background-color:#FFFFFF; color:#454748; border-collapse:separate"">
+<tbody>
+    
+    <tr>
+        <td align=""center"" style=""min-width:590px"">
+            <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""590"" style=""min-width:590px; background-color:white; padding:0px 8px 0px 8px; border-collapse:separate"">
+                <tr><td valign=""middle"">
+                    <span style=""font-size:10px"">Your Account</span><br>
+                    <span style=""font-size:20px; font-weight:bold"">
+                        Ajmeer Kaja Mohideen
+                    </span>
+                </td><td valign=""middle"" align=""right"">
+                    <img style=""padding:0px; margin:0px; height:auto; width:80px"" src=""http://127.0.0.1:8069/logo.png?company=1"" alt=""Tarcin"">
+                </td></tr>
+                <tr><td colspan=""2"" style=""text-align:center"">
+                  <hr width=""100%"" style=""background-color:rgb(204,204,204); border:medium none; display:block; font-size:0px; min-height:1px; line-height:0; margin:16px 0px 16px 0px"">
+                </td></tr>
+            </table>
+        </td>
+    </tr>
+    
+    <tr>
+        <td align=""center"" style=""min-width:590px"">
+            <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""590"" style=""min-width:590px; background-color:white; padding:0px 8px 0px 8px; border-collapse:separate"">
+                <tr><td valign=""top"" style=""font-size:13px"">
+                    <div>
+                        Dear Ajmeer Kaja Mohideen,<br><br>
+                        Your account has been successfully created!<br>
+                        Your login is <strong>ajmeercec04@gmail.com</strong><br>
+                        To gain access to your account, you can use the following link:
+                        <div style=""margin:16px 0px 16px 0px"">
+                            <a style=""background-color:#875A7B; padding:8px 16px 8px 16px; text-decoration:none; color:#fff; border-radius:5px; font-size:13px"" href=""http://127.0.0.1:8069/web/login?auth_login=ajmeercec04@gmail.com"">
+                                Go to My Account
+                            </a>
+                        </div>
+                        Thanks,<br>
+                            <br>
+                            <p data-o-mail-quote=""1"">--<br data-o-mail-quote=""1"">Portal User Template</p>
+                    </div>
+                </td></tr>
+                <tr><td style=""text-align:center"">
+                  <hr width=""100%"" style=""background-color:rgb(204,204,204); border:medium none; display:block; font-size:0px; min-height:1px; line-height:0; margin:16px 0px 16px 0px"">
+                </td></tr>
+            </table>
+        </td>
+    </tr>
+    
+    <tr>
+        <td align=""center"" style=""min-width:590px"">
+            <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""590"" style=""min-width:590px; background-color:white; font-size:11px; padding:0px 8px 0px 8px; border-collapse:separate"">
+                <tr><td valign=""middle"" align=""left"">
+                    Tarcin
+                </td></tr>
+                <tr><td valign=""middle"" align=""left"" style=""opacity:0.7"">
+                    1234567890
+                        | <a style=""text-decoration:none; color:#454748"" href=""http://127.0.0.1:8069/web/'mailto:%s'%20%%20devops@tarcinacademy.in"">devops@tarcinacademy.in</a>
+                        | <a style=""text-decoration:none; color:#454748"" href=""http://127.0.0.1:8069/web/'%s'%20%%20https://tarcin.in/"">
+                            https://tarcin.in/
+                        </a>
+                </td></tr>
+            </table>
+        </td>
+    </tr>
+</tbody>
+</table>
+</td></tr>
+
+<tr><td align=""center"" style=""min-width:590px"">
+    <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""590"" style=""min-width:590px; background-color:#F1F1F1; color:#454748; padding:8px; border-collapse:separate"">
+      <tr><td style=""text-align:center; font-size:13px"">
+        Powered by <a target=""_blank"" href=""https://www.odoo.com?utm_source=db&amp;utm_medium=auth"" style=""color:#875A7B"">Odoo</a>
+      </td></tr>
+    </table>
+</td></tr>
+</table>",,,t,2024-04-19 11:43:05,,2024-04-19 11:43:04.966822,2024-04-19 11:43:04.966822
+52,,,,,,,2,,,1,1,Hi,,,email_outgoing,"""Tarcin form submission"" <devops@tarcinacademy.in>",<197058800073647.1713527052.146766901016235-openerp-private@crm-17>,ajmeercec04@gmail.com,,"",,,t,2024-04-19 11:44:12,,2024-04-19 11:44:12.105352,2024-04-19 11:44:12.105352
+53,,2,,,2,,3,,,2,2,,hr.employee,,notification,"""Administrator"" <devops@tarcinacademy.in>",<812157116022763.1713548057.309780836105347-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Employee created</p>,t,,f,2024-04-19 17:34:17,,2024-04-19 17:34:16.962469,2024-04-19 17:34:16.962469
+54,,2,,,2,,3,,,2,2,,hr.employee,,notification,"""Administrator"" <devops@tarcinacademy.in>",<108394844134325.1713548057.318226337432861-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,"<span><b>Congratulations!</b> May I recommend you to setup an <a href=""/web#action=hr.plan_wizard_action&amp;active_id=2&amp;active_model=hr.employee&amp;menu_id=111"">onboarding plan?</a></span>",t,,f,2024-04-19 17:34:17,,2024-04-19 17:34:16.962469,2024-04-19 17:34:16.962469
+55,,14,,,2,,3,,,2,2,,res.partner,,notification,"""Administrator"" <devops@tarcinacademy.in>",<471710306529195.1713548104.687239408493042-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Contact created</p>,t,,f,2024-04-19 17:35:04,,2024-04-19 17:35:04.625803,2024-04-19 17:35:04.625803
+58,,15,,,2,,3,,,2,2,,res.partner,,notification,"""Administrator"" <devops@tarcinacademy.in>",<682105339744217.1713592096.812708854675293-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Contact created</p>,t,,f,2024-04-20 05:48:16,,2024-04-20 05:48:16.755336,2024-04-20 05:48:16.755336
+59,,1,,,2,,3,,,2,2,,op.student,,notification,"""Administrator"" <devops@tarcinacademy.in>",<098941060746845.1713592096.840139627456665-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Student created</p>,t,,f,2024-04-20 05:48:16,,2024-04-20 05:48:16.755336,2024-04-20 05:48:16.755336
+60,,,,,,,2,,,1,1,Tarcin: Your Odoo Periodic Digest,,,email_outgoing,"""Tarcin"" <devops@tarcinacademy.in>",<027893075852559.1713606077.830381631851196-openerp-private@crm-17>,"""Tarcin"" <devops@tarcinacademy.in>",,"",,,t,2024-04-20 09:41:17,,2024-04-20 09:41:17.51396,2024-04-20 09:41:17.51396
+61,,,,,,,2,,,1,1,Tarcin: Your Odoo Periodic Digest,,,email_outgoing,"""Tarcin"" <devops@tarcinacademy.in>",<830934646678304.1713606078.013683795928955-openerp-private@crm-17>,"""Tarcin"" <devops@tarcinacademy.in>",,"",,,t,2024-04-20 09:41:18,,2024-04-20 09:41:17.51396,2024-04-20 09:41:17.51396
+62,,,,,,,2,,,1,1,Tarcin: Your Odoo Periodic Digest,,,email_outgoing,"""Tarcin"" <devops@tarcinacademy.in>",<620549352365970.1713692466.807462453842163-openerp-private@crm-17>,"""Tarcin"" <devops@tarcinacademy.in>",,"",,,t,2024-04-21 09:41:06,,2024-04-21 09:41:06.512854,2024-04-21 09:41:06.512854
+63,,,,,,,2,,,1,1,Tarcin: Your Odoo Periodic Digest,,,email_outgoing,"""Tarcin"" <devops@tarcinacademy.in>",<183265319959193.1713692466.988564014434814-openerp-private@crm-17>,"""Tarcin"" <devops@tarcinacademy.in>",,"",,,t,2024-04-21 09:41:06,,2024-04-21 09:41:06.512854,2024-04-21 09:41:06.512854
+64,,2,,1,1,,3,,,2,2,,discuss.channel,"OdooBot, Administrator",comment,"""Administrator"" <devops@tarcinacademy.in>",<433835549560027.1713702726.783318281173706-openerp-2-discuss.channel@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>😊</p>,,,t,2024-04-21 12:32:06,,2024-04-21 12:32:06.759771,2024-04-21 12:32:06.759771
+65,,2,,1,1,,2,,,2,2,,discuss.channel,"OdooBot, Administrator",comment,"""TarcinBot"" <odoobot@example.com>",<216674699958872.1713702726.813934803009033-openerp-2-discuss.channel@crm-17>,"""TarcinBot"" <odoobot@example.com>",,"<p>Great! 👍<br>To access special commands, <b>start your sentence with</b> <span class=""o_odoobot_command"">/</span>. Try getting help.</p>",,,t,2024-04-21 12:32:06,,2024-04-21 12:32:06.759771,2024-04-21 12:32:06.759771
+66,,2,,1,1,,3,,,2,2,,discuss.channel,"OdooBot, Administrator",comment,"""Administrator"" <devops@tarcinacademy.in>",<190603901209739.1713702731.042402029037476-openerp-2-discuss.channel@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Hi</p>,,,t,2024-04-21 12:32:11,,2024-04-21 12:32:11.030378,2024-04-21 12:32:11.030378
+67,,2,,1,1,,2,,,2,2,,discuss.channel,"OdooBot, Administrator",comment,"""TarcinBot"" <odoobot@example.com>",<623509652286393.1713702731.057214975357056-openerp-2-discuss.channel@crm-17>,"""TarcinBot"" <odoobot@example.com>",,"<p>Not sure what you are doing. Please, type <span class=""o_odoobot_command"">/</span> and wait for the propositions. Select <span class=""o_odoobot_command"">help</span> and press enter</p>",,,t,2024-04-21 12:32:11,,2024-04-21 12:32:11.030378,2024-04-21 12:32:11.030378
+68,,16,,,2,,3,,,2,2,,res.partner,,notification,"""Administrator"" <devops@tarcinacademy.in>",<935498154576183.1713702772.370893001556396-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Contact created</p>,t,,f,2024-04-21 12:32:52,,2024-04-21 12:32:52.314997,2024-04-21 12:32:52.314997
+69,,16,,,2,,3,,,2,2,,res.partner,,notification,"""Administrator"" <devops@tarcinacademy.in>",<684730545674420.1713703128.454706192016602-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,"",t,,f,2024-04-21 12:38:48,,2024-04-21 12:38:48.382455,2024-04-21 12:38:48.382455
+70,,16,,1,2,,3,,,2,2,,res.partner,Master the Balster,notification,"""Administrator"" <devops@tarcinacademy.in>",<251448517538959.1713703134.011311531066895-openerp-16-res.partner@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Portal Access Granted (parent@tarcin.in)</p>,,,t,2024-04-21 12:38:54,,2024-04-21 12:38:53.83881,2024-04-21 12:38:53.83881
+72,,16,,1,2,,3,,,2,2,You have been assigned to Master the Balster,res.partner,Master the Balster,user_notification,"""Administrator"" <devops@tarcinacademy.in>",<416365139475465.1713703134.179025173187256-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",mail.mail_notification_layout,"<span><span>Dear Master the Balster,</span>
+    <br><br>
+    <span style=""margin-top:8px"">You have been assigned to the Contact Master the Balster.</span>
+    <br></span>",t,,t,2024-04-21 12:38:54,,2024-04-21 12:38:53.83881,2024-04-21 12:38:53.83881
+73,,16,,,2,,3,,,2,2,,res.partner,,notification,"""Administrator"" <devops@tarcinacademy.in>",<765176855876750.1713703134.266481399536133-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,"",t,,f,2024-04-21 12:38:54,,2024-04-21 12:38:53.83881,2024-04-21 12:38:53.83881
+76,,17,,,2,,3,,,2,2,,res.partner,,notification,"""Administrator"" <devops@tarcinacademy.in>",<958765169784674.1713719315.388906717300415-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Contact created</p>,t,,f,2024-04-21 17:08:35,,2024-04-21 17:08:35.343205,2024-04-21 17:08:35.343205
+146,,128,,,2,,3,,,2,2,,op.admission.register,,notification,"""Administrator"" <devops@tarcinacademy.in>",<807419974377639.1713948004.269842624664307-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,"",t,,f,2024-04-24 08:40:04,,2024-04-24 08:40:04.257485,2024-04-24 08:40:04.257485
+147,,128,,,2,,3,,,2,2,,op.admission.register,,notification,"""Administrator"" <devops@tarcinacademy.in>",<477444675727592.1713948006.568306446075439-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,"",t,,f,2024-04-24 08:40:06,,2024-04-24 08:40:06.561561,2024-04-24 08:40:06.561561
+148,,128,,,2,,3,,,2,2,,op.admission.register,,notification,"""Administrator"" <devops@tarcinacademy.in>",<382226767110194.1713948007.782810688018799-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,"",t,,f,2024-04-24 08:40:07,,2024-04-24 08:40:07.776444,2024-04-24 08:40:07.776444
+149,,128,,,2,,3,,,2,2,,op.admission.register,,notification,"""Administrator"" <devops@tarcinacademy.in>",<104950479626516.1713948009.662236213684082-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,"",t,,f,2024-04-24 08:40:09,,2024-04-24 08:40:09.655775,2024-04-24 08:40:09.655775
+79,,17,,1,2,,3,,,2,2,You have been assigned to Sam Anderson,res.partner,Sam Anderson,user_notification,"""Administrator"" <devops@tarcinacademy.in>",<074670158018191.1713719572.855399370193481-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",mail.mail_notification_layout,"<span><span>Dear Sam Anderson,</span>
+    <br><br>
+    <span style=""margin-top:8px"">You have been assigned to the Contact Sam Anderson.</span>
+    <br></span>",t,,t,2024-04-21 17:12:52,,2024-04-21 17:12:52.190809,2024-04-21 17:12:52.190809
+81,,17,,,2,,3,,,2,2,,res.partner,,notification,"""Administrator"" <devops@tarcinacademy.in>",<092152165879301.1713719573.014999389648438-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,"",t,,f,2024-04-21 17:12:53,,2024-04-21 17:12:52.190809,2024-04-21 17:12:52.190809
+97,,18,,,2,,3,,,2,2,,res.partner,,notification,"""Administrator"" <devops@tarcinacademy.in>",<586403887579572.1713796701.343358755111694-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,"",t,,f,2024-04-22 14:38:21,,2024-04-22 14:38:18.554169,2024-04-22 14:38:18.554169
+96,,18,,1,2,,3,,,2,1,"You have been assigned to Tarcin Robotics, Vignesh Pandian",res.partner,"Tarcin Robotics, Vignesh Pandian",user_notification,"""Administrator"" <devops@tarcinacademy.in>",<455586976222597.1713796701.253926515579224-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",mail.mail_notification_layout,"<span><span>Dear Vignesh Pandian,</span>
+    <br><br>
+    <span style=""margin-top:8px"">You have been assigned to the Contact Tarcin Robotics, Vignesh Pandian.</span>
+    <br></span>",t,,t,2024-04-22 14:38:21,,2024-04-22 14:38:18.554169,2024-04-22 14:38:21.351355
+99,,3,,1,1,,2,,,12,12,,discuss.channel,"TarcinBot, Vignesh Pandian",comment,"""TarcinBot"" <odoobot@example.com>",<139477189039152.1713796986.123611927032471-openerp-3-discuss.channel@crm-17>,"""TarcinBot"" <odoobot@example.com>",,"<p>Hello,<br>Odoo's chat helps employees collaborate efficiently. I'm here to help you discover its features.<br><b>Try to send me an emoji</b> <span class=""o_odoobot_command"">:)</span></p>",,,t,2024-04-22 14:43:06,,2024-04-22 14:43:06.057583,2024-04-22 14:43:06.057583
+102,,4,,1,1,,2,,,11,11,,discuss.channel,"TarcinBot, Sam Anderson",comment,"""TarcinBot"" <odoobot@example.com>",<826704128113101.1713847615.863655567169189-openerp-4-discuss.channel@crm-17>,"""TarcinBot"" <odoobot@example.com>",,"<p>Hello,<br>Odoo's chat helps employees collaborate efficiently. I'm here to help you discover its features.<br><b>Try to send me an emoji</b> <span class=""o_odoobot_command"">:)</span></p>",,,t,2024-04-23 04:46:55,,2024-04-23 04:46:55.821884,2024-04-23 04:46:55.821884
+105,,5,,1,1,,2,,,10,10,,discuss.channel,"TarcinBot, Master the Balster",comment,"""TarcinBot"" <odoobot@example.com>",<957379252703757.1713853241.081703901290894-openerp-5-discuss.channel@crm-17>,"""TarcinBot"" <odoobot@example.com>",,"<p>Hello,<br>Odoo's chat helps employees collaborate efficiently. I'm here to help you discover its features.<br><b>Try to send me an emoji</b> <span class=""o_odoobot_command"">:)</span></p>",,,t,2024-04-23 06:20:41,,2024-04-23 06:20:41.032819,2024-04-23 06:20:41.032819
+106,,2,,1,1,,3,,,2,2,,discuss.channel,"OdooBot, Administrator",comment,"""Administrator"" <devops@tarcinacademy.in>",<782220204198151.1713855656.671853542327881-openerp-2-discuss.channel@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>hi</p>,,,t,2024-04-23 07:00:56,,2024-04-23 07:00:56.649357,2024-04-23 07:00:56.649357
+107,,2,,1,1,,2,,,2,2,,discuss.channel,"OdooBot, Administrator",comment,"""TarcinBot"" <odoobot@example.com>",<398069481357731.1713855656.698869705200195-openerp-2-discuss.channel@crm-17>,"""TarcinBot"" <odoobot@example.com>",,"<p>Unfortunately, I'm just a bot 😞 I don't understand! If you need help discovering our product, please check <a href=""https://tarcin.in"" target=""_blank"">our documentation</a> or <a href=""https://tarcin.in"" target=""_blank"">our videos</a>.</p>",,,t,2024-04-23 07:00:56,,2024-04-23 07:00:56.649357,2024-04-23 07:00:56.649357
+108,,2,,1,1,,3,,,2,2,,discuss.channel,"OdooBot, Administrator",comment,"""Administrator"" <devops@tarcinacademy.in>",<501401374515078.1713855670.207668781280518-openerp-2-discuss.channel@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>/hi</p>,,,t,2024-04-23 07:01:10,,2024-04-23 07:01:10.195096,2024-04-23 07:01:10.195096
+109,,2,,1,1,,2,,,2,2,,discuss.channel,"OdooBot, Administrator",comment,"""TarcinBot"" <odoobot@example.com>",<182809079243302.1713855670.222697973251343-openerp-2-discuss.channel@crm-17>,"""TarcinBot"" <odoobot@example.com>",,"<p>Unfortunately, I'm just a bot 😞 I don't understand! If you need help discovering our product, please check <a href=""https://tarcin.in"" target=""_blank"">our documentation</a> or <a href=""https://tarcin.in"" target=""_blank"">our videos</a>.</p>",,,t,2024-04-23 07:01:10,,2024-04-23 07:01:10.195096,2024-04-23 07:01:10.195096
+110,,2,,1,1,,3,,,2,2,,discuss.channel,"OdooBot, Administrator",comment,"""Administrator"" <devops@tarcinacademy.in>",<839855528001913.1713855723.557395935058594-openerp-2-discuss.channel@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>😊</p>,,,t,2024-04-23 07:02:03,,2024-04-23 07:02:03.544822,2024-04-23 07:02:03.544822
+111,,2,,1,1,,2,,,2,2,,discuss.channel,"OdooBot, Administrator",comment,"""TarcinBot"" <odoobot@example.com>",<417821163487129.1713855723.572032451629639-openerp-2-discuss.channel@crm-17>,"""TarcinBot"" <odoobot@example.com>",,"<p>Unfortunately, I'm just a bot 😞 I don't understand! If you need help discovering our product, please check <a href=""https://tarcin.in"" target=""_blank"">our documentation</a> or <a href=""https://tarcin.in"" target=""_blank"">our videos</a>.</p>",,,t,2024-04-23 07:02:03,,2024-04-23 07:02:03.544822,2024-04-23 07:02:03.544822
+112,,2,,1,1,,2,,,2,2,,discuss.channel,"OdooBot, Administrator",comment,"""TarcinBot"" <odoobot@example.com>",<515693347810849.1713855751.808407545089722-openerp-2-discuss.channel@crm-17>,"""TarcinBot"" <odoobot@example.com>",,"<p>Wow you are a natural!<br>Ping someone with @username to grab their attention. <b>Try to ping me using</b> <span class=""o_odoobot_command"">@OdooBot</span> in a sentence.</p>",,,t,2024-04-23 07:02:31,,2024-04-23 07:02:31.785431,2024-04-23 07:02:31.785431
+113,,19,,,2,,3,,,2,2,,res.partner,,notification,"""Administrator"" <devops@tarcinacademy.in>",<003273788186163.1713857124.442966699600220-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Contact created</p>,t,,f,2024-04-23 07:25:24,,2024-04-23 07:25:24.374752,2024-04-23 07:25:24.374752
+115,,3,,,2,,3,,,2,2,,hr.employee,,notification,"""Administrator"" <devops@tarcinacademy.in>",<254488524067608.1713857398.475671768188477-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Employee created</p>,t,,f,2024-04-23 07:29:58,,2024-04-23 07:29:58.416269,2024-04-23 07:29:58.416269
+116,,3,,,2,,3,,,2,2,,hr.employee,,notification,"""Administrator"" <devops@tarcinacademy.in>",<119834450983316.1713857398.481712579727173-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,"<span><b>Congratulations!</b> May I recommend you to setup an <a href=""/web#action=hr.plan_wizard_action&amp;active_id=3&amp;active_model=hr.employee&amp;menu_id=111"">onboarding plan?</a></span>",t,,f,2024-04-23 07:29:58,,2024-04-23 07:29:58.416269,2024-04-23 07:29:58.416269
+118,,6,,1,1,,2,,,13,13,,discuss.channel,"TarcinBot, dharshinijayachandran02",comment,"""TarcinBot"" <odoobot@example.com>",<047839761534843.1713857758.548106908798218-openerp-6-discuss.channel@crm-17>,"""TarcinBot"" <odoobot@example.com>",,"<p>Hello,<br>Tarcin's chat helps employees collaborate efficiently. I'm here to help you discover its features.<br><b>Try to send me an emoji</b> <span class=""o_odoobot_command"">:)</span></p>",,,t,2024-04-23 07:35:58,,2024-04-23 07:35:58.497389,2024-04-23 07:35:58.497389
+119,,6,,1,1,,19,,,13,13,,discuss.channel,"TarcinBot, dharshinijayachandran02",comment,"""dharshinijayachandran02"" <dharshinijayachandran02@gmail.com>",<044297878382267.1713857772.715690135955811-openerp-6-discuss.channel@crm-17>,"""dharshinijayachandran02"" <dharshinijayachandran02@gmail.com>",,<p>/hi</p>,,,t,2024-04-23 07:36:12,,2024-04-23 07:36:12.692411,2024-04-23 07:36:12.692411
+120,,6,,1,1,,2,,,13,13,,discuss.channel,"TarcinBot, dharshinijayachandran02",comment,"""TarcinBot"" <odoobot@example.com>",<150828495375319.1713857772.745260715484619-openerp-6-discuss.channel@crm-17>,"""TarcinBot"" <odoobot@example.com>",,"<p>Not exactly. To continue the tour, send an emoji: <b>type</b> <span class=""o_odoobot_command"">:)</span> and press enter.</p>",,,t,2024-04-23 07:36:12,,2024-04-23 07:36:12.692411,2024-04-23 07:36:12.692411
+121,,6,,1,1,,19,,,13,13,,discuss.channel,"TarcinBot, dharshinijayachandran02",comment,"""dharshinijayachandran02"" <dharshinijayachandran02@gmail.com>",<359427193565505.1713857792.206933736801147-openerp-6-discuss.channel@crm-17>,"""dharshinijayachandran02"" <dharshinijayachandran02@gmail.com>",,<p>😊</p>,,,t,2024-04-23 07:36:32,,2024-04-23 07:36:32.194073,2024-04-23 07:36:32.194073
+122,,6,,1,1,,2,,,13,13,,discuss.channel,"TarcinBot, dharshinijayachandran02",comment,"""TarcinBot"" <odoobot@example.com>",<564119451342266.1713857792.227484226226807-openerp-6-discuss.channel@crm-17>,"""TarcinBot"" <odoobot@example.com>",,"<p>Great! 👍<br>To access special commands, <b>start your sentence with</b> <span class=""o_odoobot_command"">/</span>. Try getting help.</p>",,,t,2024-04-23 07:36:32,,2024-04-23 07:36:32.194073,2024-04-23 07:36:32.194073
+123,,6,,1,1,,2,,,13,13,,discuss.channel,"TarcinBot, dharshinijayachandran02",comment,"""TarcinBot"" <odoobot@example.com>",<496194042638060.1713857816.665907621383667-openerp-6-discuss.channel@crm-17>,"""TarcinBot"" <odoobot@example.com>",,"<p>Wow you are a natural!<br>Ping someone with @username to grab their attention. <b>Try to ping me using</b> <span class=""o_odoobot_command"">@OdooBot</span> in a sentence.</p>",,,t,2024-04-23 07:36:56,,2024-04-23 07:36:56.639431,2024-04-23 07:36:56.639431
+128,,20,,,2,,3,,,2,2,,res.partner,,notification,"""Administrator"" <devops@tarcinacademy.in>",<480597223687685.1713858565.256369352340698-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Contact created</p>,t,,f,2024-04-23 07:49:25,,2024-04-23 07:49:25.166849,2024-04-23 07:49:25.166849
+124,,6,,1,1,,19,,,13,13,,discuss.channel,"TarcinBot, dharshinijayachandran02",comment,"""dharshinijayachandran02"" <dharshinijayachandran02@gmail.com>",<113799823408963.1713858181.968059539794922-openerp-6-discuss.channel@crm-17>,"""dharshinijayachandran02"" <dharshinijayachandran02@gmail.com>",,<p>😊</p>,,,t,2024-04-23 07:43:01,,2024-04-23 07:43:01.943174,2024-04-23 07:43:01.943174
+125,,6,,1,1,,2,,,13,13,,discuss.channel,"TarcinBot, dharshinijayachandran02",comment,"""TarcinBot"" <odoobot@example.com>",<240262938219678.1713858182.007375478744507-openerp-6-discuss.channel@crm-17>,"""TarcinBot"" <odoobot@example.com>",,"<p>Sorry, I am not listening. To get someone's attention, <b>ping him</b>. Write <span class=""o_odoobot_command"">@OdooBot</span> and select me.</p>",,,t,2024-04-23 07:43:02,,2024-04-23 07:43:01.943174,2024-04-23 07:43:01.943174
+126,,6,,1,1,,19,,,13,13,,discuss.channel,"TarcinBot, dharshinijayachandran02",comment,"""dharshinijayachandran02"" <dharshinijayachandran02@gmail.com>",<584594984112385.1713858292.967925548553467-openerp-6-discuss.channel@crm-17>,"""dharshinijayachandran02"" <dharshinijayachandran02@gmail.com>",,<p>😊</p>,,,t,2024-04-23 07:44:52,,2024-04-23 07:44:52.943396,2024-04-23 07:44:52.943396
+127,,6,,1,1,,2,,,13,13,,discuss.channel,"TarcinBot, dharshinijayachandran02",comment,"""TarcinBot"" <odoobot@example.com>",<177831377631364.1713858293.003986835479736-openerp-6-discuss.channel@crm-17>,"""TarcinBot"" <odoobot@example.com>",,"<p>Unfortunately, I'm just a bot 😞 I don't understand! If you need help discovering our product, please check <a href=""https://tarcin.in"" target=""_blank"">our documentation</a> or <a href=""https://tarcin.in"" target=""_blank"">our videos</a>.</p>",,,t,2024-04-23 07:44:53,,2024-04-23 07:44:52.943396,2024-04-23 07:44:52.943396
+131,,22,,,2,,3,,,2,2,,res.partner,,notification,"""Administrator"" <devops@tarcinacademy.in>",<717849412999016.1713860237.267972469329834-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Contact created</p>,t,,f,2024-04-23 08:17:17,,2024-04-23 08:17:17.092607,2024-04-23 08:17:17.092607
+133,,23,,,2,,3,,,2,2,,res.partner,,notification,"""Administrator"" <devops@tarcinacademy.in>",<457447183130248.1713864287.849059581756592-openerp-message-notify@crm-17>,"""Administrator"" <devops@tarcinacademy.in>",,<p>Contact created</p>,t,,f,2024-04-23 09:24:47,,2024-04-23 09:24:47.776495,2024-04-23 09:24:47.776495

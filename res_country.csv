@@ -1,0 +1,1005 @@
+id,address_view_id,currency_id,phone_code,create_uid,write_uid,code,name_position,name,vat_label,address_format,state_required,zip_required,create_date,write_date
+1,,125,376,1,1,AD,before,"{""en_US"": ""Andorra""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+2,,128,971,1,1,AE,before,"{""en_US"": ""United Arab Emirates""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+3,,47,93,1,1,AF,before,"{""en_US"": ""Afghanistan""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+4,,49,1268,1,1,AG,before,"{""en_US"": ""Antigua and Barbuda""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+5,,49,1264,1,1,AI,before,"{""en_US"": ""Anguilla""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+6,,118,355,1,1,AL,before,"{""en_US"": ""Albania""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+7,,50,374,1,1,AM,before,"{""en_US"": ""Armenia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+8,,48,244,1,1,AO,before,"{""en_US"": ""Angola""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+9,,49,672,1,1,AQ,before,"{""en_US"": ""Antarctica""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+10,,19,54,1,1,AR,before,"{""en_US"": ""Argentina""}","{""en_US"": ""CUIT""}","%(street)s
+%(street2)s
+%(city)s %(state_name)s %(zip)s
+%(country_name)s",t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+11,,1,1684,1,1,AS,before,"{""en_US"": ""American Samoa""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+12,,125,43,1,1,AT,before,"{""en_US"": ""Austria""}","{""en_US"": ""USt""}","%(street)s
+%(street2)s
+%(zip)s %(city)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+13,,21,61,1,1,AU,before,"{""en_US"": ""Australia""}","{""en_US"": ""ABN""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+14,,51,297,1,1,AW,before,"{""en_US"": ""Aruba""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+15,,125,358,1,1,AX,before,"{""en_US"": ""Åland Islands""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+16,,52,994,1,1,AZ,before,"{""en_US"": ""Azerbaijan""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+17,,63,387,1,1,BA,before,"{""en_US"": ""Bosnia and Herzegovina""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+18,,56,1246,1,1,BB,before,"{""en_US"": ""Barbados""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+19,,55,880,1,1,BD,before,"{""en_US"": ""Bangladesh""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+20,,125,32,1,1,BE,before,"{""en_US"": ""Belgium""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(zip)s %(city)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+21,,41,226,1,1,BF,before,"{""en_US"": ""Burkina Faso""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+22,,26,359,1,1,BG,before,"{""en_US"": ""Bulgaria""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+23,,54,973,1,1,BH,before,"{""en_US"": ""Bahrain""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+24,,65,257,1,1,BI,before,"{""en_US"": ""Burundi""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+25,,41,229,1,1,BJ,before,"{""en_US"": ""Benin""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+26,,125,590,1,1,BL,before,"{""en_US"": ""Saint Barthélémy""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+27,,60,1441,1,1,BM,before,"{""en_US"": ""Bermuda""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+28,,110,673,1,1,BN,before,"{""en_US"": ""Brunei Darussalam""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+29,,62,591,1,1,BO,before,"{""en_US"": ""Bolivia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+30,,1,599,1,1,BQ,before,"{""en_US"": ""Bonaire, Sint Eustatius and Saba""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+31,,5,55,1,1,BR,before,"{""en_US"": ""Brazil""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s
+%(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+32,,53,1242,1,1,BS,before,"{""en_US"": ""Bahamas""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+33,,61,975,1,1,BT,before,"{""en_US"": ""Bhutan""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+34,,14,55,1,1,BV,before,"{""en_US"": ""Bouvet Island""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+35,,64,267,1,1,BW,before,"{""en_US"": ""Botswana""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+36,,58,375,1,1,BY,before,"{""en_US"": ""Belarus""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+37,,59,501,1,1,BZ,before,"{""en_US"": ""Belize""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+38,,3,1,1,1,CA,before,"{""en_US"": ""Canada""}","{""en_US"": ""GST/HST number""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+39,,21,61,1,1,CC,before,"{""en_US"": ""Cocos (Keeling) Islands""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+40,,42,236,1,1,CF,before,"{""en_US"": ""Central African Republic""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+41,,69,243,1,1,CD,before,"{""en_US"": ""Democratic Republic of the Congo""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+42,,42,242,1,1,CG,before,"{""en_US"": ""Congo""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+43,,4,41,1,1,CH,before,"{""en_US"": ""Switzerland""}",,"%(street)s
+%(street2)s
+%(zip)s %(city)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+44,,41,225,1,1,CI,before,"{""en_US"": ""Côte d'Ivoire""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+45,,35,682,1,1,CK,before,"{""en_US"": ""Cook Islands""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+46,,45,56,1,1,CL,before,"{""en_US"": ""Chile""}","{""en_US"": ""RUT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+47,,42,237,1,1,CM,before,"{""en_US"": ""Cameroon""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+48,,6,86,1,1,CN,before,"{""en_US"": ""China""}",,"%(country_name)s, %(zip)s
+%(state_name)s %(city)s %(street)s %(street2)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+49,,8,57,1,1,CO,before,"{""en_US"": ""Colombia""}","{""en_US"": ""NIT""}","%(street)s
+%(street2)s
+%(city)s %(state_name)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+50,,39,506,1,1,CR,before,"{""en_US"": ""Costa Rica""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+51,,70,53,1,1,CU,before,"{""en_US"": ""Cuba""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+52,,161,238,1,1,CV,before,"{""en_US"": ""Cape Verde""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+53,,71,599,1,1,CW,before,"{""en_US"": ""Curaçao""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+54,,21,61,1,1,CX,before,"{""en_US"": ""Christmas Island""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+55,,125,357,1,1,CY,before,"{""en_US"": ""Cyprus""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+56,,9,420,1,1,CZ,before,"{""en_US"": ""Czech Republic""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+57,,125,49,1,1,DE,before,"{""en_US"": ""Germany""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(zip)s %(city)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+58,,72,253,1,1,DJ,before,"{""en_US"": ""Djibouti""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+59,,10,45,1,1,DK,before,"{""en_US"": ""Denmark""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(zip)s %(city)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+60,,49,1767,1,1,DM,before,"{""en_US"": ""Dominica""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+61,,73,1849,1,1,DO,before,"{""en_US"": ""Dominican Republic""}","{""en_US"": ""RNC""}","%(street)s
+%(street2)s
+%(city)s %(state_name)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+62,,111,213,1,1,DZ,before,"{""en_US"": ""Algeria""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+63,,1,593,1,1,EC,before,"{""en_US"": ""Ecuador""}","{""en_US"": ""RUC""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+64,,125,372,1,1,EE,before,"{""en_US"": ""Estonia""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+65,,74,20,1,1,EG,before,"{""en_US"": ""Egypt""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+66,,109,212,1,1,EH,before,"{""en_US"": ""Western Sahara""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+67,,76,291,1,1,ER,before,"{""en_US"": ""Eritrea""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+68,,125,34,1,1,ES,before,"{""en_US"": ""Spain""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(zip)s %(city)s
+%(state_name)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+69,,77,251,1,1,ET,before,"{""en_US"": ""Ethiopia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+70,,125,358,1,1,FI,before,"{""en_US"": ""Finland""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(zip)s %(city)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+71,,79,679,1,1,FJ,before,"{""en_US"": ""Fiji""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+72,,78,500,1,1,FK,before,"{""en_US"": ""Falkland Islands""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+73,,1,691,1,1,FM,before,"{""en_US"": ""Micronesia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+74,,10,298,1,1,FO,before,"{""en_US"": ""Faroe Islands""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+75,,125,33,1,1,FR,before,"{""en_US"": ""France""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(zip)s %(city)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+76,,42,241,1,1,GA,before,"{""en_US"": ""Gabon""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+77,,49,1473,1,1,GD,before,"{""en_US"": ""Grenada""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+78,,80,995,1,1,GE,before,"{""en_US"": ""Georgia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+79,,125,594,1,1,GF,before,"{""en_US"": ""French Guiana""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+80,,112,233,1,1,GH,before,"{""en_US"": ""Ghana""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+81,,81,350,1,1,GI,before,"{""en_US"": ""Gibraltar""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+82,,143,44,1,1,GG,before,"{""en_US"": ""Guernsey""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+83,,10,299,1,1,GL,before,"{""en_US"": ""Greenland""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+84,,113,220,1,1,GM,before,"{""en_US"": ""Gambia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+85,,82,224,1,1,GN,before,"{""en_US"": ""Guinea""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+86,,125,590,1,1,GP,before,"{""en_US"": ""Guadeloupe""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+87,,42,240,1,1,GQ,before,"{""en_US"": ""Equatorial Guinea""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+88,,125,30,1,1,GR,before,"{""en_US"": ""Greece""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+89,,143,500,1,1,GS,before,"{""en_US"": ""South Georgia and the South Sandwich Islands""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+90,,165,502,1,1,GT,before,"{""en_US"": ""Guatemala""}","{""en_US"": ""NIT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+91,,1,1671,1,1,GU,before,"{""en_US"": ""Guam""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+92,,41,245,1,1,GW,before,"{""en_US"": ""Guinea-Bissau""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+93,,83,592,1,1,GY,before,"{""en_US"": ""Guyana""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+94,,24,852,1,1,HK,before,"{""en_US"": ""Hong Kong""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+95,,21,672,1,1,HM,before,"{""en_US"": ""Heard Island and McDonald Islands""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+96,,44,504,1,1,HN,before,"{""en_US"": ""Honduras""}","{""en_US"": ""RTN""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+97,,125,385,1,1,HR,before,"{""en_US"": ""Croatia""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(zip)s %(city)s 
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+98,,84,509,1,1,HT,before,"{""en_US"": ""Haiti""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+99,,11,36,1,1,HU,before,"{""en_US"": ""Hungary""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+100,,12,62,1,1,ID,before,"{""en_US"": ""Indonesia""}","{""en_US"": ""NPWP""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+101,,125,353,1,1,IE,before,"{""en_US"": ""Ireland""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+102,,88,972,1,1,IL,before,"{""en_US"": ""Israel""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+103,,143,44,1,1,IM,before,"{""en_US"": ""Isle of Man""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+104,,20,91,1,1,IN,before,"{""en_US"": ""India""}","{""en_US"": ""GSTIN""}","%(street)s
+%(street2)s
+%(city)s %(zip)s
+%(state_name)s %(state_code)s
+%(country_name)s",t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+105,,1,246,1,1,IO,before,"{""en_US"": ""British Indian Ocean Territory""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+106,,87,964,1,1,IQ,before,"{""en_US"": ""Iraq""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+107,,86,98,1,1,IR,before,"{""en_US"": ""Iran""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+108,,85,354,1,1,IS,before,"{""en_US"": ""Iceland""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+109,,125,39,1,1,IT,before,"{""en_US"": ""Italy""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+110,,143,44,1,1,JE,before,"{""en_US"": ""Jersey""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+111,,89,1876,1,1,JM,before,"{""en_US"": ""Jamaica""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+112,,90,962,1,1,JO,before,"{""en_US"": ""Jordan""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+113,,25,81,1,1,JP,after,"{""en_US"": ""Japan""}",,"%(zip)s
+%(state_name)s %(city)s
+%(street)s
+%(street2)s
+%(country_name)s",t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+114,,92,254,1,1,KE,before,"{""en_US"": ""Kenya""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+115,,94,996,1,1,KG,before,"{""en_US"": ""Kyrgyzstan""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+116,,66,855,1,1,KH,before,"{""en_US"": ""Cambodia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+117,,21,686,1,1,KI,before,"{""en_US"": ""Kiribati""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+118,,68,269,1,1,KM,before,"{""en_US"": ""Comoros""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+119,,49,1869,1,1,KN,before,"{""en_US"": ""Saint Kitts and Nevis""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+120,,121,850,1,1,KP,before,"{""en_US"": ""North Korea""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+121,,32,82,1,1,KR,before,"{""en_US"": ""South Korea""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+122,,93,965,1,1,KW,before,"{""en_US"": ""Kuwait""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+123,,67,1345,1,1,KY,before,"{""en_US"": ""Cayman Islands""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+124,,91,7,1,1,KZ,before,"{""en_US"": ""Kazakhstan""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+125,,95,856,1,1,LA,before,"{""en_US"": ""Laos""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+126,,96,961,1,1,LB,before,"{""en_US"": ""Lebanon""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+127,,49,1758,1,1,LC,before,"{""en_US"": ""Saint Lucia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+128,,4,423,1,1,LI,before,"{""en_US"": ""Liechtenstein""}",,"%(street)s
+%(street2)s
+%(zip)s %(city)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+129,,141,94,1,1,LK,before,"{""en_US"": ""Sri Lanka""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+130,,98,231,1,1,LR,before,"{""en_US"": ""Liberia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+131,,97,266,1,1,LS,before,"{""en_US"": ""Lesotho""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+132,,125,370,1,1,LT,before,"{""en_US"": ""Lithuania""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+133,,125,352,1,1,LU,before,"{""en_US"": ""Luxembourg""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+134,,125,371,1,1,LV,before,"{""en_US"": ""Latvia""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+135,,99,218,1,1,LY,before,"{""en_US"": ""Libya""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+136,,109,212,1,1,MA,before,"{""en_US"": ""Morocco""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+137,,125,377,1,1,MC,before,"{""en_US"": ""Monaco""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+138,,107,373,1,1,MD,before,"{""en_US"": ""Moldova""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+139,,125,382,1,1,ME,before,"{""en_US"": ""Montenegro""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+140,,125,590,1,1,MF,before,"{""en_US"": ""Saint Martin (French part)""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+141,,102,261,1,1,MG,before,"{""en_US"": ""Madagascar""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+142,,1,692,1,1,MH,before,"{""en_US"": ""Marshall Islands""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+143,,101,389,1,1,MK,before,"{""en_US"": ""North Macedonia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+144,,41,223,1,1,ML,before,"{""en_US"": ""Mali""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+145,,115,95,1,1,MM,before,"{""en_US"": ""Myanmar""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+146,,108,976,1,1,MN,before,"{""en_US"": ""Mongolia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+147,,100,853,1,1,MO,before,"{""en_US"": ""Macau""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+148,,1,1670,1,1,MP,before,"{""en_US"": ""Northern Mariana Islands""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+149,,125,596,1,1,MQ,before,"{""en_US"": ""Martinique""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+150,,106,222,1,1,MR,before,"{""en_US"": ""Mauritania""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+151,,49,1664,1,1,MS,before,"{""en_US"": ""Montserrat""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+152,,125,356,1,1,MT,before,"{""en_US"": ""Malta""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+153,,40,230,1,1,MU,before,"{""en_US"": ""Mauritius""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+154,,104,960,1,1,MV,before,"{""en_US"": ""Maldives""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+155,,103,265,1,1,MW,before,"{""en_US"": ""Malawi""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+156,,33,52,1,1,MX,before,"{""en_US"": ""Mexico""}","{""en_US"": ""RFC""}","%(street)s %(street2)s
+%(zip)s %(city)s, %(state_code)s
+%(country_name)s",t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+157,,34,60,1,1,MY,before,"{""en_US"": ""Malaysia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+158,,114,258,1,1,MZ,before,"{""en_US"": ""Mozambique""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+159,,116,264,1,1,NA,before,"{""en_US"": ""Namibia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+160,,15,687,1,1,NC,before,"{""en_US"": ""New Caledonia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+161,,41,227,1,1,NE,before,"{""en_US"": ""Niger""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+162,,21,672,1,1,NF,before,"{""en_US"": ""Norfolk Island""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+163,,120,234,1,1,NG,before,"{""en_US"": ""Nigeria""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+164,,119,505,1,1,NI,before,"{""en_US"": ""Nicaragua""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+165,,125,31,1,1,NL,before,"{""en_US"": ""Netherlands""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(zip)s %(city)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+166,,14,47,1,1,NO,before,"{""en_US"": ""Norway""}",,"%(street)s
+%(street2)s
+%(zip)s %(city)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+167,,117,977,1,1,NP,before,"{""en_US"": ""Nepal""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+168,,21,674,1,1,NR,before,"{""en_US"": ""Nauru""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+169,,35,683,1,1,NU,before,"{""en_US"": ""Niue""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+170,,35,64,1,1,NZ,before,"{""en_US"": ""New Zealand""}","{""en_US"": ""GST""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+171,,160,968,1,1,OM,before,"{""en_US"": ""Oman""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+172,,16,507,1,1,PA,before,"{""en_US"": ""Panama""}",,"%(street)s
+%(street2)s
+%(city)s %(state_name)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+173,,156,51,1,1,PE,before,"{""en_US"": ""Peru""}","{""en_US"": ""RUC""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+174,,15,689,1,1,PF,before,"{""en_US"": ""French Polynesia""}","{""en_US"": ""N° Tahiti""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+175,,158,675,1,1,PG,before,"{""en_US"": ""Papua New Guinea""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+176,,36,63,1,1,PH,before,"{""en_US"": ""Philippines""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+177,,159,92,1,1,PK,before,"{""en_US"": ""Pakistan""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+178,,17,48,1,1,PL,before,"{""en_US"": ""Poland""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(zip)s %(city)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+179,,125,508,1,1,PM,before,"{""en_US"": ""Saint Pierre and Miquelon""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+180,,35,64,1,1,PN,before,"{""en_US"": ""Pitcairn Islands""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+181,,1,1939,1,1,PR,before,"{""en_US"": ""Puerto Rico""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+182,,88,970,1,1,PS,before,"{""en_US"": ""State of Palestine""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+183,,125,351,1,1,PT,before,"{""en_US"": ""Portugal""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+184,,1,680,1,1,PW,before,"{""en_US"": ""Palau""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+185,,157,595,1,1,PY,before,"{""en_US"": ""Paraguay""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+186,,155,974,1,1,QA,before,"{""en_US"": ""Qatar""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+187,,125,262,1,1,RE,before,"{""en_US"": ""Réunion""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+188,,28,40,1,1,RO,before,"{""en_US"": ""Romania""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+189,,149,381,1,1,RS,before,"{""en_US"": ""Serbia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+190,,30,7,1,1,RU,before,"{""en_US"": ""Russian Federation""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+191,,154,250,1,1,RW,before,"{""en_US"": ""Rwanda""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+192,,150,966,1,1,SA,before,"{""en_US"": ""Saudi Arabia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+193,,145,677,1,1,SB,before,"{""en_US"": ""Solomon Islands""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+194,,148,248,1,1,SC,before,"{""en_US"": ""Seychelles""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+195,,140,249,1,1,SD,before,"{""en_US"": ""Sudan""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+196,,18,46,1,1,SE,before,"{""en_US"": ""Sweden""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+197,,37,65,1,1,SG,before,"{""en_US"": ""Singapore""}","{""en_US"": ""GST No.""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+198,,153,290,1,1,SH,before,"{""en_US"": ""Saint Helena, Ascension and Tristan da Cunha""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+199,,125,386,1,1,SI,before,"{""en_US"": ""Slovenia""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+200,,14,47,1,1,SJ,before,"{""en_US"": ""Svalbard and Jan Mayen""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+201,,125,421,1,1,SK,before,"{""en_US"": ""Slovakia""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+202,,147,232,1,1,SL,before,"{""en_US"": ""Sierra Leone""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+203,,125,378,1,1,SM,before,"{""en_US"": ""San Marino""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+204,,41,221,1,1,SN,before,"{""en_US"": ""Senegal""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+205,,144,252,1,1,SO,before,"{""en_US"": ""Somalia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+206,,139,597,1,1,SR,before,"{""en_US"": ""Suriname""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+207,,142,211,1,1,SS,before,"{""en_US"": ""South Sudan""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+208,,151,239,1,1,ST,before,"{""en_US"": ""São Tomé and Príncipe""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+209,,75,503,1,1,SV,before,"{""en_US"": ""El Salvador""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+210,,71,1721,1,1,SX,before,"{""en_US"": ""Sint Maarten (Dutch part)""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+211,,137,963,1,1,SY,before,"{""en_US"": ""Syria""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+212,,138,268,1,1,SZ,before,"{""en_US"": ""Eswatini""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+213,,1,1649,1,1,TC,before,"{""en_US"": ""Turks and Caicos Islands""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+214,,42,235,1,1,TD,before,"{""en_US"": ""Chad""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+215,,125,262,1,1,TF,before,"{""en_US"": ""French Southern Territories""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+216,,41,228,1,1,TG,before,"{""en_US"": ""Togo""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+217,,133,66,1,1,TH,before,"{""en_US"": ""Thailand""}",,"%(street)s
+%(street2)s
+%(city)s
+%(state_name)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+218,,135,992,1,1,TJ,before,"{""en_US"": ""Tajikistan""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+219,,35,690,1,1,TK,before,"{""en_US"": ""Tokelau""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+220,,129,993,1,1,TM,before,"{""en_US"": ""Turkmenistan""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+221,,130,216,1,1,TN,before,"{""en_US"": ""Tunisia""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+222,,132,676,1,1,TO,before,"{""en_US"": ""Tonga""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+223,,1,670,1,1,TL,before,"{""en_US"": ""Timor-Leste""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+224,,31,90,1,1,TR,before,"{""en_US"": ""Turkey""}",,"%(street)s
+%(street2)s
+%(city)s %(state_name)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+225,,131,1868,1,1,TT,before,"{""en_US"": ""Trinidad and Tobago""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+226,,21,688,1,1,TV,before,"{""en_US"": ""Tuvalu""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+227,,136,886,1,1,TW,before,"{""en_US"": ""Taiwan""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+228,,134,255,1,1,TZ,before,"{""en_US"": ""Tanzania""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+229,,22,380,1,1,UA,before,"{""en_US"": ""Ukraine""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+230,,43,256,1,1,UG,before,"{""en_US"": ""Uganda""}","{""en_US"": ""TIN""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+231,,143,44,1,1,GB,before,"{""en_US"": ""United Kingdom""}","{""en_US"": ""VAT""}","%(street)s
+%(street2)s
+%(city)s
+%(state_name)s
+%(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+232,,1,699,1,1,UM,before,"{""en_US"": ""USA Minor Outlying Islands""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+233,,1,1,1,1,US,before,"{""en_US"": ""United States""}","{""en_US"": """"}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+234,,46,598,1,1,UY,before,"{""en_US"": ""Uruguay""}","{""en_US"": ""RUT""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+235,,127,998,1,1,UZ,before,"{""en_US"": ""Uzbekistan""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+236,,125,379,1,1,VA,before,"{""en_US"": ""Holy See (Vatican City State)""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+237,,49,1784,1,1,VC,before,"{""en_US"": ""Saint Vincent and the Grenadines""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+238,,2,58,1,1,VE,before,"{""en_US"": ""Venezuela""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+239,,1,1284,1,1,VG,before,"{""en_US"": ""Virgin Islands (British)""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+240,,1,1340,1,1,VI,before,"{""en_US"": ""Virgin Islands (USA)""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+241,,23,84,1,1,VN,before,"{""en_US"": ""Vietnam""}",,"%(street)s
+%(street2)s
+%(city)s
+%(state_name)s %(country_name)s",f,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+242,,126,678,1,1,VU,before,"{""en_US"": ""Vanuatu""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+243,,15,681,1,1,WF,before,"{""en_US"": ""Wallis and Futuna""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+244,,152,685,1,1,WS,before,"{""en_US"": ""Samoa""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+245,,124,967,1,1,YE,before,"{""en_US"": ""Yemen""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+246,,125,262,1,1,YT,before,"{""en_US"": ""Mayotte""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+247,,38,27,1,1,ZA,before,"{""en_US"": ""South Africa""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+248,,123,260,1,1,ZM,before,"{""en_US"": ""Zambia""}","{""en_US"": ""TPIN""}","%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+249,,122,263,1,1,ZW,before,"{""en_US"": ""Zimbabwe""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+250,,125,383,1,1,XK,before,"{""en_US"": ""Kosovo""}",,"%(street)s
+%(street2)s
+%(city)s %(state_code)s %(zip)s
+%(country_name)s",f,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233

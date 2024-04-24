@@ -1,0 +1,2 @@
+id,media_type_id,create_uid,write_uid,name,isbn,edition,internal_code,description,active,create_date,write_date
+1,1,2,2,Python Programming,234332232323,3rd Edition,123322223,,t,2024-04-24 10:10:32.585348,2024-04-24 10:10:32.585348

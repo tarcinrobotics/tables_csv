@@ -1,0 +1,7 @@
+id,user_id,create_uid,write_uid,create_date,write_date,voice_active_duration,push_to_talk_key,is_discuss_sidebar_category_channel_open,is_discuss_sidebar_category_chat_open,use_push_to_talk,livechat_username,is_discuss_sidebar_category_livechat_open
+1,2,2,2,2024-04-18 07:39:20.53176,2024-04-18 07:39:20.53176,200,,t,t,,,t
+2,9,2,2,2024-04-19 17:35:04.625803,2024-04-19 17:35:04.625803,200,,t,t,f,,t
+3,12,12,12,2024-04-22 14:43:05.475603,2024-04-22 14:43:05.475603,200,,t,t,f,,t
+4,11,11,11,2024-04-23 04:46:55.320742,2024-04-23 04:46:55.320742,200,,t,t,f,,t
+5,10,10,10,2024-04-23 06:20:40.380575,2024-04-23 06:20:40.380575,200,,t,t,f,,t
+6,13,13,13,2024-04-23 07:35:57.699948,2024-04-23 07:35:57.699948,200,,t,t,f,,t

@@ -1,0 +1,46 @@
+id,report_id,hierarchy_level,parent_id,sequence,action_id,create_uid,write_uid,groupby,user_groupby,code,name,foldable,print_on_new_page,hide_if_zero,create_date,write_date
+1,4,1,,30,,1,1,,,,"{""en_US"": ""Section 206C(1): Alcoholic Liquor for human consumption""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+2,4,1,,40,,1,1,,,,"{""en_US"": ""Section 206C(1): Tendu leaves""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+3,4,1,,50,,1,1,,,,"{""en_US"": ""Section 206C(1): Timber obtained under a forest lease""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+4,4,1,,60,,1,1,,,,"{""en_US"": ""Section 206C(1): Timber obtained by any mode other than under a forest lease""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+5,4,1,,70,,1,1,,,,"{""en_US"": ""Section 206C(1): Any other forest produce not being timber or tendu leaves""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+6,4,1,,80,,1,1,,,,"{""en_US"": ""Section 206C(1): Scrap""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+7,4,1,,90,,1,1,,,,"{""en_US"": ""Section 206C(1): Minrals, being coal or lignite or iron ore""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+8,4,1,,100,,1,1,,,,"{""en_US"": ""Section 206C(1C): Parking lot""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+9,4,1,,110,,1,1,,,,"{""en_US"": ""Section 206C(1C): Toll plaza""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+10,4,1,,120,,1,1,,,,"{""en_US"": ""Section 206C(1C): Mining and quarrying""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+11,4,1,,130,,1,1,,,,"{""en_US"": ""Section 206C(1F): Motor Vehicle""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+12,4,1,,140,,1,1,,,,"{""en_US"": ""Section 206C(1G): Sum of money (above 7 lakhs) for remittance out of India""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+13,4,1,,150,,1,1,,,,"{""en_US"": ""Section 206C(1G): Seller of an overseas tour program package""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+14,4,1,,160,,1,1,,,,"{""en_US"": ""Section 206C(1H): Sale of Goods""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+15,5,1,,30,,1,1,,,,"{""en_US"": ""Section 192: Payment of salary""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+16,5,1,,40,,1,1,,,,"{""en_US"": ""Section 192A: Payment of accumulated balance of provident fund which is taxable in the hands of an employee""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+17,5,1,,50,,1,1,,,,"{""en_US"": ""Section 193: Interest on securities""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+18,5,1,,60,,1,1,,,,"{""en_US"": ""Section 194: Income by way of dividend""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+19,5,1,,70,,1,1,,,,"{""en_US"": ""Section 194A: Income by way of interest other than \""Interest on securities\""""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+20,5,1,,80,,1,1,,,,"{""en_US"": ""Section 194B: Income by way of winnings from lotteries, crossword puzzles, card games and other games of any sort""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+21,5,1,,90,,1,1,,,,"{""en_US"": ""Section 194BB: Income by way of winnings from horse races""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+22,5,1,,100,,1,1,,,,"{""en_US"": ""Section 194C: Payment to contractor/sub-contractor""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+23,5,1,,110,,1,1,,,,"{""en_US"": ""Section 194D: Insurance commission""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+24,5,1,,120,,1,1,,,,"{""en_US"": ""Section 194DA: Payment in respect of life insurance policy""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+25,5,1,,130,,1,1,,,,"{""en_US"": ""Section 194E: Payment to non-resident sportsmen/sports association""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+26,5,1,,140,,1,1,,,,"{""en_US"": ""Section 194EE: Payment in respect of deposit under National Savings scheme""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+27,5,1,,150,,1,1,,,,"{""en_US"": ""Section 194F: Payment on account of repurchase of unit by Mutual Fund or Unit Trust of India""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+28,5,1,,160,,1,1,,,,"{""en_US"": ""Section 194G: Commission, etc., on sale of lottery tickets""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+29,5,1,,170,,1,1,,,,"{""en_US"": ""Section 194H: Commission or brokerage""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+30,5,1,,180,,1,1,,,,"{""en_US"": ""Section 194-I: Rent""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+31,5,1,,190,,1,1,,,,"{""en_US"": ""Section 194-IA: Payment on transfer of certain immovable property other than agricultural land""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+32,5,1,,200,,1,1,,,,"{""en_US"": ""Section 194-IB: Payment of rent by individual or HUF not liable to tax audit""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+33,5,1,,210,,1,1,,,,"{""en_US"": ""Section 194-IC: Payment of monetary consideration under Joint Development Agreements""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+34,5,1,,220,,1,1,,,,"{""en_US"": ""Section 194J: Fees for professional or technical services""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+35,5,1,,230,,1,1,,,,"{""en_US"": ""Section 194K: Income in respect of units payable to resident person""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+36,5,1,,240,,1,1,,,,"{""en_US"": ""Section 194LA: Payment of compensation on acquisition of certain immovable property""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+37,5,1,,250,,1,1,,,,"{""en_US"": ""Section 194LBA(1): Business trust shall deduct tax while distributing, any interest received or receivable by it from a SPV or any income received from renting or leasing or letting out any real estate asset owned directly by it, to its unit holders.""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+38,5,1,,260,,1,1,,,,"{""en_US"": ""Section 194LB: Payment of interest on infrastructure debt fund""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+39,5,1,,270,,1,1,,,,"{""en_US"": ""Section 194LBB: Investment fund paying an income to a unit holder [other than income which is exempt under Section 10(23FBB)]""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+40,5,1,,280,,1,1,,,,"{""en_US"": ""Section 194LBC: Income in respect of investment made in a securitisation trust (specified in Explanation of section115TCA)""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+41,5,1,,290,,1,1,,,,"{""en_US"": ""Section 194M: Payment of commission (not being insurance commission), brokerage, contractual fee, professional fee to a resident person by an Individual or a HUF who are not liable to deduct TDS under section 194C, 194H, or 194J.""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+42,5,1,,300,,1,1,,,,"{""en_US"": ""Section 194N: Cash withdrawal during the previous year from one or more account maintained by a person with a banking company, co-operative society engaged in business of banking or a post office""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+43,5,1,,310,,1,1,,,,"{""en_US"": ""Section 194-O: Payment or credit of amount by the e-commerce operator to e-commerce participant""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+44,5,1,,320,,1,1,,,,"{""en_US"": ""Section 194Q: Purchase of goods""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+45,5,1,,330,,1,1,,,,"{""en_US"": ""Section 195: Payment of any other sum to a Non -resident""}",,,,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537

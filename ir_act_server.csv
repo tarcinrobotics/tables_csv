@@ -1,0 +1,258 @@
+id,binding_model_id,create_uid,write_uid,type,binding_type,binding_view_types,name,help,create_date,write_date,sequence,model_id,crud_model_id,link_field_id,update_field_id,update_related_model_id,selection_value,usage,state,model_name,update_path,update_m2m_operation,update_boolean_value,evaluation_type,resource_ref,webhook_url,code,value,template_id,activity_type_id,activity_date_deadline_range,activity_user_id,mail_post_method,activity_summary,activity_date_deadline_range_type,activity_user_type,activity_user_field_name,activity_note,mail_post_autofollow,sms_template_id,sms_method,website_path,website_published,base_automation_id
+11,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Config: Run Remaining Action Todo""}",,2024-04-18 07:38:41.908233,2024-04-18 07:40:46.744909,5,89,,,,,,ir_actions_server,code,res.config,,add,true,value,,,"
+config = model.next() or {}
+if config.get('type') not in ('ir.actions.act_window_close',):
+    action = config
+",,,,0,,,,,,,,f,,,,,
+34,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Base: Auto-vacuum internal data""}",,2024-04-18 07:38:41.908233,2024-04-18 07:40:46.744909,5,38,,,,,,ir_cron,code,ir.autovacuum,,add,true,value,,,model._run_vacuum_cleaner(),,,,0,,,,,,,,f,,,,,
+35,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Base: Portal Users Deletion""}",,2024-04-18 07:38:41.908233,2024-04-18 07:40:46.744909,5,106,,,,,,ir_cron,code,res.users.deletion,,add,true,value,,,model._gc_portal_users(),,,,0,,,,,,,,f,,,,,
+50,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Failed to install demo data for some modules, demo disabled""}",,2024-04-18 07:38:41.908233,2024-04-18 07:40:46.744909,5,71,,,,,,ir_actions_server,code,ir.demo_failure.wizard,,add,true,value,,,"
+failures = env['ir.demo_failure'].search([
+    ('wizard_id', '=', False),
+])
+record = model.create({
+    'failure_ids': [Command.set(failures.ids)],
+})
+action = {
+    'type': 'ir.actions.act_window',
+    'res_id': record.id,
+    'res_model': 'ir.demo_failure.wizard',
+    'target': 'new',
+    'views': [(env.ref('base.demo_failures_dialog').id, 'form')],
+}
+        ",,,,0,,,,,,,,f,,,,,
+82,97,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Disable two-factor authentication""}",,2024-04-18 07:38:53.25362,2024-04-18 07:40:46.744909,5,97,,,,,,ir_actions_server,code,res.users,,add,true,value,,,"
+            action = records.action_totp_disable()
+        ",,,,0,,,,,,,,f,,,,,
+126,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Publisher: Update Notification""}",,2024-04-18 07:40:31.747973,2024-04-18 07:40:46.744909,5,198,,,,,,ir_cron,code,publisher_warranty.contract,,add,true,value,,,model.update_notification(None),,,,,,,,days,,,,f,,,,,
+315,487,1,1,ir.actions.server,action,"form,list","{""en_US"": ""Delete""}",,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125,5,487,,,,,,ir_actions_server,code,project.project.stage,,add,true,value,,,action = records.unlink_wizard(stage_view=True),,,,,,,,days,,,,f,,,,,
+320,494,1,1,ir.actions.server,action,"form,list","{""en_US"": ""Delete""}",,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125,5,494,,,,,,ir_actions_server,code,project.task.type,,add,true,value,,,action = records.unlink_wizard(stage_view=True),,,,,,,,days,,,,f,,,,,
+334,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""menu view My Tasks""}",,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125,5,490,,,,,,ir_actions_server,code,project.task,,add,true,value,,,"
+                model._ensure_personal_stages(); action = env[""ir.actions.actions""]._for_xml_id(""project.action_view_my_task"")
+            ",,,,,,,,days,,,,f,,,,,
+81,85,1,1,ir.actions.server,action,"form,list","{""en_US"": ""Download (vCard)""}",,2024-04-18 07:38:51.528016,2024-04-18 07:40:46.744909,5,85,,,,,,ir_actions_server,code,res.partner,,add,true,value,,,"
+            action = {
+                'type': 'ir.actions.act_url',
+                'url': '/web/partner/vcard?partner_ids=' + ','.join(map(str, records.ids)),
+                'target': 'download',
+            }
+        ",,,,0,,,,,,,,f,,,,,
+125,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Mail: Email Queue Manager""}",,2024-04-18 07:40:31.747973,2024-04-18 07:40:46.744909,5,177,,,,,,ir_cron,code,mail.mail,,add,true,value,,,model.process_email_queue(),,,,,,,,days,,,,f,,,,,
+128,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Mail: Fetchmail Service""}",,2024-04-18 07:40:31.747973,2024-04-18 07:40:46.744909,5,162,,,,,,ir_cron,code,fetchmail.server,,add,true,value,,,model._fetch_mails(),,,,,,,,days,,,,f,,,,,
+288,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Mail Marketing: Process queue""}",,2024-04-18 07:41:18.402745,2024-04-18 07:41:18.402745,5,476,,,,,,ir_cron,code,mailing.mailing,,add,true,value,,,model._process_mass_mailing_queue(),,,,,,,,days,,,,f,,,,,
+289,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Mail Marketing: A/B Testing""}",,2024-04-18 07:41:18.402745,2024-04-18 07:41:18.402745,5,141,,,,,,ir_cron,code,utm.campaign,,add,true,value,,,model._cron_process_mass_mailing_ab_testing(),,,,,,,,days,,,,f,,,,,
+127,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Notification: Delete Notifications older than 6 Month""}",,2024-04-18 07:40:31.747973,2024-04-18 07:40:46.744909,5,163,,,,,,ir_cron,code,mail.notification,,add,true,value,,,model._gc_notifications(max_age_days=180),,,,,,,,days,,,,f,,,,,
+129,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Notification: Send scheduled message notifications""}",,2024-04-18 07:40:31.747973,2024-04-18 07:40:46.744909,5,173,,,,,,ir_cron,code,mail.message.schedule,,add,true,value,,,model._send_notifications_cron(),,,,,,,,days,,,,f,,,,,
+130,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Mail: send web push notification""}",,2024-04-18 07:40:31.747973,2024-04-18 07:40:46.744909,5,199,,,,,,ir_cron,code,mail.notification.web.push,,add,true,value,,,model._push_notification_to_endpoint(),,,,,,,,days,,,,f,,,,,
+131,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Discuss: channel member unmute""}",,2024-04-18 07:40:31.747973,2024-04-18 07:40:46.744909,5,201,,,,,,ir_cron,code,discuss.channel.member,,add,true,value,,,model._unmute(),,,,,,,,days,,,,f,,,,,
+141,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Users: Notify About Unregistered Users""}",,2024-04-18 07:40:37.862168,2024-04-18 07:40:46.744909,5,97,,,,,,ir_cron,code,res.users,,add,true,value,,,model.send_unregistered_user_reminder(),,,,,,,,days,,,,f,,,,,
+142,97,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Send Password Reset Instructions""}",,2024-04-18 07:40:37.862168,2024-04-18 07:40:46.744909,5,97,,,,,,ir_actions_server,code,res.users,,add,true,value,,,records.action_reset_password(),,,,,,,,days,,,,f,,,,,
+143,97,1,1,ir.actions.server,action,list,"{""en_US"": ""Invite to use two-factor authentication""}",,2024-04-18 07:40:38.423645,2024-04-18 07:40:46.744909,5,97,,,,,,ir_actions_server,code,res.users,,add,true,value,,,"
+            action = records.action_totp_invite()
+        ",,,,,,,,days,,,,f,,,,,
+144,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Open two-factor authentication configuration""}",,2024-04-18 07:40:38.423645,2024-04-18 07:40:46.744909,5,97,,,,,,ir_actions_server,code,res.users,,add,true,value,,,"
+user = env.user
+action = user.action_open_my_account_settings()
+        ",,,,,,,,days,,,,f,,,,,
+149,85,1,1,ir.actions.server,action,form,"{""en_US"": ""Privacy Lookup""}",,2024-04-18 07:40:41.336734,2024-04-18 07:40:46.744909,5,85,,,,,,ir_actions_server,code,res.partner,,add,true,value,,,"
+action = record.action_privacy_lookup()
+        ",,,,,,,,days,,,,f,,,,,
+150,97,1,1,ir.actions.server,action,form,"{""en_US"": ""Privacy Lookup""}",,2024-04-18 07:40:41.336734,2024-04-18 07:40:46.744909,5,97,,,,,,ir_actions_server,code,res.users,,add,true,value,,,"
+action = record.partner_id.action_privacy_lookup()
+        ",,,,,,,,days,,,,f,,,,,
+153,353,1,1,ir.actions.server,action,list,"{""en_US"": ""Archive Selection""}",,2024-04-18 07:40:41.336734,2024-04-18 07:40:46.744909,5,353,,,,,,ir_actions_server,code,privacy.lookup.wizard.line,,add,true,value,,,"
+records.action_archive_all()
+        ",,,,,,,,days,,,,f,,,,,
+154,353,1,1,ir.actions.server,action,list,"{""en_US"": ""Delete Selection""}",,2024-04-18 07:40:41.336734,2024-04-18 07:40:46.744909,5,353,,,,,,ir_actions_server,code,privacy.lookup.wizard.line,,add,true,value,,,"
+records.action_unlink_all()
+        ",,,,,,,,days,,,,f,,,,,
+167,356,1,1,ir.actions.server,action,form,"{""en_US"": ""Create User""}",,2024-04-18 07:40:41.811291,2024-04-18 07:40:46.744909,5,356,,,,,,ir_actions_server,code,hr.employee,,add,true,value,,,"
+                action = records.action_create_user()
+            ",,,,,,,,days,,,,f,,,,,
+174,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""HR Employee: check work permit validity""}",,2024-04-18 07:40:41.811291,2024-04-18 07:40:46.744909,5,356,,,,,,ir_cron,code,hr.employee,,add,true,value,,,model._cron_check_work_permit_validity(),,,,,,,,days,,,,f,,,,,
+175,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Partner Autocomplete: Sync with remote DB""}",,2024-04-18 07:40:45.347796,2024-04-18 07:40:46.744909,5,365,,,,,,ir_cron,code,res.partner.autocomplete.sync,,add,true,value,,,model.start_sync(),,,,,,,,days,,,,f,,,,,
+177,85,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Grant portal access""}",,2024-04-18 07:40:45.771386,2024-04-18 07:40:46.744909,5,368,,,,,,ir_actions_server,code,portal.wizard,,add,true,value,,,action = model.action_open_wizard(),,,,,,,,days,,,,f,,,,,
+179,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""SMS: SMS Queue Manager""}",,2024-04-18 07:40:46.744909,2024-04-18 07:40:46.744909,5,373,,,,,,ir_cron,code,sms.sms,,add,true,value,,,model._process_queue(),,,,,,,,days,,,,f,,,,,
+187,373,1,1,ir.actions.server,action,list,"{""en_US"": ""Resend""}",,2024-04-18 07:40:46.744909,2024-04-18 07:40:46.744909,5,373,,,,,,ir_actions_server,code,sms.sms,,add,true,value,,,action = records.resend_failed(),,,,,,,,days,,,,f,,,,,
+189,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Snailmail: process letters queue""}",,2024-04-18 07:40:47.88965,2024-04-18 07:40:47.88965,5,381,,,,,,ir_cron,code,snailmail.letter,,add,true,value,,,model._snailmail_cron(),,,,,,,,days,,,,f,,,,,
+193,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Digest Emails""}",,2024-04-18 07:40:48.807216,2024-04-18 07:40:48.807216,5,384,,,,,,ir_cron,code,digest.digest,,add,true,value,,,model._cron_send_digest_email(),,,,,,,,days,,,,f,,,,,
+201,359,1,1,ir.actions.server,action,form,"{""en_US"": ""Skill History Report""}",,2024-04-18 07:40:49.793622,2024-04-18 07:40:49.793622,5,359,,,,,,ir_actions_server,code,hr.department,,add,true,value,,,"
+action = env['ir.actions.act_window']._for_xml_id('hr_skills.action_hr_employee_skill_log_department')
+action['domain'] = [('department_id', '=', record.id)]
+        ",,,,,,,,days,,,,f,,,,,
+202,356,1,1,ir.actions.server,report,"list,form","{""en_US"": ""Print Resume""}",,2024-04-18 07:40:49.793622,2024-04-18 07:40:49.793622,5,356,,,,,,ir_actions_server,code,hr.employee,,add,true,value,,,"
+action = env['ir.actions.act_window']._for_xml_id('hr_skills.action_hr_employee_cv_wizard')
+        ",,,,,,,,days,,,,f,,,,,
+208,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Disable unused snippets assets""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475,5,408,,,,,,ir_cron,code,website,,add,true,value,,,model._disable_unused_snippets_assets(),,,,,,,,days,,,,f,,,,,
+210,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Website Visitor : clean inactive visitors""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475,5,423,,,,,,ir_cron,code,website.visitor,,add,true,value,,,model._cron_unlink_old_visitors(),,,,,,,,days,,,,f,,,,,
+217,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Website: Dashboard""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475,5,408,,,,,,ir_actions_server,code,website,,add,true,value,,,action = model.action_dashboard_redirect(),,,,,,,,days,,,,f,,,,,
+218,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Website: Analytics""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475,5,408,,,,,,ir_actions_server,code,website,,add,true,value,,,action = model.env.ref('website.backend_dashboard').sudo().read()[0],,,,,,,,days,,,,f,,,,,
+250,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Publisher: Update Notification Tarcin""}",,2024-04-18 07:41:05.464971,2024-04-18 07:41:05.464971,5,198,,,,,,ir_cron,code,publisher_warranty.contract,,add,true,value,,,model.update_notification_tarcin(None),,,,,,,,days,,,,f,,,,,
+271,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Gamification: Goal Challenge Check""}",,2024-04-18 07:41:11.133546,2024-04-18 07:41:11.133546,5,451,,,,,,ir_cron,code,gamification.challenge,,add,true,value,,,model._cron_update(),,,,,,,,days,,,,f,,,,,
+272,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Gamification: Karma tracking consolidation""}",,2024-04-18 07:41:11.133546,2024-04-18 07:41:11.133546,5,456,,,,,,ir_cron,code,gamification.karma.tracking,,add,true,value,,,model._consolidate_cron(),,,,,,,,days,,,,f,,,,,
+335,490,1,1,ir.actions.server,action,form,"{""en_US"": ""Convert to Task/Sub-Task""}",,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125,5,490,,,,,,ir_actions_server,code,project.task,,add,true,value,,,"
+                action = record.action_convert_to_subtask()
+            ",,,,,,,,days,,,,f,,,,,
+349,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Project: Send rating""}",,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125,5,493,,,,,,ir_cron,code,project.project,,add,true,value,,,model._send_rating_all(),,,,,,,,days,,,,f,,,,,
+353,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""menu load To-dos""}",,2024-04-18 07:41:27.909977,2024-04-18 07:41:27.909977,5,490,,,,,,ir_actions_server,code,project.task,,add,true,value,,,"
+            model._ensure_onboarding_todo(); action = env[""ir.actions.actions""]._for_xml_id(""project_todo.project_task_action_todo"")
+        ",,,,,,,,days,,,,f,,,,,
+367,515,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Generate Pricelist Report""}",,2024-04-18 07:46:34.742613,2024-04-18 07:46:34.742613,5,515,,,,,,ir_actions_server,code,product.product,,add,true,value,,,"
+ctx = env.context
+ctx.update({'default_pricelist': env['product.pricelist'].search([], limit=1).id})
+action = {
+    'name': 'Pricelist Report',
+    'type': 'ir.actions.client',
+    'tag': 'generate_pricelist_report',
+    'context': ctx,
+}
+        ",,,,,,,,days,,,,f,,,,,
+375,514,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Generate Pricelist Report""}",,2024-04-18 07:46:34.742613,2024-04-18 07:46:34.742613,5,514,,,,,,ir_actions_server,code,product.template,,add,true,value,,,"
+ctx = env.context
+ctx.update({'default_pricelist': env['product.pricelist'].search([], limit=1).id})
+action = {
+    'name': 'Pricelist Report',
+    'type': 'ir.actions.client',
+    'tag': 'generate_pricelist_report',
+    'context': ctx,
+}
+        ",,,,,,,,days,,,,f,,,,,
+407,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Event: Mail Scheduler""}",,2024-04-18 07:46:39.43159,2024-04-18 07:46:39.43159,5,543,,,,,,ir_cron,code,event.mail,,add,true,value,,,model.schedule_communications(autocommit=True),,,,,,,,days,,,,f,,,,,
+410,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""payment: post-process transactions""}",,2024-04-18 07:46:42.355457,2024-04-18 07:46:42.355457,5,554,,,,,,ir_cron,code,payment.transaction,,add,true,value,,,model._cron_finalize_post_processing(),,,,,,,,days,,,,f,,,,,
+417,577,1,1,ir.actions.server,action,form,"{""en_US"": ""Share""}",,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,5,577,,,,,,ir_actions_server,code,account.move,,add,true,value,,,action = records.action_share(),,,,,,,,days,,,,f,,,,,
+428,577,1,1,ir.actions.server,action,list,"{""en_US"": ""Register Payment""}",,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,5,577,,,,,,ir_actions_server,code,account.move,,add,true,value,,,"
+                if records:
+                    action = records.action_register_payment()
+            ",,,,,,,,days,,,,f,,,,,
+458,577,1,1,ir.actions.server,action,form,"{""en_US"": ""Switch into invoice/credit note""}",,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,5,577,,,,,,ir_actions_server,code,account.move,,add,true,value,,,"
+if records:
+    action = records.action_switch_move_type()
+            ",,,,,,,,days,,,,f,,,,,
+485,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Account: Post draft entries with auto_post enabled and accounting date up to today""}",,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,5,577,,,,,,ir_cron,code,account.move,,add,true,value,,,model._autopost_draft_entries(),,,,,,,,days,,,,f,,,,,
+486,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Send invoices automatically""}",,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,5,577,,,,,,ir_cron,code,account.move,,add,true,value,,,model._cron_account_move_send(job_count=20),,,,,,,,days,,,,f,,,,,
+488,577,1,1,ir.actions.server,action,list,"{""en_US"": ""Send & Print""}",,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,5,577,,,,,,ir_actions_server,code,account.move,,add,true,value,,,"
+            if records:
+                action = records.action_send_and_print()
+        ",,,,,,,,days,,,,f,,,,,
+429,581,1,1,ir.actions.server,action,list,"{""en_US"": ""Post Payments""}",,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,5,581,,,,,,ir_actions_server,code,account.payment,,add,true,value,,,"
+                records.action_post()
+            ",,,,,,,,days,,,,f,,,,,
+437,578,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Move to Account""}",,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,5,578,,,,,,ir_actions_server,code,account.move.line,,add,true,value,,,action = records.action_automatic_entry('change_account'),,,,,,,,days,,,,f,,,,,
+438,578,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Change Period""}",,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,5,578,,,,,,ir_actions_server,code,account.move.line,,add,true,value,,,action = records.action_automatic_entry('change_period'),,,,,,,,days,,,,f,,,,,
+459,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Data Inalterability Check""}",,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,5,94,,,,,,ir_actions_server,code,res.company,,add,true,value,,,"
+                action = env.company._action_check_hash_integrity()
+            ",,,,,,,,days,,,,f,,,,,
+470,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Add a Bank Account""}",,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,5,94,,,,,,ir_actions_server,code,res.company,,add,true,value,,,"
+action = model.setting_init_bank_account_action()
+            ",,,,,,,,days,,,,f,,,,,
+461,564,1,1,ir.actions.server,action,list,"{""en_US"": ""Duplicate""}",,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,5,564,,,,,,ir_actions_server,code,account.account,,add,true,value,,,"
+                action = model.action_duplicate_accounts()
+            ",,,,,,,,days,,,,f,,,,,
+500,423,1,1,ir.actions.server,action,list,"{""en_US"": ""Send Chat Requests""}",,2024-04-18 07:47:10.923,2024-04-18 07:47:10.923,5,423,,,,,,ir_actions_server,code,website.visitor,,add,true,value,,,"
+            if records:
+                action = records.action_send_chat_request()
+        ",,,,,,,,days,,,,f,,,,,
+512,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""automatic invoicing: send ready invoice""}",,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609,5,554,,,,,,ir_cron,code,payment.transaction,,add,true,value,,,model._cron_send_invoice(),,,,,,,,days,,,,f,,,,,
+523,633,1,1,ir.actions.server,action,"form,list","{""en_US"": ""Mark Quotation as Sent""}",,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609,5,633,,,,,,ir_actions_server,code,sale.order,,add,true,value,,,action = records.action_quotation_sent(),,,,,,,,days,,,,f,,,,,
+524,633,1,1,ir.actions.server,action,form,"{""en_US"": ""Share""}",,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609,5,633,,,,,,ir_actions_server,code,sale.order,,add,true,value,,,action = records.action_share(),,,,,,,,days,,,,f,,,,,
+540,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Activate Stripe""}",,2024-04-18 07:47:19.415929,2024-04-18 07:47:19.415929,5,552,,,,,,ir_actions_server,code,payment.provider,,add,true,value,,,"
+menu = env.ref('website.menu_website_website_settings', raise_if_not_found=False)
+menu_id = menu and menu.id
+action = env.company._run_payment_onboarding_step(menu_id=menu_id)
+        ",,,,,,,,days,,,,f,,,,,
+565,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Recently Sold Products""}",,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337,5,515,,,,,,ir_actions_server,code,product.product,,add,true,value,,,"
+DynamicFilter = model.env['website.snippet.filter']
+response = DynamicFilter._get_products('latest_sold', model.env.context)
+            ",,,,,,,,days,,,,f,,,,,
+566,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Recently Viewed Products""}",,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337,5,515,,,,,,ir_actions_server,code,product.product,,add,true,value,,,"
+DynamicFilter = model.env['website.snippet.filter']
+res_products = DynamicFilter._get_products('latest_viewed', model.env.context)
+for data in res_products:
+    data['_latest_viewed'] = True
+response = res_products
+            ",,,,,,,,days,,,,f,,,,,
+567,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Product Accessories""}",,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337,5,515,,,,,,ir_actions_server,code,product.product,,add,true,value,,,"
+DynamicFilter = model.env['website.snippet.filter']
+model.env.context['product_template_id'] = request.params.get('productTemplateId')
+response = DynamicFilter._get_products('accessories', model.env.context)
+            ",,,,,,,,days,,,,f,,,,,
+568,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Products Recently Sold With""}",,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337,5,515,,,,,,ir_actions_server,code,product.product,,add,true,value,,,"
+DynamicFilter = model.env['website.snippet.filter']
+model.env.context['product_template_id'] = request.params.get('productTemplateId')
+response = DynamicFilter._get_products('recently_sold_with', model.env.context)
+            ",,,,,,,,days,,,,f,,,,,
+569,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Alternative Products""}",,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337,5,515,,,,,,ir_actions_server,code,product.product,,add,true,value,,,"
+DynamicFilter = model.env['website.snippet.filter']
+model.env.context['product_template_id'] = request.params.get('productTemplateId')
+response = DynamicFilter._get_products('alternative_products', model.env.context)
+            ",,,,,,,,days,,,,f,,,,,
+570,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""eCommerce: send email to customers about their abandoned cart""}",,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337,5,408,,,,,,ir_cron,code,website,,add,true,value,,,model._send_abandoned_cart_email(),,,,,,,,days,,,,f,,,,,
+578,633,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Send a Cart Recovery Email""}",,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337,5,633,,,,,,ir_actions_server,code,sale.order,,add,true,value,,,"
+            if records:
+                action = records.action_recovery_email_send()
+        ",,,,,,,,days,,,,f,,,,,
+588,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Automation Rules: check and execute""}",,2024-04-18 07:56:49.854103,2024-04-18 07:56:49.854103,5,679,,,,,,ir_cron,code,base.automation,,add,true,value,,,model._check(True),,,,,,,,days,,,,f,,,,,
+594,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Server Actions Assignment Submission""}",,2024-04-18 07:56:51.447522,2024-04-18 07:56:51.447522,5,682,,,,,,ir_actions_server,mail_post,op.assignment.sub.line,,add,true,value,,,"# Available variables:
+#  - env: environment on which the action is triggered
+#  - model: model of the record on which the action is triggered; is a void recordset
+#  - record: record on which the action is triggered; may be void
+#  - records: recordset of all records on which the action is triggered in multi-mode; may be void
+#  - time, datetime, dateutil, timezone: useful Python libraries
+#  - float_compare: utility function to compare floats based on specific precision
+#  - log: log(message, level='info'): logging function to record debug information in ir.logging table
+#  - _logger: _logger.info(message): logger to emit messages in server logs
+#  - UserError: exception class for raising user-facing warning messages
+#  - Command: x2many commands namespace
+# To return an action, assign: action = {...}
+
+
+
+",,35,,,,comment,,days,,,,t,,,,,
+595,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Server Actions Assignment Submission After 1 Days""}",,2024-04-18 07:56:51.447522,2024-04-18 07:56:51.447522,5,682,,,,,,ir_actions_server,mail_post,op.assignment.sub.line,,add,true,value,,,"# Available variables:
+#  - env: environment on which the action is triggered
+#  - model: model of the record on which the action is triggered; is a void recordset
+#  - record: record on which the action is triggered; may be void
+#  - records: recordset of all records on which the action is triggered in multi-mode; may be void
+#  - time, datetime, dateutil, timezone: useful Python libraries
+#  - float_compare: utility function to compare floats based on specific precision
+#  - log: log(message, level='info'): logging function to record debug information in ir.logging table
+#  - _logger: _logger.info(message): logger to emit messages in server logs
+#  - UserError: exception class for raising user-facing warning messages
+#  - Command: x2many commands namespace
+# To return an action, assign: action = {...}
+
+
+
+",,36,,,,comment,,days,,,,t,,,,,
+636,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Server Actions Media Movement""}",,2024-04-18 10:42:39.074562,2024-04-18 10:42:39.074562,5,734,,,,,,ir_actions_server,mail_post,op.media.movement,,add,true,value,,,"# Available variables:
+#  - env: environment on which the action is triggered
+#  - model: model of the record on which the action is triggered; is a void recordset
+#  - record: record on which the action is triggered; may be void
+#  - records: recordset of all records on which the action is triggered in multi-mode; may be void
+#  - time, datetime, dateutil, timezone: useful Python libraries
+#  - float_compare: utility function to compare floats based on specific precision
+#  - log: log(message, level='info'): logging function to record debug information in ir.logging table
+#  - _logger: _logger.info(message): logger to emit messages in server logs
+#  - UserError: exception class for raising user-facing warning messages
+#  - Command: x2many commands namespace
+# To return an action, assign: action = {...}
+
+
+
+",,38,,,,comment,,days,,,,t,,,,,
+637,,1,1,ir.actions.server,action,"list,form","{""en_US"": ""Server Actions Media Movement After 1 Days""}",,2024-04-18 10:42:39.074562,2024-04-18 10:42:39.074562,5,734,,,,,,ir_actions_server,mail_post,op.media.movement,,add,true,value,,,"# Available variables:
+#  - env: environment on which the action is triggered
+#  - model: model of the record on which the action is triggered; is a void recordset
+#  - record: record on which the action is triggered; may be void
+#  - records: recordset of all records on which the action is triggered in multi-mode; may be void
+#  - time, datetime, dateutil, timezone: useful Python libraries
+#  - float_compare: utility function to compare floats based on specific precision
+#  - log: log(message, level='info'): logging function to record debug information in ir.logging table
+#  - _logger: _logger.info(message): logger to emit messages in server logs
+#  - UserError: exception class for raising user-facing warning messages
+#  - Command: x2many commands namespace
+# To return an action, assign: action = {...}
+
+
+
+",,39,,,,comment,,days,,,,t,,,,,

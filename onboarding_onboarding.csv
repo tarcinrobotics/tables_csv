@@ -1,0 +1,4 @@
+id,sequence,create_uid,write_uid,route_name,text_completed,panel_close_action_name,name,create_date,write_date
+1,10,1,1,account_invoice,Nice work! Your configuration is done.,action_close_panel_account_invoice,"{""en_US"": ""Invoicing Onboarding""}",2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+2,10,1,1,account_dashboard,Nice work! Your configuration is done.,action_close_panel_account_dashboard,"{""en_US"": ""Account Dashboard Onboarding""}",2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+3,10,1,1,sale_quotation,Nice work! Your configuration is done.,action_close_panel_sale_quotation,"{""en_US"": ""Sale Quotation Onboarding""}",2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609

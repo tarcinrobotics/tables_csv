@@ -1,0 +1,10 @@
+id,company_id,sequence,currency_id,discount_days,create_uid,write_uid,early_pay_discount_computation,name,note,active,display_on_invoice,early_discount,create_date,write_date,discount_percentage
+1,,10,20,10,1,1,included,"{""en_US"": ""Immediate Payment""}","{""en_US"": ""<p>Payment terms: Immediate Payment</p>""}",t,t,,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,2
+2,,10,20,10,1,1,included,"{""en_US"": ""15 Days""}","{""en_US"": ""<p>Payment terms: 15 Days</p>""}",t,t,,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,2
+3,,10,20,10,1,1,included,"{""en_US"": ""21 Days""}","{""en_US"": ""<p>Payment terms: 21 Days</p>""}",t,t,,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,2
+4,,10,20,10,1,1,included,"{""en_US"": ""30 Days""}","{""en_US"": ""<p>Payment terms: 30 Days</p>""}",t,t,,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,2
+5,,10,20,10,1,1,included,"{""en_US"": ""45 Days""}","{""en_US"": ""<p>Payment terms: 45 Days</p>""}",t,t,,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,2
+6,,10,20,10,1,1,included,"{""en_US"": ""End of Following Month""}","{""en_US"": ""<p>Payment terms: End of Following Month</p>""}",t,t,,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,2
+7,,10,20,10,1,1,included,"{""en_US"": ""10 Days after End of Next Month""}","{""en_US"": ""<p>Payment terms: 10 Days after End of Next Month</p>""}",t,t,,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,2
+8,,10,20,10,1,1,included,"{""en_US"": ""30% Now, Balance 60 Days""}","{""en_US"": ""<p>Payment terms: 30% Now, Balance 60 Days</p>""}",t,t,,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,2
+9,,10,20,7,1,1,included,"{""en_US"": ""2/7 Net 30""}","{""en_US"": ""<p>Payment terms: 30 Days, 2% Early Payment Discount under 7 days</p>""}",t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,2

@@ -1,0 +1,2 @@
+id,create_uid,write_uid,channel,message,create_date,write_date
+184,2,2,"[""tarcin-development"",""res.partner"",17]","{""type"":""mail.message/delete"",""payload"":{""message_ids"":[80]}}",2024-04-24 10:45:09.095476,2024-04-24 10:45:09.095476

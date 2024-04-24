@@ -1,0 +1,2 @@
+id,parent_id,department_id,create_uid,write_uid,name,code,evaluation_type,active,create_date,write_date,max_unit_load,min_unit_load,fees_term_id
+6,,,2,2,BOA,001,normal,t,2024-04-24 08:39:50.43124,2024-04-24 08:39:50.43124,0,0,7

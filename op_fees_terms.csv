@@ -1,0 +1,2 @@
+id,company_id,no_days,create_uid,write_uid,name,fees_terms,day_type,note,discount,active,create_date,write_date
+7,1,,2,2,term,fixed_days,,,0.00,t,2024-04-24 08:39:46.801515,2024-04-24 08:39:46.801515

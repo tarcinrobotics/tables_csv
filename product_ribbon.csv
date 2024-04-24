@@ -1,0 +1,5 @@
+id,create_uid,write_uid,bg_color,text_color,html_class,html,create_date,write_date
+1,1,1,"rgb(40, 167, 69) !important",white,o_ribbon_left,"{""en_US"": ""Sale""}",2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337
+2,1,1,"rgb(220, 53, 69) !important",white,o_ribbon_left,"{""en_US"": ""Sold out""}",2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337
+3,1,1,"rgb(255, 193, 7) !important",black,o_ribbon_left,"{""en_US"": ""Out of stock""}",2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337
+4,1,1,"rgb(0, 123, 255) !important",white,o_ribbon_left,"{""en_US"": ""New!""}",2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337

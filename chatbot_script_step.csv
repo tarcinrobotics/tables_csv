@@ -1,0 +1,10 @@
+id,sequence,chatbot_script_id,create_uid,write_uid,step_type,message,create_date,write_date
+1,1,1,1,1,text,"{""en_US"": ""Welcome to CompanyName! 👋""}",2024-04-18 07:47:00.687459,2024-04-18 07:47:00.687459
+2,2,1,1,1,question_selection,"{""en_US"": ""What are you looking for?""}",2024-04-18 07:47:00.687459,2024-04-18 07:47:00.687459
+3,3,1,1,1,text,"{""en_US"": ""Hmmm, let me check if I can find someone that could help you with that...""}",2024-04-18 07:47:00.687459,2024-04-18 07:47:00.687459
+4,4,1,1,1,forward_operator,,2024-04-18 07:47:00.687459,2024-04-18 07:47:00.687459
+5,5,1,1,1,text,"{""en_US"": ""Hu-ho, it looks like none of our operators are available 🙁""}",2024-04-18 07:47:00.687459,2024-04-18 07:47:00.687459
+6,6,1,1,1,question_email,"{""en_US"": ""Would you mind leaving your email address so that we can reach you back?""}",2024-04-18 07:47:00.687459,2024-04-18 07:47:00.687459
+7,7,1,1,1,text,"{""en_US"": ""And tadaaaa here you go! 🌟""}",2024-04-18 07:47:00.687459,2024-04-18 07:47:00.687459
+8,8,1,1,1,text,"{""en_US"": ""If you need anything else, feel free to get back in touch""}",2024-04-18 07:47:00.687459,2024-04-18 07:47:00.687459
+9,9,1,1,1,text,"{""en_US"": ""Please do! If there is anything we can help with, let us know""}",2024-04-18 07:47:00.687459,2024-04-18 07:47:00.687459

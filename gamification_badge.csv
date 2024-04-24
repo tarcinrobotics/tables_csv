@@ -1,0 +1,10 @@
+id,rule_max_number,create_uid,write_uid,level,rule_auth,name,description,active,rule_max,create_date,write_date,survey_id,is_published
+1,,1,1,bronze,everyone,"{""en_US"": ""Good Job""}","{""en_US"": ""<p>You did great at your job.</p>""}",t,,2024-04-18 07:41:11.133546,2024-04-18 07:41:14.668723,,
+2,,1,1,bronze,everyone,"{""en_US"": ""Problem Solver""}","{""en_US"": ""<p>No one can solve challenges like you do.</p>""}",t,,2024-04-18 07:41:11.133546,2024-04-18 07:41:14.668723,,
+3,,1,1,bronze,nobody,"{""en_US"": ""Hidden""}","{""en_US"": ""<p>You have found the hidden badge</p>""}",f,,2024-04-18 07:41:11.133546,2024-04-18 07:41:14.668723,,
+4,2,1,1,bronze,everyone,"{""en_US"": ""Brilliant""}","{""en_US"": ""<p>With your brilliant ideas, you are an inspiration to others.</p>""}",t,t,2024-04-18 07:41:11.133546,2024-04-18 07:41:14.668723,,
+5,,1,1,bronze,nobody,"{""en_US"": ""Get started""}","{""en_US"": ""<p>Register to the platform</p>""}",t,,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362,,t
+6,,1,1,bronze,nobody,"{""en_US"": ""Know yourself""}","{""en_US"": ""<p>Complete your profile</p>""}",t,,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362,,t
+7,,1,1,silver,nobody,"{""en_US"": ""Power User""}","{""en_US"": ""<p>Complete a course</p>""}",t,,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362,,t
+9,,1,1,gold,nobody,"{""en_US"": ""Community hero""}","{""en_US"": ""<p>Reach 2000 XP</p>""}",t,,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362,,t
+8,,1,1,gold,nobody,"{""en_US"": ""Certified Knowledge""}","{""en_US"": ""<p>Get a certification</p>""}",t,,2024-04-18 07:47:26.604362,2024-04-18 07:47:41.587274,,t

@@ -1,0 +1,19 @@
+id,create_uid,write_uid,res_model,column_name,field_name,create_date,write_date
+1,2,2,op.academic.year,name,name,2024-04-24 09:04:56.038389,2024-04-24 09:04:56.038389
+2,2,2,op.academic.year,term structure,term_structure,2024-04-24 09:04:56.038389,2024-04-24 09:04:56.038389
+3,2,2,op.academic.year,start date,start_date,2024-04-24 09:04:56.038389,2024-04-24 09:04:56.038389
+4,2,2,op.academic.year,end date,end_date,2024-04-24 09:04:56.038389,2024-04-24 09:04:56.038389
+5,2,2,op.classroom,name,name,2024-04-24 09:25:16.998203,2024-04-24 09:25:16.998203
+6,2,2,op.classroom,code,code,2024-04-24 09:25:16.998203,2024-04-24 09:25:16.998203
+7,2,2,op.classroom,no of person,capacity,2024-04-24 09:25:16.998203,2024-04-24 09:25:16.998203
+8,2,2,op.library.card.type,name,name,2024-04-24 10:02:11.942599,2024-04-24 10:02:11.942599
+9,2,2,op.library.card.type,no of medias allowed,allow_media,2024-04-24 10:02:11.942599,2024-04-24 10:02:11.942599
+10,2,2,op.library.card.type,duration,duration,2024-04-24 10:02:11.942599,2024-04-24 10:02:11.942599
+11,2,2,op.library.card.type,penalty amount per day,penalty_amt_per_day,2024-04-24 10:02:11.942599,2024-04-24 10:02:11.942599
+12,2,2,op.media.type,name,name,2024-04-24 10:03:41.354428,2024-04-24 10:03:41.354428
+13,2,2,op.media.type,code,code,2024-04-24 10:03:41.354428,2024-04-24 10:03:41.354428
+14,2,2,op.exam.type,name,name,2024-04-24 10:26:37.161863,2024-04-24 10:26:37.161863
+15,2,2,op.exam.type,code,code,2024-04-24 10:26:37.161863,2024-04-24 10:26:37.161863
+16,2,2,op.exam.room,name,name,2024-04-24 10:27:26.847076,2024-04-24 10:27:26.847076
+17,2,2,op.exam.room,classroom,classroom_id,2024-04-24 10:27:26.847076,2024-04-24 10:27:26.847076
+18,2,2,op.exam.room,capacity,capacity,2024-04-24 10:27:26.847076,2024-04-24 10:27:26.847076

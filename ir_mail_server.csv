@@ -1,0 +1,2 @@
+id,smtp_port,sequence,create_uid,write_uid,name,from_filter,smtp_host,smtp_authentication,smtp_user,smtp_pass,smtp_encryption,smtp_debug,active,create_date,write_date,smtp_ssl_certificate,smtp_ssl_private_key,google_gmail_access_token_expiration,google_gmail_authorization_code,google_gmail_refresh_token,google_gmail_access_token
+1,465,10,2,2,Tarcin,,smtp.gmail.com,login,tarcinrobotics401@gmail.com,grvg foev vnvj numk,ssl,f,t,2024-04-22 04:30:59.057484,2024-04-22 04:30:59.057484,,,,,,

@@ -1,0 +1,4 @@
+id,sequence,script_step_id,create_uid,write_uid,redirect_link,name,create_date,write_date
+1,1,2,1,1,,"{""en_US"": ""I have a pricing question""}",2024-04-18 07:47:00.687459,2024-04-18 07:47:00.687459
+2,2,2,1,1,/,"{""en_US"": ""I am looking for your documentation""}",2024-04-18 07:47:00.687459,2024-04-18 07:47:00.687459
+3,3,2,1,1,,"{""en_US"": ""I am just looking around""}",2024-04-18 07:47:00.687459,2024-04-18 07:47:00.687459

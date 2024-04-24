@@ -1,0 +1,4 @@
+id,author_id,mail_message_id,mail_mail_id,res_partner_id,notification_type,notification_status,failure_type,failure_reason,is_read,read_date,sms_id_int,sms_number,letter_id
+1,3,72,15,16,email,exception,mail_smtp,,t,2024-04-21 12:38:54,,,
+2,3,79,19,17,email,exception,mail_smtp,,t,2024-04-21 17:12:52,,,
+4,3,96,,18,email,sent,,"",t,2024-04-22 14:38:21,,,

@@ -1,0 +1,2 @@
+id,company_id,parent_id,manager_id,color,master_department_id,create_uid,write_uid,complete_name,parent_path,name,note,active,create_date,write_date
+1,1,,,,1,1,1,Administration,1/,"{""en_US"": ""Administration""}",,t,2024-04-18 07:40:41.811291,2024-04-18 07:40:41.811291

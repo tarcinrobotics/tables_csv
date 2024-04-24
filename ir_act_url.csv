@@ -1,0 +1,7 @@
+id,binding_model_id,create_uid,write_uid,type,binding_type,binding_view_types,name,help,create_date,write_date,target,url
+3,,1,1,ir.actions.act_url,action,"list,form","{""en_US"": ""Home Menu""}",,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233,self,/web
+39,,1,1,ir.actions.act_url,action,"list,form","{""en_US"": ""Third-Party Apps""}",,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233,new,https://apps.odoo.com/apps/modules
+40,,1,1,ir.actions.act_url,action,"list,form","{""en_US"": ""Theme Store""}",,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233,new,https://apps.odoo.com/apps/themes
+209,,1,1,ir.actions.act_url,action,"list,form","{""en_US"": ""Website""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475,self,/
+534,,1,1,ir.actions.act_url,action,"list,form","{""en_US"": ""Website Home""}",,2024-04-18 07:47:17.105443,2024-04-18 07:47:17.105443,self,/event
+564,,1,1,ir.actions.act_url,action,"list,form","{""en_US"": ""Website Shop""}",,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337,self,/shop

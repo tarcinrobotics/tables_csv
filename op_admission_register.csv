@@ -1,0 +1,2 @@
+id,course_id,min_count,max_count,product_id,academic_years_id,academic_term_id,minimum_age_criteria,company_id,create_uid,write_uid,name,state,start_date,end_date,active,create_date,write_date
+128,6,10,30,1,2,3,3,1,2,2,keerthana,done,2024-04-23,2024-05-23,t,2024-04-24 08:40:02.270556,2024-04-24 08:40:09.655775

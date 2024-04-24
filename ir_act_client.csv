@@ -1,0 +1,10 @@
+id,binding_model_id,create_uid,write_uid,type,binding_type,binding_view_types,name,help,create_date,write_date,tag,target,res_model,context,params_store
+2,,1,1,ir.actions.client,action,"list,form","{""en_US"": ""Open Settings Menu""}",,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233,reload,current,,{},\x7b276d656e755f6964273a20317d
+119,,1,1,ir.actions.client,action,"list,form","{""en_US"": ""Discuss""}",,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973,mail.action_discuss,current,,{},\x7b202764656661756c745f6163746976655f6964273a20276d61696c2e626f785f696e626f7827207d
+206,,1,1,ir.actions.client,action,"list,form","{""en_US"": ""Dashboards""}",,2024-04-18 07:40:51.67663,2024-04-18 07:40:51.67663,action_spreadsheet_dashboard,current,,{},
+212,,1,1,ir.actions.client,action,"list,form","{""en_US"": ""View Hierarchy""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475,website_view_hierarchy,current,,{},
+215,,1,1,ir.actions.client,action,"list,form","{""en_US"": ""Analytics""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475,backend_dashboard,current,,{},
+216,,1,1,ir.actions.client,action,"list,form","{""en_US"": ""Website Preview""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475,website_preview,current,,{},
+220,,1,1,ir.actions.client,action,"list,form","{""en_US"": ""Website Configurator""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475,website_configurator,fullscreen,,{},
+221,,1,1,ir.actions.client,action,"list,form","{""en_US"": ""Open Website Configurator""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475,reload,current,,{},\x7b27616374696f6e5f6964273a203232302c20276d656e755f6964273a203134367d
+397,,1,1,ir.actions.client,action,"list,form","{""en_US"": ""Barcode Interface""}",,2024-04-18 07:46:39.43159,2024-04-18 07:46:39.43159,event.event_barcode_scan_view,fullscreen,,{},

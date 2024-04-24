@@ -1,0 +1,7 @@
+id,group_public_id,create_uid,write_uid,name,channel_type,default_display_mode,sfu_channel_uuid,sfu_server_url,uuid,description,active,allow_public_upload,create_date,write_date,livechat_channel_id,livechat_operator_id,chatbot_current_step_id,country_id,anonymous_name,livechat_active,rating_last_value,livechat_visitor_id
+1,1,1,1,general,channel,,,,hRASDLuoaN,General announcements for all employees.,t,f,2024-04-18 07:40:31.747973,2024-04-18 07:47:00.687459,,,,,,,0,
+2,,2,1,"OdooBot, Administrator",chat,,,,JYWRYD3XN5,,t,f,2024-04-18 07:41:42.236093,2024-04-18 07:47:00.687459,,,,,,,0,
+3,,12,12,"TarcinBot, Vignesh Pandian",chat,,,,bXhBr5gjpJ,,t,f,2024-04-22 14:43:06.057583,2024-04-22 14:43:06.057583,,,,,,,0,
+4,,11,11,"TarcinBot, Sam Anderson",chat,,,,Nk6A5fmCwg,,t,f,2024-04-23 04:46:55.821884,2024-04-23 04:46:55.821884,,,,,,,0,
+5,,10,10,"TarcinBot, Master the Balster",chat,,,,YrTpRue7M3,,t,f,2024-04-23 06:20:41.032819,2024-04-23 06:20:41.032819,,,,,,,0,
+6,,13,13,"TarcinBot, dharshinijayachandran02",chat,,,,7wkeVZAXCC,,t,f,2024-04-23 07:35:58.497389,2024-04-23 07:35:58.497389,,,,,,,0,

@@ -1,0 +1,46 @@
+id,report_line_id,create_uid,write_uid,label,engine,formula,subformula,date_scope,figure_type,carryover_target,green_on_positive,blank_if_zero,auditable,create_date,write_date
+1,1,1,1,balance,tax_tags,206C(1) Alcoholic Liquor,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+2,2,1,1,balance,tax_tags,206C(1) Tendu leaves,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+3,3,1,1,balance,tax_tags,206C(1) Timber (forest lease),,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+4,4,1,1,balance,tax_tags,206C(1) Timber (other than under a forest lease),,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+5,5,1,1,balance,tax_tags,206C(1) other forest produce,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+6,6,1,1,balance,tax_tags,206C(1) Scrap,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+7,7,1,1,balance,tax_tags,206C(1) Minrals,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+8,8,1,1,balance,tax_tags,206C(1C) Parking lot,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+9,9,1,1,balance,tax_tags,206C(1C) Toll plaza,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+10,10,1,1,balance,tax_tags,206C(1C) Mining and quarrying,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+11,11,1,1,balance,tax_tags,206C(1F),,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+12,12,1,1,balance,tax_tags,206C(1G) remittance out of India,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+13,13,1,1,balance,tax_tags,206C(1G) overseas tour program,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+14,14,1,1,balance,tax_tags,206C(1H),,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+15,15,1,1,balance,tax_tags,192,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+16,16,1,1,balance,tax_tags,192A,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+17,17,1,1,balance,tax_tags,193,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+18,18,1,1,balance,tax_tags,194,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+19,19,1,1,balance,tax_tags,194A,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+20,20,1,1,balance,tax_tags,194B,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+21,21,1,1,balance,tax_tags,194BB,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+22,22,1,1,balance,tax_tags,194C,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+23,23,1,1,balance,tax_tags,194D,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+24,24,1,1,balance,tax_tags,194DA,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+25,25,1,1,balance,tax_tags,194E,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+26,26,1,1,balance,tax_tags,194EE,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+27,27,1,1,balance,tax_tags,194F,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+28,28,1,1,balance,tax_tags,194G,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+29,29,1,1,balance,tax_tags,194H,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+30,30,1,1,balance,tax_tags,194I,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+31,31,1,1,balance,tax_tags,194IA,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+32,32,1,1,balance,tax_tags,194IB,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+33,33,1,1,balance,tax_tags,194IC,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+34,34,1,1,balance,tax_tags,194J,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+35,35,1,1,balance,tax_tags,194K,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+36,36,1,1,balance,tax_tags,194LA,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+37,37,1,1,balance,tax_tags,194LBA(1),,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+38,38,1,1,balance,tax_tags,194LB,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+39,39,1,1,balance,tax_tags,194LBB,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+40,40,1,1,balance,tax_tags,194LBC,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+41,41,1,1,balance,tax_tags,194M,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+42,42,1,1,balance,tax_tags,194N,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+43,43,1,1,balance,tax_tags,194O,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+44,44,1,1,balance,tax_tags,194Q,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537
+45,45,1,1,balance,tax_tags,195,,strict_range,,,t,,t,2024-04-18 07:47:49.092537,2024-04-18 07:47:49.092537

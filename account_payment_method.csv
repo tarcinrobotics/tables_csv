@@ -1,0 +1,3 @@
+id,create_uid,write_uid,code,payment_type,name,create_date,write_date
+1,1,1,manual,inbound,"{""en_US"": ""Manual""}",2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+2,1,1,manual,outbound,"{""en_US"": ""Manual""}",2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483

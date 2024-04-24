@@ -1,0 +1,2 @@
+id,company_id,create_uid,write_uid,periodicity,state,next_run_date,name,kpi_res_users_connected,kpi_mail_message_total,create_date,write_date,kpi_project_task_opened,kpi_account_total_revenue,kpi_livechat_rating,kpi_livechat_conversations,kpi_livechat_response,kpi_all_sale_total,kpi_website_sale_total
+1,1,1,1,daily,activated,2024-04-25,"{""en_US"": ""Your Tarcin Periodic Digest""}",t,t,2024-04-18 07:40:48.807216,2024-04-24 09:41:13.789455,t,t,t,t,t,t,t

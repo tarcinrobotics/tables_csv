@@ -1,0 +1,8 @@
+id,website_id,action_server_id,filter_id,limit,create_uid,write_uid,field_names,name,is_published,create_date,write_date,product_cross_selling
+1,,,6,16,1,1,"name,subtitle","{""en_US"": ""Upcoming Events""}",f,2024-04-18 07:47:17.105443,2024-04-18 07:47:17.105443,
+2,,,7,16,1,1,"display_name,description_sale,image_512","{""en_US"": ""Newest Products""}",f,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337,f
+3,,565,,16,1,1,"display_name,description_sale,image_512","{""en_US"": ""Recently Sold Products""}",f,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337,f
+4,,566,,16,1,1,"display_name,description_sale,image_512","{""en_US"": ""Recently Viewed Products""}",f,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337,f
+5,,567,,16,1,1,"display_name,description_sale,image_512","{""en_US"": ""Accessories for Product""}",f,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337,t
+6,,568,,16,1,1,"display_name,description_sale,image_512","{""en_US"": ""Products Recently Sold With Product""}",f,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337,t
+7,,569,,16,1,1,"display_name,description_sale,image_512","{""en_US"": ""Alternative Products""}",f,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337,t

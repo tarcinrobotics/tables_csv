@@ -1,0 +1,4 @@
+id,company_id,user_id,calendar_id,create_uid,write_uid,name,resource_type,tz,active,create_date,write_date,time_efficiency
+1,1,2,1,1,1,Administrator,user,Asia/Calcutta,t,2024-04-18 07:40:41.811291,2024-04-18 07:40:41.811291,100
+2,1,1,1,2,2,TarcinBot,user,Asia/Calcutta,t,2024-04-19 17:34:16.962469,2024-04-19 17:34:16.962469,100
+3,1,13,1,2,13,dharshinijayachandran02,user,Asia/Calcutta,t,2024-04-23 07:29:58.416269,2024-04-23 07:35:56.005827,100

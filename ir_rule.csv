@@ -1,0 +1,486 @@
+id,model_id,create_uid,write_uid,name,domain_force,active,perm_read,perm_write,perm_create,perm_unlink,global,create_date,write_date
+1,96,1,1,res.users.log per user,"[('create_uid','=', user.id)]",t,f,t,t,t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+2,85,1,1,res.partner company,"['|', ('partner_share', '=', False), ('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+3,85,1,1,res_partner: portal/public: read access on my commercial partner,"[('id', 'child_of', user.commercial_partner_id.id)]",t,t,f,f,f,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+4,33,1,1,Defaults: alter personal defaults,"[('user_id','=',user.id)]",t,f,t,t,t,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+5,33,1,1,Defaults: alter all defaults,"[(1,'=',1)]",t,f,t,t,t,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+6,15,1,1,ir.ui.view_custom rule,"[('user_id','=',user.id)]",t,t,t,t,t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+7,88,1,1,Partner bank company rule,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+8,93,1,1,multi-company currency rate rule,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+9,100,1,1,change user password rule,"[('create_uid', '=', user.id)]",t,t,t,t,t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+10,32,1,1,ir.filters.admin.all.rights,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+11,32,1,1,ir.filters.owner,"[('user_id','in',[False,user.id])]",t,t,t,t,f,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+12,32,1,1,ir.filters.own.rule.delete,"[('user_id', '=', user.id)]",t,f,f,f,t,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+13,32,1,1,ir.filter: portal/public,"[('user_id', '=', user.id)]",t,t,t,t,t,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+14,94,1,1,company rule portal,"[('id','in', company_ids)]",t,t,t,t,t,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+15,94,1,1,company rule employee,"[('id','in', company_ids)]",t,t,t,t,t,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+16,94,1,1,company rule public,"[('id','in', company_ids)]",t,t,t,t,t,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+17,94,1,1,company rule erp manager,"[(1,'=',1)]",t,t,t,t,t,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+18,98,1,1,users can only access their own id check,"[('create_uid', '=', user.id)]",t,t,t,t,t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+19,97,1,1,user rule,"['|', ('share', '=', False), ('company_ids', 'in', company_ids)]",t,t,t,t,t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+20,101,1,1,change own password,"[('create_uid', '=', user.id)]",t,t,t,t,t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+21,105,1,1,Administrators can access all User Settings.,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+22,105,1,1,res.users.settings: access their own entries,"[('user_id', '=', user.id)]",t,t,t,t,t,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+23,102,1,1,Public users can't interact with keys at all,"[(0, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+24,102,1,1,Users can read and delete their own keys,"[('user_id', '=', user.id)]",t,t,t,t,t,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+25,102,1,1,Administrators can view user keys to revoke them,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+26,64,1,1,Property multi-company,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+83,424,1,1,website.controller.page: portal/public: read published pages,"[('website_published', '=', True)]",t,t,t,t,t,f,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+28,119,1,1,Public users can't interact with keys at all,"[(0, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:38:53.25362,2024-04-18 07:38:53.25362
+29,119,1,1,Users can read and delete their own keys,"[('user_id', '=', user.id)]",t,t,t,t,t,f,2024-04-18 07:38:53.25362,2024-04-18 07:38:53.25362
+30,119,1,1,Administrators can view user keys to revoke them,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:38:53.25362,2024-04-18 07:38:53.25362
+31,127,1,1,own tours,"[('user_id','=', user.id)]",t,t,t,t,t,t,2024-04-18 07:38:54.618454,2024-04-18 07:38:54.618454
+32,128,1,1,User IAP Account,"['|', ('company_ids', '=', False), ('company_ids', 'in', company_ids)]",t,t,t,t,t,f,2024-04-18 07:38:54.744654,2024-04-18 07:38:54.744654
+33,138,1,1,resource.calendar.leaves: employee reads own or global,"['|', ('resource_id', '=', False), ('resource_id.user_id', 'in', [False, user.id])]",t,t,f,f,f,f,2024-04-18 07:40:29.4147,2024-04-18 07:40:29.4147
+34,138,1,1,resource.calendar.leaves: employee modifies own,"[('resource_id', '!=', False), ('resource_id.user_id', 'in', [False, user.id])]",t,f,t,t,t,f,2024-04-18 07:40:29.4147,2024-04-18 07:40:29.4147
+35,138,1,1,resource.calendar.leaves: admin modifies global,"[('resource_id', '=', False)]",t,f,t,t,t,f,2024-04-18 07:40:29.4147,2024-04-18 07:40:29.4147
+36,140,1,1,resource.resource multi-company,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:40:29.4147,2024-04-18 07:40:29.4147
+37,138,1,1,resource.calendar.leaves: multi-company rule,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:40:29.4147,2024-04-18 07:40:29.4147
+38,203,1,1,discuss.channel: can access channels (as member or as group allowed),"
+                [
+                    ""|"",
+                        ""&"",
+                            (""channel_type"", ""!="", ""channel""),
+                            (""is_member"", ""="", True),
+                        ""&"",
+                            (""channel_type"", ""="", ""channel""),
+                            '|',
+                                ('group_public_id', '=', False),
+                                ('group_public_id', 'in', user.groups_id.ids)
+                ]
+            ",t,t,t,t,t,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+39,203,1,1,discuss.channel: admin full access,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+40,201,1,1,discuss.channel.member: access their own entries,"
+                [
+                    ('is_self', '=', True),
+                    ""|"",
+                        (""channel_id.channel_type"", ""!="", ""channel""),
+                        ""&"",
+                            (""channel_id.channel_type"", ""="", ""channel""),
+                            '|',
+                                ('channel_id.group_public_id', '=', False),
+                                ('channel_id.group_public_id', 'in', user.groups_id.ids)
+                ]
+            ",t,f,t,f,t,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+27,120,1,1,Users can only access their own wizard,"[('user_id', '=', user.id)]",t,t,t,t,t,f,2024-04-18 07:38:53.25362,2024-04-18 07:40:48.6014
+81,16,1,1,Website View Visibility Public,"['|', ('type', '!=', 'qweb'), ('visibility', 'in', ('public', False))]",t,t,f,f,f,f,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+82,16,1,1,Website View Visibility Connected,"['|', ('type', '!=', 'qweb'), ('visibility', 'in', ('public', 'connected', False))]",t,t,f,f,f,f,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+84,433,1,1,Student Login rule,"[('user_id','=',user.id)]",t,t,t,t,t,f,2024-04-18 07:41:05.464971,2024-04-18 07:41:05.464971
+85,433,1,1,View Students,"[(1,'=',1)]",t,t,t,t,t,f,2024-04-18 07:41:05.464971,2024-04-18 07:41:05.464971
+86,430,1,1,Faculty Login rule,"['|',('user_id','=',user.id),('emp_id.user_id','=',user.id)]",t,t,t,t,t,f,2024-04-18 07:41:05.464971,2024-04-18 07:41:05.464971
+87,430,1,1,View Faculties,"[(1,'=',1)]",t,t,t,t,t,f,2024-04-18 07:41:05.464971,2024-04-18 07:41:05.464971
+41,201,1,1,discuss.channel.member: read members of accessible channels,"
+                [
+                    ""|"",
+                        ""&"",
+                            (""channel_id.channel_type"", ""!="", ""channel""),
+                            (""channel_id.is_member"", ""="", True),
+                        ""&"",
+                            (""channel_id.channel_type"", ""="", ""channel""),
+                            '|',
+                                ('channel_id.group_public_id', '=', False),
+                                ('channel_id.group_public_id', 'in', user.groups_id.ids)
+                ]
+            ",t,t,f,f,f,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+42,201,1,1,discuss.channel.member: can join group restricted channels when group is matching,"
+                [
+                    ('is_self', '=', True),
+                    ('channel_id.channel_type', '=', 'channel'),
+                    '|',
+                        ('channel_id.group_public_id', '=', False),
+                        ('channel_id.group_public_id', 'in', user.groups_id.ids)
+                ]
+            ",t,f,f,t,f,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+43,201,1,1,discuss.channel.member: internal users can invite others in group restricted channels when group is matching,"
+                [
+                    ('is_self', '=', False),
+                    ('channel_id.channel_type', '=', 'channel'),
+                    '|',
+                        ('channel_id.group_public_id', '=', False),
+                        ('channel_id.group_public_id', 'in', user.groups_id.ids)
+                ]
+            ",t,f,f,t,f,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+44,201,1,1,discuss.channel.member: internal users can invite others in channels they are member of,"
+                [
+                    ('is_self', '=', False),
+                    ('channel_id.channel_type', 'not in', ('channel', 'chat')),
+                    ('channel_id.is_member', '=', True)
+                ]
+            ",t,f,f,t,f,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+45,201,1,1,discuss.channel.member: admin can manipulate all entries,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+46,204,1,1,Discuss.gif.favorite: User access,"[('create_uid', '=', user.id)]",t,t,t,t,t,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+47,204,1,1,Discuss.gif.favorite: admin full access,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+48,163,1,1,mail.notifications: group_user: write its own entries,"[('res_partner_id', '=', user.partner_id.id)]",t,f,t,f,f,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+49,174,1,1,mail.message.subtype: portal/public: read public subtypes,"[('internal', '=', False)]",t,t,t,t,t,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+50,165,1,1,mail.activity: user: write/unlink only (created or assigned),"['|', ('user_id', '=', user.id), ('create_uid', '=', user.id)]",t,f,t,f,t,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+51,166,1,1,Administrators can access all activity plans.,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+52,167,1,1,Administrators can access all activity plan templates.,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+53,213,1,1,Mail Compose Message Rule,"[('create_uid', '=', user.id)]",t,t,t,f,f,t,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+54,179,1,1,Employees can only change their own templates,"[('create_uid', '=', user.id)]",t,f,t,t,t,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+55,179,1,1,Mail Template Editors - Edit All Templates,"[(1, '=', 1)]",t,f,t,t,t,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+56,183,1,1,res.users.settings.volumes: access their own entries,"[('user_setting_id.user_id', '=', user.id)]",t,t,t,t,t,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+57,183,1,1,Administrators can access all User Settings volumes.,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+58,356,1,1,Employee multi company rule,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:40:41.811291,2024-04-18 07:40:41.811291
+59,359,1,1,Department multi company rule,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:40:41.811291,2024-04-18 07:40:41.811291
+60,358,1,1,Employee multi company rule,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:40:41.811291,2024-04-18 07:40:41.811291
+61,361,1,1,Job multi company rule,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:40:41.811291,2024-04-18 07:40:41.811291
+62,88,1,1,HR: Prevent non HR officers from accessing employee bank accounts,"[('partner_id.employee_ids', '=', False)]",t,t,t,t,t,f,2024-04-18 07:40:41.811291,2024-04-18 07:40:41.811291
+63,88,1,1,HR: Allow HR officers from accessing employee bank accounts,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:40:41.811291,2024-04-18 07:40:41.811291
+64,354,1,1,HR Contract Type: Multi Company,"['|', ('country_id', '=', False), ('country_id', 'in', user.env.companies.country_id.ids)]",t,t,t,t,t,t,2024-04-18 07:40:41.811291,2024-04-18 07:40:41.811291
+65,166,1,1,Manager can edit employee plan,"[('res_model', '=', 'hr.employee')]",t,f,t,t,t,f,2024-04-18 07:40:41.811291,2024-04-18 07:40:41.811291
+66,167,1,1,Manager can edit employee plan template,"[('plan_id.res_model', '=', 'hr.employee')]",t,f,t,t,t,f,2024-04-18 07:40:41.811291,2024-04-18 07:40:41.811291
+67,374,1,1,SMS Template: system group granted all,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:40:46.744909,2024-04-18 07:40:46.744909
+68,386,1,1,Resume: employee: read all,"[(1, '=', 1)]",t,t,f,f,f,f,2024-04-18 07:40:49.793622,2024-04-18 07:40:49.793622
+69,386,1,1,Resume: HR user: all,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:40:49.793622,2024-04-18 07:40:49.793622
+70,386,1,1,Resume: employee: create/write/unlink own,"[('employee_id.user_id','=',user.id)]",t,f,t,t,t,f,2024-04-18 07:40:49.793622,2024-04-18 07:40:49.793622
+71,389,1,1,Employee skill: employee: read all,"[(1, '=', 1)]",t,t,f,f,f,f,2024-04-18 07:40:49.793622,2024-04-18 07:40:49.793622
+72,389,1,1,Employee skill: HR user: read all,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:40:49.793622,2024-04-18 07:40:49.793622
+73,389,1,1,Employee skill: employee: create/write/unlink own,"[('employee_id.user_id','=',user.id)]",t,f,t,t,t,f,2024-04-18 07:40:49.793622,2024-04-18 07:40:49.793622
+74,394,1,1,Employee Skill Report: Multi-Company Rule,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:40:49.793622,2024-04-18 07:40:49.793622
+75,398,1,1,Spreadsheet dashboard: groups,"[('group_ids', 'in', user.groups_id.ids)]",t,t,t,t,t,f,2024-04-18 07:40:51.67663,2024-04-18 07:40:51.67663
+76,399,1,1,spreadsheet.dashboard.share: create uid,"[('create_uid', '=', user.id)]",t,t,t,t,t,f,2024-04-18 07:40:51.67663,2024-04-18 07:40:51.67663
+77,16,1,1,website_designer: Manage Website and qWeb view,"[('type', '=', 'qweb')]",t,t,t,t,t,f,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+78,16,1,1,website_designer: global view,"[('type', '!=', 'qweb')]",t,t,f,f,f,f,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+79,16,1,1,Administration Settings: Manage all views,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+80,410,1,1,website.page: portal/public: read published pages,"[('website_published', '=', True)]",t,t,t,t,t,f,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+88,435,1,1,Student Subject Registration Rule,"['|', ('student_id.user_id','=',user.id), ('student_id.user_id','in',
+                user.child_ids.ids)]
+            ",t,t,t,t,t,f,2024-04-18 07:41:05.464971,2024-04-18 07:41:05.464971
+89,435,1,1,View Students Registration,"[(1,'=',1)]",t,t,t,t,t,f,2024-04-18 07:41:05.464971,2024-04-18 07:41:05.464971
+90,436,1,1,Academic Term multi company,"
+                ['|','|',('company_id','=',False),('company_id','child_of',[user.company_id.id]),('company_id','in',user.company_ids.ids),('company_id',
+                'in', company_ids)]
+            ",t,t,t,t,t,t,2024-04-18 07:41:05.464971,2024-04-18 07:41:05.464971
+91,437,1,1,Academic Year multi company,"
+                ['|','|',('company_id','=',False),('company_id','child_of',[user.company_id.id]),('company_id','in',user.company_ids.ids),('company_id',
+                'in', company_ids)]
+            ",t,t,t,t,t,t,2024-04-18 07:41:05.464971,2024-04-18 07:41:05.464971
+92,445,1,1,Analytic multi company rule,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:41:09.65521,2024-04-18 07:41:09.65521
+93,446,1,1,Analytic line multi company rule,"[('company_id', 'in', company_ids)]",t,t,t,t,t,t,2024-04-18 07:41:09.65521,2024-04-18 07:41:09.65521
+94,444,1,1,Analytic applicability multi company rule,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:41:09.65521,2024-04-18 07:41:09.65521
+95,448,1,1,Analytic distribution model multi company rule,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:41:09.65521,2024-04-18 07:41:09.65521
+96,453,1,1,User can only see his/her goals or goal from the same challenge in board visibility,"[
+                '|',
+                    ('user_id','=',user.id),
+                    '&',
+                        ('challenge_id.user_ids','in',user.id),
+                        ('challenge_id.visibility_mode','=','ranking')]",t,t,t,f,f,f,2024-04-18 07:41:11.133546,2024-04-18 07:41:11.133546
+116,493,1,1,Project: project manager: see all,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+98,453,1,1,Multicompany rule on challenges,"[('user_id.company_id', 'in', company_ids)]",t,t,t,t,t,t,2024-04-18 07:41:11.133546,2024-04-18 07:41:11.133546
+99,465,1,1,Survey: manager: all,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:41:14.668723,2024-04-18 07:41:14.668723
+100,465,1,1,Survey: officer: read all,"[(1, '=', 1)]",t,t,f,f,f,f,2024-04-18 07:41:14.668723,2024-04-18 07:41:14.668723
+101,465,1,1,Survey: officer: create/write/unlink own only,"[('create_uid', '=', user.id)]",t,f,t,t,t,f,2024-04-18 07:41:14.668723,2024-04-18 07:41:14.668723
+102,466,1,1,Survey question: manager: all,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:41:14.668723,2024-04-18 07:41:14.668723
+103,466,1,1,Survey question: officer: read all,"[(1, '=', 1)]",t,t,f,f,f,f,2024-04-18 07:41:14.668723,2024-04-18 07:41:14.668723
+104,466,1,1,Survey question: officer: create/write/unlink linked to own survey only,"[('survey_id.create_uid', '=', user.id)]",t,f,t,t,t,f,2024-04-18 07:41:14.668723,2024-04-18 07:41:14.668723
+105,467,1,1,Survey question answer: manager: all,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:41:14.668723,2024-04-18 07:41:14.668723
+106,467,1,1,Survey question answer: officer: read all,"[(1, '=', 1)]",t,t,f,f,f,f,2024-04-18 07:41:14.668723,2024-04-18 07:41:14.668723
+107,467,1,1,Survey question answer: officer: create/write/unlink linked to own survey only,"['|', ('question_id.survey_id.create_uid', '=', user.id), ('matrix_question_id.survey_id.create_uid', '=', user.id)]",t,f,t,t,t,f,2024-04-18 07:41:14.668723,2024-04-18 07:41:14.668723
+108,468,1,1,Survey user input: manager: all,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:41:14.668723,2024-04-18 07:41:14.668723
+109,468,1,1,Survey user input: officer: read all,"[(1, '=', 1)]",t,t,f,f,f,f,2024-04-18 07:41:14.668723,2024-04-18 07:41:14.668723
+110,468,1,1,Survey user input: officer: create/write/unlink linked to own survey only,"[('survey_id.create_uid', '=', user.id)]",t,f,t,t,t,f,2024-04-18 07:41:14.668723,2024-04-18 07:41:14.668723
+111,469,1,1,Survey user input line: manager: all,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:41:14.668723,2024-04-18 07:41:14.668723
+112,469,1,1,Survey user input line: officer: read all,"[(1, '=', 1)]",t,t,f,f,f,f,2024-04-18 07:41:14.668723,2024-04-18 07:41:14.668723
+113,469,1,1,Survey user input line: officer: create/write/unlink linked to own survey only,"[('user_input_id.survey_id.create_uid', '=', user.id)]",t,f,t,t,t,f,2024-04-18 07:41:14.668723,2024-04-18 07:41:14.668723
+97,453,1,1,Manager can see any goal,"[(1, '=', 1)]",t,t,t,f,f,f,2024-04-18 07:41:11.133546,2024-04-18 07:41:16.983829
+114,493,1,1,Project: multi-company,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+115,487,1,1,Project Stage: multi-company,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+117,493,1,1,Project: employees: following required for follower-only projects,"['|',
+                                        ('privacy_visibility', '!=', 'followers'),
+                                        ('message_partner_ids', 'in', [user.partner_id.id])
+                                    ]",t,t,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+118,490,1,1,Project/Task: multi-company,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+120,490,1,1,Project/Task: project manager: see all tasks linked to a project or its own tasks,"[
+            '|', ('project_id', '!=', False),
+                 ('user_ids', 'in', user.id),
+        ]",t,t,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+119,490,1,1,Project/Task: employees: follow required for follower-only projects,"[
+            '|',
+                '&',
+                    ('project_id', '!=', False),
+                    '|',
+                        ('project_id.privacy_visibility', '!=', 'followers'),
+                        ('project_id.message_partner_ids', 'in', [user.partner_id.id]),
+                '|',
+                    ('message_partner_ids', 'in', [user.partner_id.id]),
+                    # to subscribe check access to the record, follower is not enough at creation
+                    ('user_ids', 'in', user.id)
+        ]",t,t,f,f,f,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:27.909977
+121,494,1,1,Project/Task Type: manager sees all,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+122,494,1,1,Project/Task Type: see own or unowned stages,"[('user_id', 'in', (False, user.id))]",t,t,t,t,t,t,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+123,494,1,1,Project/Task Type: write own stages,"[('user_id', '=', user.id)]",t,f,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+124,498,1,1,Task Analysis multi-company,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+125,489,1,1,Project: See my own personal stage,"[('user_id', '=', user.id)]",t,t,t,t,t,t,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+126,490,1,1,Project: See private tasks,"[
+            ('project_id.privacy_visibility', '!=', 'followers'),
+            '|', '|', ('project_id', '!=', False),
+                      ('parent_id', '!=', False),
+                 ('user_ids', 'in', user.id),
+        ]",t,t,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+127,493,1,1,Project: portal users: portal and following,"[
+            '&',
+                ('privacy_visibility', '=', 'portal'),
+                ('message_partner_ids', 'child_of', [user.partner_id.commercial_partner_id.id]),
+        ]",t,t,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+128,496,1,1,Project/Collaborator: portal users: can only see his own collobaroration in shared projects,"[
+            ('project_id.privacy_visibility', '=', 'portal'),
+            ('partner_id', '=', user.partner_id.id),
+        ]",t,t,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+129,490,1,1,Project/Task: portal users: (portal and following project) or (portal and following task),"[
+        ('project_id.privacy_visibility', '=', 'portal'),
+        ('active', '=', True),
+        '|',
+            ('project_id.message_partner_ids', 'child_of', [user.partner_id.commercial_partner_id.id]),
+            ('message_partner_ids', 'child_of', [user.partner_id.commercial_partner_id.id]),
+        ]",t,t,f,f,f,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+130,490,1,1,Project/Task: portal users: portal user can edit with project sharing feature,"[
+            ('project_id.privacy_visibility', '=', 'portal'),
+            ('active', '=', True),
+            '|',
+                ('project_id.message_partner_ids', 'child_of', [user.partner_id.commercial_partner_id.id]),
+                ('message_partner_ids', 'child_of', [user.partner_id.commercial_partner_id.id]),
+            ('project_id.collaborator_ids.partner_id', 'in', [user.partner_id.id]),
+        ]",f,f,t,t,f,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+131,492,1,1,Project/Updates: multi-company,"['|', ('project_id.company_id', 'in', company_ids), ('project_id.company_id', '=', False)]",t,t,t,t,t,t,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+132,492,1,1,Project/Update: employees: follow required for follower-only projects,"[
+        '|',
+            ('project_id.privacy_visibility', '!=', 'followers'),
+            '|',
+                ('project_id.message_partner_ids', 'in', [user.partner_id.id]),
+                '|',
+                    ('user_id', '=', user.id),
+                    ('project_id.user_id', '=', user.id)
+        ]",t,t,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+133,498,1,1,Tasks Analysis: project visibility User,"[
+        '|',
+            ('project_id.privacy_visibility', '!=', 'followers'),
+            '|',
+                ('project_id.message_partner_ids', 'in', [user.partner_id.id]),
+                '|',
+                    ('task_id.message_partner_ids', 'in', [user.partner_id.id]),
+                    ('user_ids', 'in', user.id),
+        ]",t,t,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+134,498,1,1,Tasks Analysis: project visibility Manager,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+135,492,1,1,Project updates : Project user can see all project updates,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+136,499,1,1,Burndown chart: project visibility User,"[
+        '|',
+            ('project_id.privacy_visibility', '!=', 'followers'),
+            '|',
+                ('project_id.message_partner_ids', 'in', [user.partner_id.id]),
+                ('user_ids', 'in', user.id),
+        ]",t,t,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+137,499,1,1,Burndown chart: project visibility User,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+138,491,1,1,Project/Milestone: multi-company,"['|', ('project_id.company_id', 'in', company_ids), ('project_id.company_id', '=', False)]",t,t,t,t,t,t,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+139,491,1,1,Project/Milestone: employees: follow required for follower-only projects,"[
+        '|',
+            ('project_id.privacy_visibility', '!=', 'followers'),
+            '|',
+                ('project_id.message_partner_ids', 'in', [user.partner_id.id]),
+                ('project_id.user_id', '=', user.id),
+        ]",t,t,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+140,491,1,1,Project/Milestone: Project manager can see all project milestones,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+141,491,1,1,Project/milestone portal users: portal user can read with project sharing feature,"[
+            ('project_id.privacy_visibility', '=', 'portal'),
+            ('project_id.collaborator_ids.partner_id', 'in', [user.partner_id.id]),
+        ]",t,t,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+142,166,1,1,Manager can manage project/task plans,"[('res_model', 'in', ('project.project', 'project.task'))]",t,f,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+143,167,1,1,Manager can manage project/task plan templates,"[('plan_id.res_model', 'in', ('project.project', 'project.task'))]",t,f,t,t,t,f,2024-04-18 07:41:22.122125,2024-04-18 07:41:22.122125
+144,374,1,1,SMS Template: project manager CUD on project/task,"[('model_id.model', 'in', ('project.task.type', 'project.project.stage'))]",t,f,t,t,t,f,2024-04-18 07:41:27.401392,2024-04-18 07:41:27.401392
+145,490,1,1,Project/Task: employees: Full access to own private task only,"[('project_id', '=', False), ('user_ids', 'in', user.id), ('parent_id', '=', False)]",t,t,t,t,t,f,2024-04-18 07:41:27.909977,2024-04-18 07:41:27.909977
+146,490,1,1,Project/Task: project users: follow required for follower-only projects,"[
+            '|',
+                '&',
+                    ('project_id', '!=', False),
+                    '|',
+                        ('project_id.privacy_visibility', '!=', 'followers'),
+                        ('project_id.message_partner_ids', 'in', [user.partner_id.id]),
+                '|',
+                    ('message_partner_ids', 'in', [user.partner_id.id]),
+                    # to subscribe check access to the record, follower is not enough at creation
+                    ('user_ids', 'in', user.id)
+        ]",t,f,t,t,t,f,2024-04-18 07:41:27.909977,2024-04-18 07:41:27.909977
+147,504,1,1,Student Activity Logs,"['|', ('student_id.user_id','=',user.id), ('student_id.user_id','in',user.child_ids.ids)]
+            ",t,t,t,t,t,f,2024-04-18 07:41:54.831853,2024-04-18 07:41:54.831853
+148,504,1,1,Faculty Activity Logs,"['|', ('faculty_id.user_id','=',user.id), ('faculty_id.user_id','in',user.child_ids.ids)]
+            ",t,t,t,t,t,f,2024-04-18 07:41:54.831853,2024-04-18 07:41:54.831853
+149,504,1,1,Back Office Activity Logs,"[(1,'=',1)]",t,t,t,t,t,f,2024-04-18 07:41:54.831853,2024-04-18 07:41:54.831853
+150,514,1,1,Product multi-company," ['|', ('company_id', 'parent_of', company_ids), ('company_id', '=', False)]",t,t,t,t,t,t,2024-04-18 07:46:34.742613,2024-04-18 07:46:34.742613
+151,521,1,1,Product multi-company," ['|', ('company_id', 'parent_of', company_ids), ('company_id', '=', False)]",t,t,t,t,t,t,2024-04-18 07:46:34.742613,2024-04-18 07:46:34.742613
+154,525,1,1,product supplierinfo company rule,"['|', ('company_id', '=', False), ('company_id', 'parent_of', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:34.742613,2024-04-18 07:46:34.742613
+155,522,1,1,product packaging company rule,"['|', ('company_id', '=', False), ('company_id', 'parent_of', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:34.742613,2024-04-18 07:46:34.742613
+156,538,1,1,All Salesteam,"[(1,'=',1)]",t,t,t,t,t,f,2024-04-18 07:46:37.983166,2024-04-18 07:46:37.983166
+157,538,1,1,Sales Team multi-company,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:46:37.983166,2024-04-18 07:46:37.983166
+158,541,1,1,Event: multi-company,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:46:39.43159,2024-04-18 07:46:39.43159
+159,545,1,1,Event/Registration: multi-company,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:46:39.43159,2024-04-18 07:46:39.43159
+160,550,1,1,Event/Ticket: multi-company,"[('event_id.company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:46:39.43159,2024-04-18 07:46:39.43159
+161,552,1,1,Access providers in own companies only,"[('company_id', 'parent_of', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:42.355457,2024-04-18 07:46:42.355457
+162,554,1,1,Access transactions in own companies only,"[('company_id', 'in', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:42.355457,2024-04-18 07:46:42.355457
+163,553,1,1,Users can access only their own tokens,"[('partner_id', '=', user.partner_id.id)]",t,t,t,t,t,f,2024-04-18 07:46:42.355457,2024-04-18 07:46:42.355457
+164,553,1,1,Access tokens in own companies only,"[('company_id', 'parent_of', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:42.355457,2024-04-18 07:46:42.355457
+165,555,1,1,Payment Capture Wizard,"[('create_uid', '=', user.id)]",t,t,t,t,t,t,2024-04-18 07:46:42.355457,2024-04-18 07:46:42.355457
+166,446,1,1,account.analytic.line.billing.user,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+167,577,1,1,Account Entry,"[('company_id', 'in', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+168,578,1,1,Entry lines,"[('company_id', 'in', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+169,567,1,1,Journal Group multi-company,"[('company_id', 'parent_of', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+170,568,1,1,Journal multi-company,"[('company_id', 'parent_of', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+171,564,1,1,Account multi-company,"[('company_id', 'parent_of', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+172,565,1,1,Account Group multi-company,"[('company_id', 'parent_of', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+152,523,1,1,product pricelist company rule," ['|', ('company_id', 'parent_of', company_ids), ('company_id', '=', False)]",f,t,t,t,t,t,2024-04-18 07:46:34.742613,2024-04-18 07:47:35.565337
+153,524,1,1,product pricelist item company rule," ['|', ('company_id', 'parent_of', company_ids), ('company_id', '=', False)]",f,t,t,t,t,t,2024-04-18 07:46:34.742613,2024-04-18 07:47:35.565337
+173,566,1,1,Account Root multi-company,"['|',('company_id','=',False), ('company_id', 'parent_of', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+174,569,1,1,Tax group multi-company,"[('company_id', 'parent_of', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+175,570,1,1,Tax multi-company,"[('company_id', 'parent_of', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+176,571,1,1,Tax Repartition multi-company,"['|',('company_id','=',False), ('company_id', 'parent_of', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+177,607,1,1,Invoice Analysis multi-company,"[('company_id', 'in', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+178,559,1,1,Account fiscal Mapping company rule,"[('company_id', 'parent_of', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+179,584,1,1,Account bank statement company rule,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+180,585,1,1,Account bank statement line company rule,"[('company_id', 'in', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+181,574,1,1,Account reconcile model template company rule,"[('company_id', 'parent_of', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+182,573,1,1,Account reconcile model_line template company rule,"[('company_id', 'parent_of', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+183,581,1,1,Account payment company rule,"[('company_id', 'in', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+184,575,1,1,Account payment term company rule,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+185,577,1,1,All Journal Entries,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+186,578,1,1,All Journal Items,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+187,577,1,1,Portal Personal Account Invoices,"[('state', 'not in', ('cancel', 'draft')), ('move_type', 'in', ('out_invoice', 'out_refund', 'in_invoice', 'in_refund')), ('message_partner_ids','child_of',[user.commercial_partner_id.id])]",t,t,t,t,t,f,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+188,578,1,1,Portal Invoice Lines,"[('parent_state', 'not in', ('cancel', 'draft')), ('move_id.move_type', 'in', ('out_invoice', 'out_refund', 'in_invoice', 'in_refund')), ('move_id.message_partner_ids','child_of',[user.commercial_partner_id.id])]",t,t,t,t,t,f,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+189,577,1,1,Readonly Move,"[(1, '=', 1)]",t,t,f,f,f,f,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+190,578,1,1,Readonly Move Line,"[(1, '=', 1)]",t,t,f,f,f,f,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+191,577,1,1,Readonly Move,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+192,578,1,1,Readonly Move Line,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+193,602,1,1,Readonly Invoice Send and Print,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+194,594,1,1,Report External Value multi-company,"[('company_id', 'in', company_ids)]",t,t,t,t,t,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+195,88,1,1,Billing: Allow accessing employee bank accounts,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+196,374,1,1,SMS Template: event manager CUD on event / registrations templates,"[('model_id.model', 'in', ('event.event', 'event.registration'))]",t,f,t,t,t,f,2024-04-18 07:46:59.97732,2024-04-18 07:46:59.97732
+197,203,1,1,discuss.channel: livechat manager can read all livechat channels,"[('channel_type', '=', 'livechat')]",t,t,f,f,f,f,2024-04-18 07:47:00.687459,2024-04-18 07:47:00.687459
+198,201,1,1,discuss.channel.member: livechat manager can read all livechat channel members,"[('channel_id.channel_type', '=', 'livechat')]",t,t,f,f,f,f,2024-04-18 07:47:00.687459,2024-04-18 07:47:00.687459
+199,553,1,1,Access every token,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:47:04.324243,2024-04-18 07:47:04.324243
+200,617,1,1,website_livechat.channel.public,"[('website_published', '=', True)]",t,t,f,f,f,f,2024-04-18 07:47:10.923,2024-04-18 07:47:10.923
+201,633,1,1,Sales Order multi-company,"[('company_id', 'in', company_ids)]",t,t,t,t,t,t,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+202,634,1,1,Sales Order Line multi-company,"[('company_id', 'in', company_ids)]",t,t,t,t,t,t,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+203,635,1,1,Sales Order Analysis multi-company,"[('company_id', 'in', company_ids)]",t,t,t,t,t,t,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+204,633,1,1,Portal Personal Quotations/Sales Orders,"[('message_partner_ids','child_of',[user.commercial_partner_id.id])]",t,t,t,f,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+205,634,1,1,Portal Sales Orders Line,"[('order_id.message_partner_ids','child_of',[user.commercial_partner_id.id])]",t,t,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+206,633,1,1,Personal Orders,"['|',('user_id','=',user.id),('user_id','=',False)]",t,t,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+207,633,1,1,All Orders,"[(1,'=',1)]",t,t,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+208,635,1,1,Personal Orders Analysis,"['|',('user_id','=',user.id),('user_id','=',False)]",t,t,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+209,635,1,1,All Orders Analysis,"[(1,'=',1)]",t,t,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+210,634,1,1,Personal Order Lines,"['|',('salesman_id','=',user.id),('salesman_id','=',False)]",t,t,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+211,634,1,1,All Orders Lines,"[(1,'=',1)]",t,t,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+212,607,1,1,Personal Invoices Analysis,"['|', ('invoice_user_id', '=', user.id), ('invoice_user_id', '=', False)]",t,t,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+213,607,1,1,All Invoices Analysis,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+214,554,1,1,Access every payment transaction,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+215,553,1,1,Access every payment token,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+216,577,1,1,Personal Invoices,"[('move_type', 'in', ('out_invoice', 'out_refund')), '|', ('invoice_user_id', '=', user.id), ('invoice_user_id', '=', False)]",t,t,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+217,577,1,1,All Invoices,"[('move_type', 'in', ('out_invoice', 'out_refund'))]",t,t,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+218,578,1,1,Personal Invoice Lines,"[('move_id.move_type', 'in', ('out_invoice', 'out_refund')), '|', ('move_id.invoice_user_id', '=', user.id), ('move_id.invoice_user_id', '=', False)]",t,t,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+219,578,1,1,All Invoice Lines,"[('move_id.move_type', 'in', ('out_invoice', 'out_refund'))]",t,t,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+220,602,1,1,Personal Invoice Send and Print,"[('move_ids.move_type', 'in', ('out_invoice', 'out_refund')), '|', ('move_ids.invoice_user_id', '=', user.id), ('move_ids.invoice_user_id', '=', False)]",t,t,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+221,602,1,1,All Invoice Send and Print,"[('move_ids.move_type', 'in', ('out_invoice', 'out_refund'))]",t,t,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+222,638,1,1,Payment Provider Onboarding Wizard Rule,"[('create_uid', '=', user.id)]",t,t,t,t,t,t,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+223,639,1,1,Sales Advance Payment Invoice Rule,"[('create_uid', '=', user.id)]",t,t,t,t,t,t,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+224,640,1,1,Sales Order Cancel Rule,"[('create_uid', '=', user.id)]",t,t,t,t,t,t,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+225,636,1,1,Sales Mass Cancel Orders: access only your own wizard,"[('create_uid', '=', user.id)]",t,t,t,t,t,t,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+226,166,1,1,Manager can manage sale order plans,"[('res_model', '=', 'sale.order')]",t,f,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+227,167,1,1,Manager can manage sale order plan templates,"[('plan_id.res_model', '=', 'sale.order')]",t,f,t,t,t,f,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+228,541,1,1,Event: public/portal: published read,"[('website_published', '=', True)]",t,t,f,f,f,f,2024-04-18 07:47:17.105443,2024-04-18 07:47:17.105443
+229,548,1,1,Event Tag: public/portal: color = published and category = published,"[('category_id.website_published', '=', True), ('color', '!=', False), ('color', '!=', 0)]",t,t,f,f,f,f,2024-04-18 07:47:17.105443,2024-04-18 07:47:17.105443
+230,550,1,1,Event Ticket: public/portal: published read,"[('event_id.website_published', '=', True)]",t,t,f,f,f,f,2024-04-18 07:47:17.105443,2024-04-18 07:47:17.105443
+231,642,1,1,Event Question: not event groups: event published read,"[('event_id.is_published', '=', True)]",t,t,f,f,f,f,2024-04-18 07:47:17.105443,2024-04-18 07:47:17.105443
+232,642,1,1,Event Question: event user: read all,"[(1, '=', 1)]",t,t,f,f,f,f,2024-04-18 07:47:17.105443,2024-04-18 07:47:17.105443
+233,643,1,1,Event Question Answer: not event groups: event published read,"[('question_id.event_id.is_published', '=', True)]",t,t,f,f,f,f,2024-04-18 07:47:17.105443,2024-04-18 07:47:17.105443
+234,643,1,1,Event Question Answer: event user: read all,"[(1, '=', 1)]",t,t,f,f,f,f,2024-04-18 07:47:17.105443,2024-04-18 07:47:17.105443
+235,646,1,1,Delivery Carrier multi-company,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:47:21.297424,2024-04-18 07:47:21.297424
+236,651,1,1,Quotation Template multi-company,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:47:23.340948,2024-04-18 07:47:23.340948
+237,374,1,1,SMS Template: sale manager CRUD on sale orders,"[('model_id.model', 'in', ('sale.order', 'res.partner'))]",t,t,t,t,t,f,2024-04-18 07:47:25.544127,2024-04-18 07:47:25.544127
+238,661,1,1,Channel: always visible (sub rules exist),"[(1, '=', 1)]",t,t,t,t,t,t,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+239,661,1,1,Channel: public: restricted to public and published,"[('website_published', '=', True), ('visibility', '=', 'public')]",t,t,f,f,f,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+240,661,1,1,"Channel: portal/user: restricted to published, public or (invited) attendee, connected user","[
+                '&',
+                    ('website_published', '=', True),
+                    '|',
+                        ('visibility', 'in', ('public', 'connected')),
+                        '|',
+                            ('is_member_invited', '=', True),
+                            ('is_member', '=', True),
+                ]
+            ",t,t,f,f,f,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+241,661,1,1,Channel: officer: read all,"[(1, '=', 1)]",t,t,f,f,f,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+242,661,1,1,Channel: officer: create/write own only,"[('user_id', '=', user.id)]",t,f,t,t,f,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+243,661,1,1,Channel: manager: crud all,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+244,663,1,1,Channel Tag: public/portal: color = published,"['&', ('color', '!=', False), ('color', '!=', 0)]",t,t,f,f,f,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+245,656,1,1,Slide: always visible (sub rules exist),"[(1, '=', 1)]",t,t,t,t,t,t,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+246,656,1,1,Slide: public: restricted to published or public channel & (category or previewable),"[
+                    ('channel_id.website_published', '=', True),
+                    ('website_published', '=', True),
+                    ('channel_id.visibility', '=', 'public'),
+                    '|',
+                        ('is_category','=', True),
+                        ('is_preview', '=', True),
+                ]
+            ",t,t,f,f,f,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+247,656,1,1,"Slide: portal/user: restricted to published and connected user, (invited) attendee if course visible to attendees only","[
+                '&',
+                    '|',
+                        ('user_id', '=', user.id),
+                        '&',
+                            ('website_published', '=', True),
+                            ('channel_id.website_published', '=', True),
+                    '|',
+                        '&',
+                            '|',
+                                ('channel_id.visibility', 'in', ('public','connected')),
+                                ('channel_id.is_member_invited', '=', True),
+                            '|',
+                                ('is_category', '=', True),
+                                ('is_preview', '=', True),
+                        ('channel_id.is_member', '=', True),
+                ]
+            ",t,t,f,f,f,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+248,656,1,1,Slide: officer: read all,"[(1, '=', 1)]",t,t,f,f,f,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+249,656,1,1,Slide: officer: create/write own only,"[('channel_id.user_id', '=', user.id)]",t,f,t,t,f,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+250,656,1,1,Slide: manager: crud all,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+251,660,1,1,Channel Partner: officer: create/write/unlink own only,"[('channel_id.user_id', '=', user.id)]",t,f,t,t,t,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+252,660,1,1,Channel Partner: manager: crud all,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+253,654,1,1,Slide Partner: officer: create/write/unlink own only,"[('channel_id.user_id', '=', user.id)]",t,f,t,t,t,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+254,654,1,1,Slide Partner: manager: crud all,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+255,664,1,1,Resource: read restricted to channel members and channel responsible,"[('slide_id.channel_id.is_member', '=', True)]",t,t,f,f,f,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+256,664,1,1,Resource: officer: read all,"[(1, '=', 1)]",t,t,f,f,f,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+257,664,1,1,Resource: officer: crud own only,"[('slide_id.channel_id.user_id', '=', user.id)]",t,t,t,t,t,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+258,664,1,1,Resource: manager: crud all,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+259,668,1,1,Event Sales Report multi-company,"[('company_id', 'in', company_ids + [False])]",t,t,t,t,t,t,2024-04-18 07:47:31.08894,2024-04-18 07:47:31.08894
+260,514,1,1,Public product template,"[('website_published', '=', True), (""sale_ok"", ""="", True)]",t,t,f,f,f,f,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337
+261,523,1,1,product pricelist company rule,"['|', ('company_id', 'in', [False,website.company_id.id]), ('company_id', 'in', company_ids)]",t,t,t,t,t,t,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337
+262,524,1,1,product pricelist item company rule,"['|', ('company_id', 'in', [False,website.company_id.id]), ('company_id', 'in', company_ids)]",t,t,t,t,t,t,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337
+263,634,1,1,Project Manager Sales Orders Line,"[('state', '=', 'sale'), ('is_service', '=', True), '|', ('project_id','!=', False), ('task_id','!=', False)]",t,t,f,f,f,f,2024-04-18 07:47:42.969877,2024-04-18 07:47:42.969877
+264,514,1,1,Product template linked to event: Public,"[('product_variant_ids.event_ticket_ids.event_id.website_published', '=', True)]",t,t,f,f,f,f,2024-04-18 07:47:45.926417,2024-04-18 07:47:45.926417
+265,682,1,1,Student Assignment Submission Line Rule,"['|', ('student_id.user_id','=',user.id), ('student_id.user_id','in',
+                user.child_ids.ids)]
+            ",t,t,t,t,t,f,2024-04-18 07:56:51.447522,2024-04-18 07:56:51.447522
+266,681,1,1,User Assignment rule,"[('faculty_id.user_id','=',user.id)]",t,t,t,t,t,f,2024-04-18 07:56:51.447522,2024-04-18 07:56:51.447522
+267,682,1,1,User Assignment Submission Line Rule,"[('assignment_id.faculty_id.user_id','=',user.id)]",t,t,t,t,t,f,2024-04-18 07:56:51.447522,2024-04-18 07:56:51.447522
+268,681,1,1,Manager Assignment rule,"[(1,'=',1)]",t,t,t,t,t,f,2024-04-18 07:56:51.447522,2024-04-18 07:56:51.447522
+269,682,1,1,Manager Assignment Submission Line Rule,"[(1,'=',1)]",t,t,t,t,t,f,2024-04-18 07:56:51.447522,2024-04-18 07:56:51.447522
+270,698,1,1,Student Session rule,"['|', ('user_ids','in',user.id), ('user_ids','in',user.child_ids.ids)]",t,t,t,t,t,f,2024-04-18 07:58:28.826074,2024-04-18 07:58:28.826074
+271,698,1,1,Manager Session Rule,"[(1,'=',1)]",t,t,t,t,t,f,2024-04-18 07:58:28.826074,2024-04-18 07:58:28.826074
+272,698,1,1,User Session Rule,"[('faculty_id.user_id','=',user.id)]",t,t,t,t,t,f,2024-04-18 07:58:28.826074,2024-04-18 07:58:28.826074
+273,706,1,1,Student Attendance,"['|', ('student_id.user_id','=',user.id),
+                ('student_id.user_id','in',user.child_ids.ids)]
+            ",t,t,t,t,t,f,2024-04-18 07:58:30.524114,2024-04-18 07:58:30.524114
+274,706,1,1,User Attendance,"[(1, '=', 1)]",t,t,t,t,t,f,2024-04-18 07:58:30.524114,2024-04-18 07:58:30.524114
+275,718,1,1,Student Marksheet,"['|', ('student_id.user_id','=',user.id),
+                ('student_id.user_id','in',user.child_ids.ids)]
+            ",t,t,t,t,t,f,2024-04-18 07:58:48.811597,2024-04-18 07:58:48.811597
+276,718,1,1,Admin Marksheet,"[(1,""="",1)]",t,t,t,t,t,f,2024-04-18 07:58:48.811597,2024-04-18 07:58:48.811597
+277,721,1,1,Student Result Line,"['|', ('student_id.user_id','=',user.id),
+                ('student_id.user_id','in',user.child_ids.ids)]
+            ",t,t,t,t,t,f,2024-04-18 07:58:48.811597,2024-04-18 07:58:48.811597
+278,721,1,1,Admin Result Line,"[(1,'=',1)]",t,t,t,t,t,f,2024-04-18 07:58:48.811597,2024-04-18 07:58:48.811597
+279,728,1,1,Parent Login rule,"['|', ('user_id','=',user.id), ('user_id','in',user.child_ids.ids)]",t,t,t,t,t,f,2024-04-18 10:42:36.031591,2024-04-18 10:42:36.031591
+280,728,1,1,Backoffice Login rule,"[(1,'=',1)]",t,t,t,t,t,f,2024-04-18 10:42:36.031591,2024-04-18 10:42:36.031591
+281,433,1,1,Student Parent Login rule,"['|', ('user_id','=',user.id), ('user_id','in',user.child_ids.ids)]",t,t,t,t,t,f,2024-04-18 10:42:36.031591,2024-04-18 10:42:36.031591
+282,736,1,1,See Own media Queue Request,"['|', ('user_id','=',user.id), ('user_id', 'in', user.child_ids.ids)]",t,t,t,t,t,f,2024-04-18 10:42:39.074562,2024-04-18 10:42:39.074562
+283,734,1,1,Media Movement For Group Student,"['|', ('user_id','=',user.id), ('user_id', 'in', user.child_ids.ids),
+                ('state','in',['issue'])]
+            ",t,t,t,t,t,f,2024-04-18 10:42:39.074562,2024-04-18 10:42:39.074562
+284,734,1,1,Media Movement For Group Library,"[(1,'=',1)]",t,t,t,t,t,f,2024-04-18 10:42:39.074562,2024-04-18 10:42:39.074562
+285,736,1,1,View Media Queue,"[(1,'=',1)]",t,t,t,t,t,f,2024-04-18 10:42:39.074562,2024-04-18 10:42:39.074562

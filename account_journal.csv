@@ -1,0 +1,8 @@
+id,alias_id,default_account_id,suspense_account_id,sequence,currency_id,company_id,profit_account_id,loss_account_id,bank_account_id,sale_activity_type_id,sale_activity_user_id,secure_sequence_id,create_uid,write_uid,color,access_token,code,type,invoice_reference_type,invoice_reference_model,bank_statements_source,name,sequence_override_regex,sale_activity_note,active,restrict_mode_hash_table,refund_sequence,payment_sequence,show_on_dashboard,create_date,write_date
+3,,,,7,,1,,,,,,,1,1,0,,MISC,general,invoice,odoo,undefined,"{""en_US"": ""Miscellaneous Operations""}",,,t,,f,f,t,2024-04-18 07:47:52.331217,2024-04-18 07:47:52.331217
+4,,,,9,,1,,,,,,,1,1,0,,EXCH,general,invoice,odoo,undefined,"{""en_US"": ""Exchange Difference""}",,,t,,f,f,f,2024-04-18 07:47:52.331217,2024-04-18 07:47:52.331217
+5,,,,10,,1,,,,,,,1,1,0,,CABA,general,invoice,odoo,undefined,"{""en_US"": ""Cash Basis Taxes""}",,,t,,f,f,f,2024-04-18 07:47:52.331217,2024-04-18 07:47:52.331217
+1,1,34,,5,,1,,,,,,,1,2,11,,INV,sale,invoice,odoo,undefined,"{""en_US"": ""Customer Invoices""}",,,t,,t,f,t,2024-04-18 07:47:52.331217,2024-04-18 11:18:12.418893
+2,2,50,,6,,1,,,,,,,1,2,11,,BILL,purchase,invoice,odoo,undefined,"{""en_US"": ""Vendor Bills""}",,,t,,t,f,t,2024-04-18 07:47:52.331217,2024-04-18 11:18:12.418893
+6,,75,77,10,,1,80,81,,,,,1,2,0,,BNK1,bank,invoice,odoo,undefined,"{""en_US"": ""Bank""}",,,t,,f,t,t,2024-04-18 07:47:52.331217,2024-04-18 11:18:12.418893
+7,,76,77,10,,1,80,81,,,,,1,2,0,,CSH1,cash,invoice,odoo,undefined,"{""en_US"": ""Cash""}",,,t,,f,t,t,2024-04-18 07:47:52.331217,2024-04-18 11:18:12.418893

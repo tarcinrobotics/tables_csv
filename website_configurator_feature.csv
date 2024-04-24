@@ -1,0 +1,14 @@
+id,sequence,page_view_id,module_id,menu_sequence,create_uid,write_uid,icon,iap_page_code,website_config_preselection,feature_url,name,description,menu_company,create_date,write_date
+1,1,584,,50,1,1,fa-building,about_us,,/about-us,"{""en_US"": ""About Us""}","{""en_US"": ""Info and stats about your company""}",t,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+2,3,585,,30,1,1,fa-handshake-o,our_services,,/our-services,"{""en_US"": ""Services""}","{""en_US"": ""Description of your services offer""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+3,4,586,,35,1,1,fa-random,pricing,,/pricing,"{""en_US"": ""Pricing""}","{""en_US"": ""Designed to drive conversion""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+4,5,587,,,1,1,fa-gavel,privacy_policy,,/privacy,"{""en_US"": ""Privacy Policy""}","{""en_US"": ""Explain how you protect privacy""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+5,6,,508,40,1,1,fa-rss,,blog,/blog,"{""en_US"": ""News""}","{""en_US"": ""Blogging and posting relevant content""}",t,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+6,7,,508,45,1,1,fa-star,,,/blog,"{""en_US"": ""Success Stories""}","{""en_US"": ""Share your best case studies""}",t,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+7,8,,534,,1,1,fa-address-card,,,,"{""en_US"": ""Career""}","{""en_US"": ""Publish job offers and let people apply""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+8,9,,547,15,1,1,fa-shopping-cart,,online_store,/shop,"{""en_US"": ""Shop""}","{""en_US"": ""Sell more with an eCommerce""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+9,10,,526,20,1,1,fa-ticket,,event,/event,"{""en_US"": ""Events""}","{""en_US"": ""Publish on-site and online events""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+10,11,,532,,1,1,fa-users,,,/forum,"{""en_US"": ""Forum""}","{""en_US"": ""Give visitors the information they need""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+11,12,,537,,1,1,fa-comments,,,,"{""en_US"": ""Live Chat""}","{""en_US"": ""Chat with visitors to improve traction""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+12,13,,559,25,1,1,fa-graduation-cap,,elearning,/slides,"{""en_US"": ""eLearning""}","{""en_US"": ""Share knowledge publicly or for a fee""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475
+13,15,,533,,1,1,fa-map-marker,,,,"{""en_US"": ""Stores Locator""}","{""en_US"": ""A map and a listing of your stores""}",,2024-04-18 07:40:52.262475,2024-04-18 07:40:52.262475

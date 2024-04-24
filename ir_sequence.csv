@@ -1,0 +1,8 @@
+id,number_next,number_increment,padding,company_id,create_uid,write_uid,name,code,implementation,prefix,suffix,active,use_date_range,create_date,write_date
+1,1,1,4,,1,1,Subject Registration,op.subject.registration,standard,SR,,t,,2024-04-18 07:41:05.464971,2024-04-18 07:41:05.464971
+2,1,1,5,,1,1,Sales Order,sale.order,standard,S,,t,,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+3,1,1,3,,1,1,Admission,op.admission,standard,AD,,t,,2024-04-18 07:57:36.231095,2024-04-18 07:57:36.231095
+4,1,1,2,,1,1,Sequence For Attendance Sheet,op.attendance.sheet,standard,AR-AS,,t,,2024-04-18 07:58:30.524114,2024-04-18 07:58:30.524114
+5,1,1,4,1,1,1,Media Queue Request,op.media.queue,standard,BQR,,t,,2024-04-18 10:42:39.074562,2024-04-18 10:42:39.074562
+6,1,1,10,,1,1,Media Unit Barcode,op.media.unit,standard,MUB,,t,,2024-04-18 10:42:39.074562,2024-04-18 10:42:39.074562
+7,1,1,10,,1,1,Library Card Barcode,op.library.card,standard,LCB,,t,,2024-04-18 10:42:39.074562,2024-04-18 10:42:39.074562

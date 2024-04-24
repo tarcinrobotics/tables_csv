@@ -1,0 +1,8 @@
+id,manager_id,reward_id,reward_first_id,reward_second_id,reward_third_id,report_message_group_id,report_template_id,remind_update_delay,create_uid,write_uid,state,user_domain,period,visibility_mode,report_message_frequency,challenge_category,start_date,end_date,last_report_date,next_report_date,name,description,reward_failure,reward_realtime,create_date,write_date
+3,1,5,,,,,9,,1,1,inprogress,"[('karma', '>', 0)]",once,personal,never,slides,,,2024-04-18,,"{""en_US"": ""Register to the platform""}",,,t,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+4,1,6,,,,,9,,1,1,inprogress,"[('karma', '>', 0)]",once,personal,never,slides,,,2024-04-18,,"{""en_US"": ""Complete your profile""}",,,t,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+5,1,7,,,,,9,,1,1,inprogress,"[('karma', '>', 0)]",once,personal,never,slides,,,2024-04-18,,"{""en_US"": ""Complete a course""}",,,t,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+6,1,8,,,,,9,,1,1,inprogress,"[('karma', '>', 0)]",once,personal,never,slides,,,2024-04-18,,"{""en_US"": ""Get a certification""}",,,t,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+7,1,9,,,,,9,,1,1,inprogress,"[('karma', '>', 0)]",once,personal,never,slides,,,2024-04-18,,"{""en_US"": ""Reach 2000 XP""}",,,t,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+2,1,,,,,,9,,1,1,inprogress,"[('groups_id.id', '=', 2)]",once,personal,never,other,,,2024-04-18,,"{""en_US"": ""Setup your Company""}",,,t,2024-04-18 07:41:11.133546,2024-04-23 07:41:14.067769
+1,1,,,,,,9,,1,1,inprogress,"[('groups_id.id', '=', 1)]",once,personal,never,other,,,2024-04-18,,"{""en_US"": ""Complete your Profile""}",,,t,2024-04-18 07:41:11.133546,2024-04-24 07:41:36.065922

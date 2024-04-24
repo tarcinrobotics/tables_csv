@@ -1,0 +1,12 @@
+id,page_height,page_width,header_spacing,dpi,create_uid,write_uid,name,format,orientation,default,header_line,disable_shrinking,create_date,write_date,margin_top,margin_bottom,margin_left,margin_right
+1,0,0,35,90,1,1,A4,A4,Portrait,t,f,,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233,40,32,7,7
+2,0,0,35,90,1,1,US Letter,Letter,Portrait,t,f,,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233,40,30,7,7
+3,0,0,15,90,1,1,US Batch Deposit,Letter,Portrait,f,f,,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233,15,30,10,10
+4,0,0,20,90,1,1,Resume,A4,Portrait,t,f,,2024-04-18 07:40:49.793622,2024-04-18 07:40:49.793622,12,12,5,5
+5,0,0,0,96,1,1,Survey Certification,A4,Landscape,t,f,t,2024-04-18 07:41:14.668723,2024-04-18 07:41:14.668723,0,0,0,0
+6,0,0,35,96,1,1,A4 Label Sheet,A4,Portrait,t,f,t,2024-04-18 07:46:34.742613,2024-04-18 07:46:34.742613,0,0,0,0
+7,57,32,35,96,1,1,Dymo Label Sheet,custom,Landscape,t,f,t,2024-04-18 07:46:34.742613,2024-04-18 07:46:34.742613,0,0,0,0
+8,0,0,35,96,1,1,Custom Paperformat for the Event Badge report,A4,Portrait,f,f,t,2024-04-18 07:46:39.43159,2024-04-18 07:46:39.43159,0,0,0,0
+9,0,0,35,96,1,1,Custom Paperformat for the Event Full Page Ticket report,A4,Portrait,f,f,t,2024-04-18 07:46:39.43159,2024-04-18 07:46:39.43159,0,8,0,0
+10,0,0,15,90,1,1,A4 - statement,A4,Portrait,t,f,,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483,20,32,7,7
+11,0,0,17,90,1,1,Library,A4,Landscape,t,f,,2024-04-18 10:42:39.074562,2024-04-18 10:42:39.074562,10,35,10,10

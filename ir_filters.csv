@@ -1,0 +1,8 @@
+id,user_id,action_id,create_uid,write_uid,name,model_id,domain,context,sort,is_default,active,create_date,write_date
+1,,,1,1,By Salespersons,account.invoice.report,[],"{'group_by': ['invoice_date:month', 'invoice_user_id']}",[],,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+2,,,1,1,By Product,account.invoice.report,[],"{'group_by': ['invoice_date:month', 'product_id'], 'set_visible':True, 'residual_invisible':True}",[],,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+3,,,1,1,By Product Category,account.invoice.report,[],"{'group_by': ['invoice_date:month', 'product_categ_id'], 'residual_invisible':True}",[],,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+4,,,1,1,By Credit Note,account.invoice.report,"[('move_type', '=', 'out_refund')]","{'group_by': ['invoice_date:month', 'invoice_user_id']}",[],,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+5,,,1,1,By Country,account.invoice.report,[],"{'group_by': ['invoice_date:month', 'country_id']}",[],,t,2024-04-18 07:46:48.92483,2024-04-18 07:46:48.92483
+6,,,1,1,Upcoming Events,event.event,"[('date_begin', '>=', context_today())]",{},['date_begin asc'],,t,2024-04-18 07:47:17.105443,2024-04-18 07:47:17.105443
+7,,209,1,1,Newest Products,product.product,"[('website_published', '=', True)]","{'display_default_code': False, 'add2cart_rerender': False}",['create_date desc'],,t,2024-04-18 07:47:35.565337,2024-04-18 07:47:35.565337

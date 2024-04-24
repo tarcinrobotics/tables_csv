@@ -1,0 +1,13 @@
+id,sequence,company_id,default_lang_id,user_id,theme_id,create_uid,write_uid,name,domain,social_twitter,social_facebook,social_github,social_linkedin,social_youtube,social_instagram,social_tiktok,google_analytics_key,google_search_console,google_maps_api_key,plausible_shared_key,plausible_site,cdn_url,homepage_url,auth_signup_uninvited,cdn_filters,custom_code_head,custom_code_footer,robots_txt,auto_redirect_lang,cookies_bar,configurator_done,has_social_default_image,cdn_activated,specific_user_account,create_date,write_date,channel_id,karma_profile_min,website_slide_google_app_key,salesperson_id,salesteam_id,cart_recovery_mail_template_id,shop_ppg,shop_ppr,product_page_grid_columns,show_line_subtotals_tax_selection,shop_default_sort,add_to_cart_action,account_on_checkout,product_page_image_layout,product_page_image_width,product_page_image_spacing,prevent_zero_price_sale_text,contact_us_button_url,send_abandoned_cart_email,prevent_zero_price_sale,enabled_portal_reorder_button,cart_abandoned_delay
+2,10,1,1,4,497,2,2,tarcin,,,,,,,,,,,,,,,,b2c,"^/[^/]+/static/
+^/web/(css|js)/
+^/web/image
+^/web/content
+^/web/assets
+^/website/image/",,,,t,,t,f,,f,2024-04-18 07:45:17.149156,2024-04-18 10:57:14.574193,,150,,,,,20,4,2,tax_excluded,website_sequence asc,stay,optional,carousel,50_pc,small,"{""en_US"": ""Not Available For Sale""}","{""en_US"": ""/contactus""}",,,,10
+1,10,1,1,4,,1,2,web,https://nirvagi-1.tarcinrobotic.in,,,,,,,,,,,,,,,b2c,"^/[^/]+/static/
+^/web/(css|js)/
+^/web/image
+^/web/content
+^/web/assets
+^/website/image/",,,,t,,,f,,f,2024-04-18 07:40:52.262475,2024-04-23 09:23:52.461432,1,0,AIzaSyDOWlmDW-7DbLmOR9ZsT5AOEXf4n6TFwQA,,2,,20,4,2,tax_excluded,website_sequence asc,stay,optional,carousel,50_pc,small,"{""en_US"": ""Not Available For Sale""}","{""en_US"": ""/contactus""}",,,,10

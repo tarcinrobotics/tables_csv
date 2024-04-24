@@ -1,0 +1,1 @@
+id,partner_id,bank_id,sequence,currency_id,company_id,create_uid,write_uid,acc_number,sanitized_acc_number,acc_holder_name,active,allow_out_payment,create_date,write_date,has_iban_warning,has_money_transfer_warning

@@ -1,0 +1,10 @@
+id,sequence,create_uid,delay_count,triggered_next_type_id,default_user_id,write_uid,delay_unit,delay_from,icon,decoration_type,res_model,chaining_type,category,name,summary,default_note,active,keep_done,create_date,write_date
+1,3,1,0,,,1,days,previous_activity,fa-envelope,,,suggest,default,"{""en_US"": ""Email""}",,,t,,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+2,6,1,2,,,1,days,previous_activity,fa-phone,,,suggest,phonecall,"{""en_US"": ""Call""}",,,t,,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+3,9,1,0,,,1,days,previous_activity,fa-users,,,suggest,default,"{""en_US"": ""Meeting""}",,,t,,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+5,25,1,5,,,1,days,previous_activity,fa-upload,,,suggest,upload_file,"{""en_US"": ""Upload Document""}",,,t,,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+6,99,1,0,,,1,days,previous_activity,fa-warning,warning,,suggest,default,"{""en_US"": ""Exception""}",,,f,,2024-04-18 07:40:31.747973,2024-04-18 07:40:31.747973
+7,20,1,0,,,1,days,previous_activity,fa-tasks,,,suggest,reminder,"{""en_US"": ""Reminder""}",,,t,,2024-04-18 07:41:27.909977,2024-04-18 07:41:27.909977
+4,12,1,5,,,1,days,previous_activity,fa-tasks,,,suggest,reminder,"{""en_US"": ""To-Do""}",,,t,,2024-04-18 07:40:31.747973,2024-04-18 07:41:27.909977
+8,10,1,0,,,1,days,previous_activity,fa-line-chart,,sale.order,suggest,default,"{""en_US"": ""Order Upsell""}",,,t,,2024-04-18 07:47:12.503609,2024-04-18 07:47:12.503609
+9,50,1,0,,,1,days,previous_activity,fa-check-circle,,slide.channel,suggest,default,"{""en_US"": ""Access Request""}",,,t,,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362

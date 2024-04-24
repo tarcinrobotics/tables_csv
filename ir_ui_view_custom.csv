@@ -1,0 +1,13 @@
+id,ref_id,user_id,create_uid,write_uid,arch,create_date,write_date
+1,1272,2,2,2,"<form string=""My Dashboard"" create=""False"" delete=""False"" edit=""False"" js_class=""board"">
+                    <board style=""2-1"">
+                        <column>
+                        <action name=""238"" string=""Students"" view_mode=""kanban"" context=""{'orderedBy': [], 'group_by': [], 'dashboard_merge_domains_contexts': False}"" domain=""[]""/></column>
+                    </board>
+                </form>",2024-04-22 05:47:25.810775,2024-04-22 05:47:25.810775
+2,1272,2,2,2,"<form string=""My Dashboard"" create=""False"" delete=""False"" edit=""False"" js_class=""board"">
+                    <board style=""2-1"">
+                        <column>
+                        <action name=""628"" string=""Grade Configuration"" view_mode=""list"" context=""{'orderedBy': [{'name': 'min_per', 'asc': False}], 'group_by': [], 'dashboard_merge_domains_contexts': False}"" domain=""[]""/><action name=""238"" string=""Students"" view_mode=""kanban"" context=""{'orderedBy': [], 'group_by': [], 'dashboard_merge_domains_contexts': False}"" domain=""[]""/></column>
+                    </board>
+                </form>",2024-04-24 10:28:17.855776,2024-04-24 10:28:17.855776

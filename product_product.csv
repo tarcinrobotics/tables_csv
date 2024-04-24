@@ -1,0 +1,4 @@
+id,product_tmpl_id,create_uid,write_uid,default_code,barcode,combination_indices,volume,weight,active,can_image_variant_1024_be_zoomed,write_date,create_date,ribbon_id,base_unit_id,base_unit_count
+1,1,1,1,Delivery_007,,"",,,t,f,2024-04-18 07:47:21.297424,2024-04-18 07:47:21.297424,,,1
+2,2,1,1,,,"",,,t,f,2024-04-18 07:47:31.08894,2024-04-18 07:47:31.08894,,,1
+3,3,1,1,penalty fee,,"",,,t,f,2024-04-18 10:42:39.074562,2024-04-18 10:42:39.074562,,,1

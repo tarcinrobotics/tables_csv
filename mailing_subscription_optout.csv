@@ -1,0 +1,6 @@
+id,sequence,create_uid,write_uid,name,is_feedback,create_date,write_date
+1,1,1,1,"{""en_US"": ""I never subscribed to this list""}",,2024-04-18 07:41:18.402745,2024-04-18 07:41:18.402745
+2,2,1,1,"{""en_US"": ""I changed my mind""}",,2024-04-18 07:41:18.402745,2024-04-18 07:41:18.402745
+3,3,1,1,"{""en_US"": ""I receive too many emails from this list""}",,2024-04-18 07:41:18.402745,2024-04-18 07:41:18.402745
+4,4,1,1,"{""en_US"": ""The content of these emails is not relevant to me""}",,2024-04-18 07:41:18.402745,2024-04-18 07:41:18.402745
+5,99,1,1,"{""en_US"": ""Other""}",t,2024-04-18 07:41:18.402745,2024-04-18 07:41:18.402745

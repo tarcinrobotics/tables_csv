@@ -1,0 +1,1 @@
+id,move_id,statement_id,sequence,partner_id,currency_id,foreign_currency_id,create_uid,write_uid,account_number,partner_name,transaction_type,payment_ref,internal_index,transaction_details,amount,amount_currency,is_reconciled,create_date,write_date,amount_residual

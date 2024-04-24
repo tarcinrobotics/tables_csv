@@ -1,0 +1,3 @@
+id,alias_domain_id,alias_model_id,alias_force_thread_id,alias_parent_model_id,alias_parent_thread_id,create_uid,write_uid,alias_name,alias_full_name,alias_contact,alias_status,alias_bounced_content,alias_defaults,alias_incoming_local,create_date,write_date
+1,,577,,568,1,1,1,customer-invoices,customer-invoices,everyone,not_tested,,"{'company_id': 1, 'move_type': 'out_invoice', 'journal_id': 1}",f,2024-04-18 07:47:52.331217,2024-04-18 07:47:52.331217
+2,,577,,568,2,1,1,vendor-bills,vendor-bills,everyone,not_tested,,"{'company_id': 1, 'move_type': 'in_invoice', 'journal_id': 2}",f,2024-04-18 07:47:52.331217,2024-04-18 07:47:52.331217

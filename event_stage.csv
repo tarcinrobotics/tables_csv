@@ -1,0 +1,6 @@
+id,sequence,create_uid,write_uid,name,description,legend_blocked,legend_done,legend_normal,fold,pipe_end,create_date,write_date
+1,1,1,1,"{""en_US"": ""New""}","{""en_US"": ""Freshly created""}","{""en_US"": ""Blocked""}","{""en_US"": ""Ready for Next Stage""}","{""en_US"": ""In Progress""}",f,f,2024-04-18 07:46:39.43159,2024-04-18 07:46:39.43159
+2,2,1,1,"{""en_US"": ""Booked""}","{""en_US"": ""The place has been reserved""}","{""en_US"": ""Blocked""}","{""en_US"": ""Ready for Next Stage""}","{""en_US"": ""In Progress""}",f,f,2024-04-18 07:46:39.43159,2024-04-18 07:46:39.43159
+3,3,1,1,"{""en_US"": ""Announced""}","{""en_US"": ""The event has been publicly announced""}","{""en_US"": ""Blocked""}","{""en_US"": ""Ready for Next Stage""}","{""en_US"": ""In Progress""}",f,f,2024-04-18 07:46:39.43159,2024-04-18 07:46:39.43159
+4,5,1,1,"{""en_US"": ""Ended""}","{""en_US"": ""Fully ended""}","{""en_US"": ""Blocked""}","{""en_US"": ""Ready for Next Stage""}","{""en_US"": ""In Progress""}",t,t,2024-04-18 07:46:39.43159,2024-04-18 07:46:39.43159
+5,6,1,1,"{""en_US"": ""Cancelled""}","{""en_US"": ""The event has been cancelled""}","{""en_US"": ""Blocked""}","{""en_US"": ""Ready for Next Stage""}","{""en_US"": ""In Progress""}",t,t,2024-04-18 07:46:39.43159,2024-04-18 07:46:39.43159

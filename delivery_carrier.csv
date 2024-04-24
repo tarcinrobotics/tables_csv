@@ -1,0 +1,2 @@
+id,sequence,company_id,product_id,shipping_insurance,create_uid,write_uid,delivery_type,integration_level,invoice_policy,name,carrier_description,active,prod_environment,debug_logging,free_over,return_label_on_delivery,get_return_label_from_portal,create_date,write_date,margin,fixed_margin,amount,fixed_price,website_id,is_published
+1,1,,1,0,1,1,fixed,rate_and_ship,estimated,"{""en_US"": ""Standard delivery""}",,t,,,f,,,2024-04-18 07:47:21.297424,2024-04-18 07:47:35.565337,,,1000,0,,t

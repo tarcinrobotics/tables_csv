@@ -1,0 +1,24 @@
+id,model_id,field_id,field_date_id,batch_distinctive_field,action_id,create_uid,write_uid,computation_mode,display_mode,domain,batch_user_expression,condition,res_id_field,name,suffix,description,compute_code,monetary,batch_mode,create_date,write_date
+1,97,,,1117,71,1,1,count,boolean,"[('partner_id.tz', '!=', False)]",user.id,higher,user.id,"{""en_US"": ""Set your Timezone""}",,Configure your profile and specify your timezone,,f,t,2024-04-18 07:41:11.133546,2024-04-18 07:41:11.133546
+2,94,,,,52,1,1,count,boolean,"[('user_ids', 'in', [user.id]), ('name', '=', 'YourCompany')]",,lower,user.company_id.id,"{""en_US"": ""Set your Company Data""}",,Write some information about your company (specify at least a name),,f,,2024-04-18 07:41:11.133546,2024-04-18 07:41:11.133546
+3,94,,,,52,1,1,count,boolean,"[('user_ids', 'in', [user.id]),('logo', '!=', False)]",,higher,user.company_id.id,"{""en_US"": ""Set your Company Logo""}",,,,f,,2024-04-18 07:41:11.133546,2024-04-18 07:41:11.133546
+4,97,,,,263,1,1,count,boolean,"[('id', '!=', user.id)]",,higher,,"{""en_US"": ""Invite new Users""}",,Create at least another user,,f,,2024-04-18 07:41:11.133546,2024-04-18 07:41:11.133546
+5,97,,,1117,,1,1,count,boolean,"[
+            ('active', '!=', False),
+            ('karma', '>', 0),
+        ]",user.id,higher,,"{""en_US"": ""Get started""}",,Register to the platform,,f,t,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+6,97,,,1117,,1,1,count,boolean,"[
+            ('partner_id.country_id', '!=', False),
+            ('partner_id.city', '!=', False),
+            ('partner_id.email', '!=', False)
+        ]",user.id,higher,,"{""en_US"": ""Know yourself""}",,Complete your profile,,f,t,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+7,660,,,10060,,1,1,count,boolean,"[
+            ('member_status', '=', 'completed')
+        ]",user.partner_id.id,higher,,"{""en_US"": ""Power User""}",,Complete a course,,f,t,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+9,97,,,1117,,1,1,count,boolean,"[
+            ('karma', '>=', 2000)
+        ]",user.id,higher,,"{""en_US"": ""Community hero""}",,Reach 2000 XP,,f,t,2024-04-18 07:47:26.604362,2024-04-18 07:47:26.604362
+8,654,,,9903,,1,1,count,boolean,"[
+            ('survey_scoring_success', '=', True),
+            ('slide_id.slide_category', '=', 'certification')
+        ]",user.partner_id.id,higher,,"{""en_US"": ""Certified Knowledge""}",,Get a certification,,f,t,2024-04-18 07:47:26.604362,2024-04-18 07:47:41.587274

@@ -1,0 +1,3 @@
+id,employee_id,line_type_id,create_uid,write_uid,display_type,date_start,date_end,name,description,create_date,write_date,department_id,survey_id,expiration_status,channel_id
+1,2,1,2,2,classic,2024-04-19,,"{""en_US"": ""Tarcin""}","{""en_US"": """"}",2024-04-19 17:34:16.962469,2024-04-19 17:34:16.962469,,,valid,
+2,3,1,2,2,classic,2024-04-23,,"{""en_US"": ""Tarcin""}","{""en_US"": """"}",2024-04-23 07:29:58.416269,2024-04-23 07:29:58.416269,,,valid,

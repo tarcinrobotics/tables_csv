@@ -1,0 +1,2 @@
+id,barcode_nomenclature_id,sequence,create_uid,write_uid,name,encoding,type,pattern,alias,create_date,write_date
+1,1,90,1,1,Product Barcodes,any,product,.*,0,2024-04-18 07:46:32.244394,2024-04-18 07:46:32.244394

@@ -1,0 +1,3 @@
+id,company_id,create_uid,write_uid,name,tz,hours_per_day,active,two_weeks_calendar,create_date,write_date
+1,1,1,1,Standard 40 hours/week,Asia/Calcutta,8.00,t,,2024-04-18 07:40:29.4147,2024-04-18 07:40:29.4147
+2,,2,2,Standard 40 hours/week,Asia/Calcutta,8.00,t,,2024-04-18 11:18:12.418893,2024-04-18 11:18:12.418893

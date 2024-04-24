@@ -1,0 +1,1 @@
+id,integer,many2one,create_uid,write_uid,char,selection_str,date,html,text,numeric,datetime,create_date,write_date,float,binary

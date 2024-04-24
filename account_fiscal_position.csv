@@ -1,0 +1,5 @@
+id,sequence,company_id,country_id,country_group_id,create_uid,write_uid,zip_from,zip_to,foreign_vat,name,note,active,auto_apply,vat_required,create_date,write_date
+1,,1,,,1,1,,,,"{""en_US"": ""Inter State""}",,t,,,2024-04-18 07:47:52.331217,2024-04-18 07:47:52.331217
+2,,1,,,1,1,,,,"{""en_US"": ""Export""}",,t,,,2024-04-18 07:47:52.331217,2024-04-18 07:47:52.331217
+3,,1,,,1,1,,,,"{""en_US"": ""Reverse charge Intra State""}",,t,,,2024-04-18 07:47:52.331217,2024-04-18 07:47:52.331217
+4,,1,,,1,1,,,,"{""en_US"": ""Reverse charge Inter State""}",,t,,,2024-04-18 07:47:52.331217,2024-04-18 07:47:52.331217

@@ -1,0 +1,170 @@
+id,name,symbol,decimal_places,create_uid,write_uid,full_name,position,currency_unit_label,currency_subunit_label,rounding,active,create_date,write_date
+95,LAK,₭,2,1,1,Lao kip,after,Kip,Att,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+2,VEF,Bs.F,2,1,1,Venezuelan bolívar fuerte,after,Bolivar,Centimos,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+3,CAD,$,2,1,1,Canadian dollar,after,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+4,CHF,CHF,2,1,1,Swiss franc,before,Franc,Centimes,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+5,BRL,R$,2,1,1,Brazilian real,before,Real,Centavos,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+6,CNY,¥,2,1,1,Chinese yuan,before,Yuan,Fen,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+7,CNH,¥,2,1,1,Chinese yuan - Offshore,before,Yuan,Fen,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+8,COP,$,2,1,1,Colombian peso,before,Peso,Centavos,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+9,CZK,Kč,2,1,1,Czech koruna,after,Koruna,Halers,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+10,DKK,kr,2,1,1,Danish krone,before,Krone,Ore,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+11,HUF,Ft,2,1,1,Hungarian forint,after,Forint,Filler,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+12,IDR,Rp,2,1,1,Indonesian rupiah,before,Rupiah,Sen,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+13,LVL,Ls,2,1,1,Latvian lats,after,Lats,Santims,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+14,NOK,kr,2,1,1,Norwegian krone,before,Krone,Ore,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+16,PAB,B/.,2,1,1,Panamanian balboa,after,Balboa,Centesimo,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+17,PLN,zł,2,1,1,Polish złoty,after,Zloty,Groszy,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+18,SEK,kr,2,1,1,Swedish krona,after,Krona,Ore,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+19,ARS,$,2,1,1,Argentine peso,before,Peso,Centavos,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+21,AUD,$,2,1,1,Australian dollar,before,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+22,UAH,₴,2,1,1,Ukraine Hryvnia,after,Hryvnia,Kopiyka,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+24,HKD,$,2,1,1,Hong Kong dollar,before,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+26,BGN,лв,2,1,1,Bulgarian lev,after,Lev,Stotinki,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+27,LTL,Lt,2,1,1,Lithuanian litas,after,Litas,Centas,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+28,RON,lei,2,1,1,Romanian leu,after,Leu,Bani,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+29,HRK,kn,2,1,1,Croatian kuna,after,Kuna,Lipa,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+30,RUB,руб,2,1,1,Russian ruble,after,Ruble,Kopek,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+31,TRY,₺,2,1,1,Turkish lira,after,Lira,Kurus,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+33,MXN,$,2,1,1,Mexican peso,before,Pesos,Centavos,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+34,MYR,RM,2,1,1,Malaysian ringgit,before,Ringgit,Sen,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+35,NZD,$,2,1,1,New Zealand dollar,before,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+36,PHP,₱,2,1,1,Philippine peso,after,Peso,Centavos,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+37,SGD,S$,2,1,1,Singapore dollar,before,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+38,ZAR,R,2,1,1,South African rand,before,Rand,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+39,CRC,₡,2,1,1,Costa Rican colón,before,Colon,Centimos,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+40,MUR,Rs,2,1,1,Mauritian rupee,after,Rupee,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+137,SYP,£,2,1,1,Syrian pound,after,Pound,Piastrp,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+20,INR,₹,2,1,1,Indian rupee,before,Rupees,Paise,0.010000,t,2024-04-18 07:38:41.908233,2024-04-18 07:38:56.303065
+44,HNL,L,2,1,1,Honduran lempira,before,Lempiras,Centavos,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+46,UYU,$,2,1,1,Uruguayan peso,after,Peso,Centesimos,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+47,AFN,Afs,2,1,1,Afghan afghani,after,Afghani,Puls,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+48,AOA,Kz,2,1,1,Angolan kwanza,after,Kwanza,Centimos,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+49,XCD,$,2,1,1,East Caribbean dollar,after,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+50,AMD,դր.,2,1,1,Armenian dram,after,Dram,Luma,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+51,AWG,Afl.,2,1,1,Aruban florin,after,Guilder,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+52,AZN,m,2,1,1,Azerbaijani manat,after,Manat,Qapik,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+53,BSD,B$,2,1,1,Bahamian dollar,after,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+55,BDT,৳,2,1,1,Bangladeshi taka,after,Taka,Paisa,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+56,BBD,Bds$,2,1,1,Barbados dollar,after,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+58,BYN,Br,2,1,1,Belarusian ruble,after,Rubles,Kopeks,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+59,BZD,BZ$,2,1,1,Belize dollar,after,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+60,BMD,BD$,2,1,1,Bermudian dollar,after,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+61,BTN,Nu.,2,1,1,Bhutanese ngultrum,after,Ngultrum,Chhertum,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+62,BOB,Bs.,2,1,1,Boliviano,after,Boliviano,Centavos,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+63,BAM,KM,2,1,1,Bosnia and Herzegovina convertible mark,after,Mark,Fening,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+64,BWP,P,2,1,1,Botswana pula,after,Pula,Thebe,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+66,KHR,៛,2,1,1,Cambodian riel,after,Riel,Sen,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+67,KYD,$,2,1,1,Cayman Islands dollar,after,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+69,CDF,Fr,2,1,1,Congolese franc,after,Franc,Centime,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+70,CUP,$,2,1,1,Cuban peso,after,Peso,Centavos,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+71,ANG,ƒ,2,1,1,Netherlands Antillean guilder,before,Guilder,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+73,DOP,RD$,2,1,1,Dominican peso,before,Pesos,Centavos,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+74,EGP,LE,2,1,1,Egyptian pound,after,Pound,Piastres,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+75,SVC,¢,2,1,1,Salvadoran Colon,after,Colones,Centavo,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+76,ERN,Nfk,2,1,1,Eritrean nakfa,after,Nakfa,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+77,ETB,Br,2,1,1,Ethiopian birr,after,Birr,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+78,FKP,£,2,1,1,Falkland Islands pound,after,Pound,Penny,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+79,FJD,FJ$,2,1,1,Fiji dollar,after,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+80,GEL,ლ,2,1,1,Georgian lari,after,Lari,Tetri,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+81,GIP,£,2,1,1,Gibraltar pound,after,Pound,Penny,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+83,GYD,$,2,1,1,Guyanese dollar,after,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+84,HTG,G,2,1,1,Haitian gourde,after,Gourde,Centime,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+86,IRR,﷼,2,1,1,Iranian rial,after,Dinar,Fils,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+88,ILS,₪,2,1,1,Israeli new shekel,before,Shekel,Agorot,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+89,JMD,$,2,1,1,Jamaican dollar,after,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+91,KZT,₸,2,1,1,Kazakhstani tenge,after,Tenge,Tiin,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+92,KES,KSh,2,1,1,Kenyan shilling,after,Shilling,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+94,KGS,лв,2,1,1,Kyrgyzstani som,after,Som,Tyiyn,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+96,LBP,ل.ل,2,1,1,Lebanese pound,after,Pound,Piastres,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+97,LSL,M,2,1,1,Lesotho loti,after,Loti,Sente,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+98,LRD,L$,2,1,1,Liberian dollar,after,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+100,MOP,MOP$,2,1,1,Macanese pataca,after,Pataca,Sin,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+101,MKD,ден,2,1,1,Macedonian denar,after,Denar,Deni,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+102,MGA,Ar,2,1,1,Malagasy ariary,after,Ariary,Iraimbilanja,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+103,MWK,MK,2,1,1,Malawian kwacha,after,Kwacha,Tambala,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+104,MVR,.ރ,2,1,1,Maldivian rufiyaa,before,Rufiyaa,Laari,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+105,MRO,UM,2,1,1,Mauritanian ouguiya (old),after,Ouguiya,Khoums,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+106,MRU,UM,2,1,1,Mauritanian ouguiya,after,Ouguiya,Khoums,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+107,MDL,L,2,1,1,Moldovan leu,after,Leu,Ban,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+108,MNT,₮,2,1,1,Mongolian tögrög,after,Tugrik,Mongo,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+109,MAD,DH,2,1,1,Moroccan dirham,after,Dirham,Centimes,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+110,BND,$,2,1,1,Brunei dollar,after,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+111,DZD,DA,2,1,1,Algerian dinar,after,Dinar,Centimes,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+112,GHS,GH¢,2,1,1,Ghanaian cedi,after,Cedi,Pesewas,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+113,GMD,D,2,1,1,Gambian dalasi,after,Dalasi,Butut,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+114,MZN,MT,2,1,1,Mozambican metical,after,Metical,Centavo,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+115,MMK,K,2,1,1,Myanmar kyat,after,Kyat,Pya,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+116,NAD,$,2,1,1,Namibian dollar,after,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+117,NPR,₨,2,1,1,Nepalese rupee,after,Rupee,Paisa,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+118,ALL,L,2,1,1,Albanian lek,after,Lek,Qindarke,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+119,NIO,C$,2,1,1,Nicaraguan córdoba,after,Cordoba,Centavos,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+120,NGN,₦,2,1,1,Nigerian naira,after,Naira,Kobo,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+121,KPW,₩,2,1,1,North Korean won,after,Won,Chon,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+122,ZWL,Z$,2,1,1,Zimbabwean dollar,after,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+123,ZMW,ZK,2,1,1,Zambian kwacha,after,Kwacha,Ngwee,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+124,YER,﷼,2,1,1,Yemeni rial,after,Rial,Fils,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+125,EUR,€,2,1,1,Euro,after,Euros,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+127,UZS,лв,2,1,1,Uzbekistan som,after,Som,Tiyin,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+128,AED,د.إ,2,1,1,United Arab Emirates dirham,after,Dirham,Fils,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+129,TMT,T,2,1,1,Turkmenistan manat,after,Manat,Tenge,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+131,TTD,$,2,1,1,Trinidad and Tobago dollar,after,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+132,TOP,T$,2,1,1,Tongan paʻanga,after,Paanga,Seniti,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+133,THB,฿,2,1,1,Thai baht,after,Baht,Satang,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+134,TZS,TSh,2,1,1,Tanzanian shilling,after,Shilling,Senti,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+135,TJS,TJS,2,1,1,Tajikistani somoni,after,Somoni,Diram,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+138,SZL,E,2,1,1,Swazi lilangeni,after,Lilangeni,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+139,SRD,$,2,1,1,Surinamese dollar,after,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+140,SDG,ج.س.,2,1,1,Sudanese pound,after,,,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+141,LKR,Rs,2,1,1,Sri Lankan rupee,after,Rupee,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+142,SSP,£,2,1,1,South Sudanese pound,after,Pounds,Piasters,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+143,GBP,£,2,1,1,Pound sterling,before,Sterling,Penny,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+144,SOS,Sh.,2,1,1,Somali shilling,after,Shillings,Senti,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+145,SBD,SI$,2,1,1,Solomon Islands dollar,after,Dollars,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+146,SLL,Le,2,1,1,Sierra Leonean leone,after,Leone,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+147,SLE,Le,2,1,1,Sierra Leonean leone,after,Leone,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+148,SCR,SR,2,1,1,Seychellois rupee,after,Rupee,Cents,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+149,RSD,din.,2,1,1,Serbian dinar,after,Dinar,Para,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+150,SAR,SR,2,1,1,Saudi riyal,after,Riyal,Halala,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+151,STD,Db,2,1,1,São Tomé and Príncipe dobra,after,Dobra,Centimo,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+152,WST,WS$,2,1,1,Samoan tālā,after,Tala,Sene,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+153,SHP,£,2,1,1,Saint Helena pound,after,Pound,Penny,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+155,QAR,QR,2,1,1,Qatari riyal,after,Rial,Dirham,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+156,PEN,S/,2,1,1,Peruvian sol,before,Soles,Centimos,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+158,PGK,K,2,1,1,Papua New Guinean kina,after,Kina,Toea,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+159,PKR,Rs.,2,1,1,Pakistani rupee,after,Rupee,Paisa,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+161,CVE,$,2,1,1,Cape Verdean escudo,after,Escudo,Centavo,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+162,COU,$,2,1,1,Unidad de Valor Real,before,Peso,centavo,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+164,CUC,$,2,1,1,Cuban convertible peso,after,Cuban convertible peso,,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+165,GTQ,Q,2,1,1,Guatemalan Quetzal,after,Quetzales,Centavo,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+166,VES,Bs,2,1,1,Venezuelan bolívar soberano,after,,,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+169,STN,Db,2,1,1,São Tomé and Príncipe dobra,after,Dobra,cêntimo,0.010000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+1,USD,$,2,,1,United States dollar,before,Dollars,Cents,0.010000,t,,2024-04-18 07:38:41.908233
+15,XPF,XPF,0,1,1,CFP franc,after,Franc,Centimes,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+23,VND,₫,0,1,1,Vietnamese đồng,after,Dong,Xu,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+25,JPY,¥,0,1,1,Japanese yen,before,Yen,Cen,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+32,KRW,₩,0,1,1,South Korean won,before,Won,Chon,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+41,XOF,CFA,0,1,1,CFA franc BCEAO,after,Franc,Centimes,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+42,XAF,FCFA,0,1,1,CFA franc BEAC,after,Franc,Centimes,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+43,UGX,USh,0,1,1,Ugandan shilling,after,Shilling,Cents,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+45,CLP,$,0,1,1,Chilean peso,before,Peso,Centavos,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+57,BYR,BR,0,1,1,Belarusian ruble,after,Ruble BYR,Kapeyka,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+65,BIF,FBu,0,1,1,Burundian franc,after,Franc,Centime,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+68,KMF,CF,0,1,1,Comorian franc,after,Franc,Centime,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+72,DJF,Fdj,0,1,1,Djiboutian franc,after,Franc,Centime,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+82,GNF,FG,0,1,1,Guinean franc,after,Franc,Centime,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+85,ISK,kr,0,1,1,Icelandic króna,after,Krona,Aurar,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+126,VUV,VT,0,1,1,Vanuatu vatu,after,Vatu,,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+136,TWD,NT$,0,1,1,New Taiwan dollar,after,Dollars,Cents,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+154,RWF,RF,0,1,1,Rwandan franc,after,Franc,Santime,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+157,PYG,₲,0,1,1,Paraguayan guaraní,after,Guarani,Centimos,1.000000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+54,BHD,BD,3,1,1,Bahraini dinar,after,Dinar,Fils,0.001000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+87,IQD, ع.د,3,1,1,Iraqi dinar,after,Dinar,Fils,0.001000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+90,JOD, د.ا ,3,1,1,Jordanian dinar,after,Dinar,Fils,0.001000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+93,KWD, د.ك ,3,1,1,Kuwaiti dinar,after,Dinar,Fils,0.001000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+99,LYD, ل.د ,3,1,1,Libyan dinar,after,Dinar,Dirham,0.001000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+130,TND,DT,3,1,1,Tunisian dinar,after,Dinar,Millimes,0.001000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+160,OMR,ر.ع.,3,1,1,Omani rial,after,Rial,Baisa,0.001000,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+163,CLF,$,4,1,1,Unidad de Fomento,before,Peso,Centavos,0.000100,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+167,UYW,$,4,1,1,Unidad previsional,after,peso,centésimo,0.000100,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
+168,UYI,$,4,1,1,Uruguay Peso en Unidades Indexadas,after,Peso,centésimo,0.000100,f,2024-04-18 07:38:41.908233,2024-04-18 07:38:41.908233
